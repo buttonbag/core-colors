@@ -11,19 +11,39 @@
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*****************************************************************/
 /* Colors */
+// $blue-light: #6fb0f3;
+// $blue-superlight: #e4ebf8;
+// $blue-white: #eff6fd;
+// $text-blue: #3181d2;
+// $text-blue--light: #6fb0f3;
+// $text-blue--med: #235b94;
+// $teal: #41b4ad;
+// $teal-med: #1cb7b9;
+// $teal-text: #62d6cf;
+// $yellow: #f8e87c;
+// $gray: #bec4cb;
+// $gray-dark: #1c252f;
+// $gray-med: #383e46;
+// $gray-light: #5d656f;
+// $white: #fff;
+
+@function scale($color, $n: 0) {
+	$scaled: scale-color($color, $lightness: 1% * $n);
+	@return $scaled;
+}
 
 /* TEST COLORS */
-$blue: #f752f9;
-$blue-dark: #882689;
-$blue-light: #fe9cff;
-$blue-superlight: #fec3ff;
-$blue-white: #fec3ff;
-$text-blue: #fd79ff;
-$text-blue--light: #fd79ff;
-$text-blue--med: #be39c0;
-$teal: #ebf952;
-$teal-med: #b0bc2e;
-$teal-text: #f6ff95;
+$blue: #0057b7;
+$blue-dark: #0e4174;
+$blue-light: scale($blue, 20);
+$blue-superlight: scale($blue, 85);
+$blue-white: scale($blue, 90);
+$text-blue: $blue-light;
+$text-blue--light: $blue-light;
+$text-blue--med: scale($blue-dark, 20);
+$teal: #AF272F;
+$teal-med: scale($teal, -10);
+$teal-text: scale($teal, 10);
 $yellow: #f8e87c;
 
 // $gray: #C3A6C3;
@@ -63,13 +83,13 @@ $var42: $blue;
 $var43: $blue-dark;
 $var30: lighten($blue-white, 9%);
 $var36: lighten($blue-white, 9%);
-$var31: darken($blue, 52%);
+$var31: $blue-dark;
 
 $var9: $teal;
 $var21: $teal-text;
 $var22: $teal;
 $var26: $teal-med;
-$var38: $teal;
+$var38: $blue-dark;
 $var27: rgba($var38, 0.8);
 $var39: $teal;
 $var44: $teal-text;
@@ -1545,7 +1565,7 @@ body.theme-new-core {
 
 	.footer a {
 		text-decoration: none !important;
-		color: $var7 !important;
+		color: $white !important;
 	}
 
 	.footer a:hover,
@@ -1554,7 +1574,7 @@ body.theme-new-core {
 	}
 
 	.footer p {
-		color: $var8;
+		color: $white;
 	}
 
 	@media (max-width: 50em) {
@@ -1583,7 +1603,7 @@ body.theme-new-core {
 
 	.copyright {
 		background: $var31;
-		border-top: $var35 1px solid !important;
+		border-top: $white 1px solid !important;
 		color: $gray-light;
 		font-size: 16px;
 		padding: 15px 0 !important;
@@ -1597,8 +1617,8 @@ body.theme-new-core {
 
 	.copyright a {
 		// font-size: 1em;
-		text-decoration: underline !important;
-		color: $var7 !important;
+		text-decoration: none !important;
+		color: $white !important;
 		font-size: 16px;
 	}
 
@@ -2357,7 +2377,7 @@ body.theme-new-core {
 	}
 
 	.home-header--container .home-header--content .home-header--cta div a {
-		color: $var12 !important;
+		color: $white !important;
 		font-size: 0.9rem;
 	}
 
@@ -2518,7 +2538,7 @@ body.theme-new-core {
 	}
 
 	.more-about-mobile {
-		background: $var17;
+		background: scale-color($blue-dark, $saturation: -10%, $lightness: 13%);
 		margin: 0;
 		text-align: center;
 		padding: 1em;
@@ -2566,13 +2586,12 @@ body.theme-new-core {
 		text-shadow: 1px 1px 1px rgba($black, 0.5);
 		width: 100%;
 		max-width: 400px;
-		background-color: $var23;
 		background: rgba($black, 0.25);
 		font-size: 1.2rem;
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
-		border-color: $var39;
+		border-color: $white;
 	}
 
 	@media (max-width: 50em) {
@@ -2583,7 +2602,7 @@ body.theme-new-core {
 
 	.academics-section--content .cta-core:hover,
 	.academics-section--content .cta-core:focus {
-		background: $var39;
+		background: $blue-dark;
 	}
 
 	.academics-section--content .cta-core h3 {
