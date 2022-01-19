@@ -41,9 +41,12 @@ $blue-white: scale($blue, 90);
 $text-blue: $blue-light;
 $text-blue--light: $blue-light;
 $text-blue--med: scale($blue-dark, 20);
-$teal: #AF272F;
+$teal: #41b4ad;
 $teal-med: scale($teal, -10);
 $teal-text: scale($teal, 10);
+$red: #af272f;
+$red-med: scale($red, -10);
+$red-text: scale($red, 10);
 $yellow: #f8e87c;
 
 // $gray: #C3A6C3;
