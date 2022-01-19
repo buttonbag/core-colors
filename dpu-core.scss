@@ -1758,6 +1758,17 @@ body.theme-new-core {
 	/*\/\/\/\/\/\/\/\/\/\/\/\/\/\/ THEME /\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
 	/*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 	/*****************************************************************/
+	.cta-ghost-red {
+		border-color: $red;
+		color: $red !important;
+	}
+
+	.cta-ghost-red:hover,
+	.cta-ghost-red:focus {
+		background-color: $red;
+		color: $white !important;
+		text-decoration: none;
+	}
 	.cta-ghost-blue {
 		border-color: $var2;
 		color: $var2 !important;
