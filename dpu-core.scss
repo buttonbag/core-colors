@@ -36,8 +36,8 @@
 $blue: #0057b7;
 $blue-dark: #0e4174;
 $blue-light: scale($blue, 30);
-$blue-superlight: scale($blue, 85);
-$blue-white: scale($blue, 95);
+$blue-superlight: scale($blue, 80);
+$blue-white: scale($blue, 90);
 
 $text-blue: $blue;
 $text-blue--light: $blue-light;
@@ -3584,113 +3584,118 @@ body.theme-new-core {
 	}
 
 	/* Background Colors */
-	// $colors: (
-	// 	'blue': $blue,
-	// 	'blue--dark': $blue-dark,
-	// 	'blue--light': $blue-light,
-	// 	'blue-superlight': $blue-superlight,
-	// 	'blue--white': $blue-white,
-	// 	'red': $red,
-	// );
+	$colors: (
+		'blue': $blue,
+		'blue--dark': $blue-dark,
+		'blue--light': $blue-light,
+		'blue--superlight': $blue-superlight,
+		'blue--white': $blue-white,
+		'blue-dark': $blue-dark,
+		'blue-light': $blue-light,
+		'blue-superlight': $blue-superlight,
+		'blue-white': $blue-white,
+		'red': $red,
+	);
 
-	// @each $key, $color in $colors {
-	// 	.bg-#{$key} {
-	// 		background: $color;
-	// 		&-transparent {
-	// 			background: rgba($color, 0.75);
-	// 		}
-	// 	}
-	// }
-
-	.bg-blue--white {
-		background: $blue-white;
-	}
-
-	.bg-blue--light {
-		background: $blue-superlight;
-	}
-
-	.bg-blue {
-		background: $blue-superlight;
-	}
-
-	.bg-blue--med {
-		background: $blue;
-	}
-
-	.bg-blue--dark {
-		background: $blue-dark;
-	}
-
-	.bg-gray {
-		background: $gray-med;
-	}
-
-	.bg-gray--med {
-		background: $gray-dark;
-	}
-
-	.bg-gray--dark {
-		background: $blue-dark;
-	}
-
-	.bg-teal--light {
-		background: $gray-light;
-	}
-
-	.bg-teal {
-		background: $teal;
-	}
-
-	.bg-teal--med {
-		background: $teal;
-	}
-
-	.bg-yellow {
-		background: $yellow;
-	}
-
-	.bg-white {
-		background: $white;
-	}
-
-	.bg-blue--light-transparent {
-		background-color: $blue-white;
-		background: rgba($gray, 0.75);
-	}
-
-	.bg-blue--transparent {
-		background-color: $blue-dark;
-		background: rgba($blue-dark, 0.7);
-	}
-
-	.bg-blue-teal--gradient {
-		background: lighten($blue, 3%);
-		background: -moz-linear-gradient(
-			-45deg,
-			lighten($blue, 3%) 0%,
-			lighten($teal, 3%) 100%
-		);
-		background: -webkit-linear-gradient(
-			-45deg,
-			lighten($blue, 3%) 0%,
-			lighten($teal, 3%) 100%
-		);
-		background: linear-gradient(
-			135deg,
-			lighten($blue, 3%) 0%,
-			lighten($teal, 3%) 100%
-		);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='lighten($blue, 3%)', endColorstr='lighten($teal, 3%)', GradientType=1);
-	}
-	.bg {
-		&-red {
-			background: $red;
-			&--transparent {
-				background: rgba($red, 0.7);
+	@each $key, $color in $colors {
+		.bg-#{$key} {
+			background: $color;
+			&--transparent,
+			&-transparent {
+				background: rgba($color, 0.7);
 			}
 		}
 	}
+
+	// .bg-blue--white {
+	// 	background: $blue-white;
+	// }
+
+	// .bg-blue--light {
+	// 	background: $blue-superlight;
+	// }
+
+	// .bg-blue {
+	// 	background: $blue;
+	// }
+
+	// .bg-blue--med {
+	// 	background: $blue;
+	// }
+
+	// .bg-blue--dark {
+	// 	background: $blue-dark;
+	// }
+
+	// .bg-gray {
+	// 	background: $gray-med;
+	// }
+
+	// .bg-gray--med {
+	// 	background: $gray-dark;
+	// }
+
+	// .bg-gray--dark {
+	// 	background: $blue-dark;
+	// }
+
+	// .bg-teal--light {
+	// 	background: $gray-light;
+	// }
+
+	// .bg-teal {
+	// 	background: $teal;
+	// }
+
+	// .bg-teal--med {
+	// 	background: $teal;
+	// }
+
+	// .bg-yellow {
+	// 	background: $yellow;
+	// }
+
+	// .bg-white {
+	// 	background: $white;
+	// }
+
+	// .bg-blue--light-transparent {
+	// 	background-color: $blue-white;
+	// 	background: rgba($gray, 0.75);
+	// }
+
+	// .bg-blue--transparent {
+	// 	background-color: $blue-dark;
+	// 	background: rgba($blue-dark, 0.7);
+	// }
+
+	// .bg-blue-teal--gradient {
+	// 	background: lighten($blue, 3%);
+	// 	background: -moz-linear-gradient(
+	// 		-45deg,
+	// 		lighten($blue, 3%) 0%,
+	// 		lighten($teal, 3%) 100%
+	// 	);
+	// 	background: -webkit-linear-gradient(
+	// 		-45deg,
+	// 		lighten($blue, 3%) 0%,
+	// 		lighten($teal, 3%) 100%
+	// 	);
+	// 	background: linear-gradient(
+	// 		135deg,
+	// 		lighten($blue, 3%) 0%,
+	// 		lighten($teal, 3%) 100%
+	// 	);
+	// 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='lighten($blue, 3%)', endColorstr='lighten($teal, 3%)', GradientType=1);
+	// }
+	// .bg {
+	// 	&-red {
+	// 		background: $red;
+	// 		&--transparent {
+	// 			background: rgba($red, 0.7);
+	// 		}
+	// 	}
+	// }
 
 	/* Font Colors */
 	.text-gray {
@@ -3702,7 +3707,7 @@ body.theme-new-core {
 	}
 
 	.text-blue {
-		color: $text-blue !important;
+		color: $blue !important;
 	}
 
 	.text-blue--med {
