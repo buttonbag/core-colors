@@ -1070,12 +1070,21 @@ body.theme-new-core {
 	.card-panel-2.ghost-teal {
 		border: solid 1px $teal;
 	}
+	.card-panel-2.ghost-blue {
+		border: solid 1px $blue;
+	}
 
 	.card-panel-2.ghost-teal .cta-core {
 		border-top: 1px solid $teal;
 		border-left: 0 solid $teal;
 		border-right: 0 solid $teal;
 		border-bottom: 0 solid $teal;
+	}
+	.card-panel-2.ghost-blue .cta-core {
+		border-top: 1px solid $blue;
+		border-left: 0 solid $blue;
+		border-right: 0 solid $blue;
+		border-bottom: 0 solid $blue;
 	}
 
 	@media (min-width: 30em) and (max-width: 50em) {
@@ -1702,17 +1711,49 @@ body.theme-new-core {
 	/*\/\/\/\/\/\/\/\/\/\/\/\/\/\/ THEME /\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
 	/*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 	/*****************************************************************/
-	.cta-ghost-red {
-		border-color: $red;
-		color: $red !important;
+	$colors: (
+		'blue': $blue,
+		'blue-dark': $blue-dark,
+		'red': $red,
+		'white': $white,
+	);
+	@each $key, $color in $colors {
+		.cta-ghost-#{$key} {
+			border-color: $color;
+			color: $color !important;
+			&:hover,
+			&:focus {
+				background: $color;
+				color: $white !important;
+				text-decoration: none;
+			}
+
+			&-shadow {
+				@extend .cta-ghost-#{$key};
+				box-shadow: 5px 5px 0 $color;
+				&-o {
+					@extend .cta-ghost-#{$key}-shadow;
+					background: $white;
+				}
+			}
+		}
 	}
 
-	.cta-ghost-red:hover,
-	.cta-ghost-red:focus {
-		background-color: $red;
-		color: $white !important;
-		text-decoration: none;
-	}
+	// .cta-ghost-red {
+	// 	border-color: $red;
+	// 	color: $red !important;
+	// 	&-shadow {
+	// 		@extend .cta-ghost-red;
+	// 		box-shadow: 5px 5px 0 $red;
+	// 	}
+	// }
+
+	// .cta-ghost-red:hover,
+	// .cta-ghost-red:focus {
+	// 	background-color: $red;
+	// 	color: $white !important;
+	// 	text-decoration: none;
+	// }
 	.cta-ghost-blue {
 		border-color: $blue;
 		color: $blue !important;
@@ -1781,7 +1822,7 @@ body.theme-new-core {
 
 	.cta-ghost-white:hover,
 	.cta-ghost-white:focus {
-		background: rgba($black, 0.5);
+		background: rgba($black, 0.7);
 		color: $white !important;
 		text-decoration: none;
 	}
@@ -3543,6 +3584,24 @@ body.theme-new-core {
 	}
 
 	/* Background Colors */
+	// $colors: (
+	// 	'blue': $blue,
+	// 	'blue--dark': $blue-dark,
+	// 	'blue--light': $blue-light,
+	// 	'blue-superlight': $blue-superlight,
+	// 	'blue--white': $blue-white,
+	// 	'red': $red,
+	// );
+
+	// @each $key, $color in $colors {
+	// 	.bg-#{$key} {
+	// 		background: $color;
+	// 		&-transparent {
+	// 			background: rgba($color, 0.75);
+	// 		}
+	// 	}
+	// }
+
 	.bg-blue--white {
 		background: $blue-white;
 	}
