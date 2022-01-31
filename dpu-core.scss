@@ -54,16 +54,18 @@ $red: #af272f;
 $red-med: scale($red, -10);
 $yellow: #f8e87c;
 
-$gray: #bebebe;
-$gray-dark: #333;
-$gray-med: #565656;
-$gray-light: #ddd;
+$gray: #565656;
+$gray-dark: scale($gray, -30);
+$gray-med: scale($gray, 20);
+$gray-light: scale($gray, 60);
 $white: #fff;
 $black: #000;
 
 $colors: (
 	// single and double dash to cover all areas
 	'blue': $blue,
+	'red': $red,
+	'gray': $gray,
 	'blue--dark': $blue-dark,
 	'blue--light': $blue-light,
 	'blue--superlight': $blue-superlight,
@@ -72,7 +74,13 @@ $colors: (
 	'blue-light': $blue-light,
 	'blue-superlight': $blue-superlight,
 	'blue-white': $blue-white,
-	'red': $red
+	'gray--dark': $gray-dark,
+	'gray--med': $gray-med,
+	'gray--light': $gray-light,
+	'gray-dark': $gray-dark,
+	'gray-med': $gray-med,
+	'gray-light': $gray-light,
+	'white': $white
 );
 
 // $gray: #C3A6C3;
@@ -1734,9 +1742,14 @@ body.theme-new-core {
 			color: $color !important;
 			&:hover,
 			&:focus {
-				background: $color;
-				color: $white !important;
-				text-decoration: none;
+				@if ($color == $blue-superlight) {
+					background: $color;
+					color: $blue-dark !important;
+				} @else {
+					background: $color;
+					color: $white !important;
+					text-decoration: none;
+				}
 			}
 
 			&-shadow {
