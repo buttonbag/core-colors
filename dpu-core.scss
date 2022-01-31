@@ -35,6 +35,7 @@
 /* TEST COLORS */
 $blue: #0057b7;
 $blue-dark: #0e4174;
+$blue-med: scale($blue, 10);
 $blue-light: scale(
 	$blue,
 	30
@@ -43,8 +44,11 @@ $blue-superlight: scale($blue, 80);
 $blue-white: scale($blue, 90);
 
 $text-blue: $blue;
-$text-blue--light: $blue-light;
+$text-blue--dark: $blue-dark;
 $text-blue--med: scale($blue-dark, 20);
+$text-blue--light: scale($blue, 70);
+$text-blue--superlight: $blue-superlight;
+$text-blue--white: $blue-white;
 
 $teal: #41b4ad;
 $teal-med: scale($teal, -10);
@@ -57,7 +61,7 @@ $yellow: #f8e87c;
 $gray: #565656;
 $gray-dark: scale($gray, -30);
 $gray-med: scale($gray, 20);
-$gray-light: scale($gray, 60);
+$gray-light: scale($gray, 90);
 $white: #fff;
 $black: #000;
 
@@ -67,10 +71,12 @@ $colors: (
 	'red': $red,
 	'gray': $gray,
 	'blue--dark': $blue-dark,
+	'blue--med': $blue-med,
 	'blue--light': $blue-light,
 	'blue--superlight': $blue-superlight,
 	'blue--white': $blue-white,
 	'blue-dark': $blue-dark,
+	'blue-med': $blue-med,
 	'blue-light': $blue-light,
 	'blue-superlight': $blue-superlight,
 	'blue-white': $blue-white,
@@ -3709,49 +3715,68 @@ body.theme-new-core {
 	// }
 
 	/* Font Colors */
-	.text-gray {
-		color: $gray-med !important;
-	}
+	$text-colors: (
+		'blue': $text-blue,
+		'blue--dark': $text-blue--dark,
+		'blue--med': $text-blue--med,
+		'blue--light': $text-blue--light,
+		'blue--superlight': $text-blue--superlight,
+		'blue--white': $text-blue--white,
+		'blue-dark': $text-blue--dark,
+		'blue-med': $text-blue--med,
+		'blue-light': $text-blue--light,
+		'blue-superlight': $text-blue--superlight,
+		'blue-white': $text-blue--white,
+	);
 
-	.text-blue--light {
-		color: $blue-superlight !important;
+	@each $key, $color in $text-colors {
+		.text-#{$key} {
+			color: $color !important;
+		}
 	}
+	// .text-gray {
+	// 	color: $gray-med !important;
+	// }
 
-	.text-blue {
-		color: $blue !important;
-	}
+	// .text-blue--light {
+	// 	color: $blue-superlight !important;
+	// }
 
-	.text-blue--med {
-		color: $text-blue--med !important;
-	}
+	// .text-blue {
+	// 	color: $blue !important;
+	// }
 
-	.text-teal--light {
-		color: $gray-light !important;
-	}
+	// .text-blue--med {
+	// 	color: $text-blue--med !important;
+	// }
 
-	.text-teal {
-		color: $teal-text !important;
-	}
+	// .text-teal--light {
+	// 	color: $gray-light !important;
+	// }
 
-	.text-teal--med {
-		color: $teal !important;
-	}
+	// .text-teal {
+	// 	color: $teal-text !important;
+	// }
 
-	.text-red--light {
-		color: scale($red, 30) !important;
-	}
+	// .text-teal--med {
+	// 	color: $teal !important;
+	// }
 
-	.text-red {
-		color: $red !important;
-	}
+	// .text-red--light {
+	// 	color: scale($red, 30) !important;
+	// }
 
-	.text-red--med {
-		color: scale($red, -30) !important;
-	}
+	// .text-red {
+	// 	color: $red !important;
+	// }
 
-	.text-white {
-		color: $white;
-	}
+	// .text-red--med {
+	// 	color: scale($red, -30) !important;
+	// }
+
+	// .text-white {
+	// 	color: $white;
+	// }
 
 	/* Iconography */
 	.icon-container {
