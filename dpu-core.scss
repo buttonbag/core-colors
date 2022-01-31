@@ -35,7 +35,10 @@
 /* TEST COLORS */
 $blue: #0057b7;
 $blue-dark: #0e4174;
-$blue-light: scale($blue, 30);
+$blue-light: scale(
+	$blue,
+	30
+); // <-- sticking with multiples of 10 keeps consistent with new colors
 $blue-superlight: scale($blue, 80);
 $blue-white: scale($blue, 90);
 
@@ -57,6 +60,20 @@ $gray-med: #565656;
 $gray-light: #ddd;
 $white: #fff;
 $black: #000;
+
+$colors: (
+	// single and double dash to cover all areas
+	'blue': $blue,
+	'blue--dark': $blue-dark,
+	'blue--light': $blue-light,
+	'blue--superlight': $blue-superlight,
+	'blue--white': $blue-white,
+	'blue-dark': $blue-dark,
+	'blue-light': $blue-light,
+	'blue-superlight': $blue-superlight,
+	'blue-white': $blue-white,
+	'red': $red
+);
 
 // $gray: #C3A6C3;
 // $gray-dark: #2F232F;
@@ -1711,12 +1728,6 @@ body.theme-new-core {
 	/*\/\/\/\/\/\/\/\/\/\/\/\/\/\/ THEME /\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
 	/*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 	/*****************************************************************/
-	$colors: (
-		'blue': $blue,
-		'blue-dark': $blue-dark,
-		'red': $red,
-		'white': $white,
-	);
 	@each $key, $color in $colors {
 		.cta-ghost-#{$key} {
 			border-color: $color;
@@ -3584,19 +3595,6 @@ body.theme-new-core {
 	}
 
 	/* Background Colors */
-	$colors: (
-		'blue': $blue,
-		'blue--dark': $blue-dark,
-		'blue--light': $blue-light,
-		'blue--superlight': $blue-superlight,
-		'blue--white': $blue-white,
-		'blue-dark': $blue-dark,
-		'blue-light': $blue-light,
-		'blue-superlight': $blue-superlight,
-		'blue-white': $blue-white,
-		'red': $red,
-	);
-
 	@each $key, $color in $colors {
 		.bg-#{$key} {
 			background: $color;
