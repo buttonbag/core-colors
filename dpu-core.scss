@@ -1751,6 +1751,9 @@ body.theme-new-core {
 				@if ($color == $blue-superlight) {
 					background: $color;
 					color: $blue-dark !important;
+				}@if ($color == $blue-white) {
+					background: $color;
+					color: $blue-dark !important;
 				} @else {
 					background: $color;
 					color: $white !important;
