@@ -11,7 +11,7 @@
 }
 .theme-new-core #s4-bodyContainer .masthead.dpu-tour-masthead {
   display: block !important;
-  background: #005DBA;
+  background: #0057b7;
 }
 .theme-new-core #s4-bodyContainer .masthead.dpu-tour-masthead > .container-fluid {
   max-width: 1920px;
@@ -57,7 +57,7 @@
   font-size: 28px;
   line-height: 33px;
   text-transform: uppercase !important;
-  text-shadow: 2px 2px 0 #000 !important;
+  text-shadow: 2px 2px 0 #0e4174 !important;
   padding: 0.25em 0.5em !important;
   height: auto !important;
   cursor: pointer;
@@ -88,7 +88,7 @@
 .theme-new-core #s4-bodyContainer .masthead.dpu-tour-masthead #navbarCollapseTour {
   margin: 0;
   padding: 0;
-  background: #005DBA;
+  background: #0057b7;
 }
 .theme-new-core #s4-bodyContainer .masthead.dpu-tour-masthead #navbarCollapseTour #localmenu {
   margin-bottom: 0;
@@ -105,7 +105,7 @@
   font-size: 24px;
   line-height: 1.1786;
   text-transform: uppercase !important;
-  text-shadow: 2px 2px 0 #000 !important;
+  text-shadow: 2px 2px 0 #0e4174 !important;
   padding: 0.2em 0 !important;
   height: auto !important;
   display: block;
@@ -187,12 +187,12 @@
   position: absolute;
   top: 0;
   right: 0;
-  background: #122876;
+  background: #0e4174;
   padding: 12px 36px;
   z-index: 2;
 }
 #map-container #title-container h2 {
-  color: #D3EAFF;
+  color: #beddff;
   font-family: "DINPro-Cond", sans-serif;
   font-size: 34px;
   line-height: 1.185;
@@ -219,7 +219,7 @@
   z-index: 2;
 }
 #map-container #campus-link-container button {
-  background: #005DBA;
+  background: #0057b7;
   font-size: 24px;
   line-height: 1.185;
   padding: 20px 36px;
@@ -232,15 +232,15 @@
   outline: none;
   border: none;
   text-transform: uppercase;
-  text-shadow: 2px 2px 0 #000;
+  text-shadow: 2px 2px 0 #0e4174;
   transition: all 0.2s linear;
 }
 #map-container #campus-link-container button:hover {
-  background: #122876;
-  color: #D3EAFF;
+  background: #0e4174;
+  color: #beddff;
 }
 #map-container #campus-link-container button:focus-visible {
-  outline: 2px solid #122876;
+  outline: 2px solid #0e4174;
   outline-offset: 2px;
 }
 @media (max-width: 575px) and (orientation: portrait) {
@@ -265,17 +265,17 @@
 }
 
 .tour-marker {
-  background: #005DBA;
+  background: #0057b7;
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  box-shadow: 2px 2px 0 #000;
+  box-shadow: 2px 2px 0 #0e4174;
   cursor: pointer;
 }
 
 .tour-popup h3 {
   color: #fff;
-  text-shadow: 2px 2px 0 #000;
+  text-shadow: 2px 2px 0 #0e4174;
   font-family: "DINPro-Cond", sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -316,7 +316,7 @@
   transform: translate(-50%, -50%);
 }
 .tour-popup.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
-  border-bottom-color: #005DBA;
+  border-bottom-color: #0057b7;
 }
 .tour-popup.mapboxgl-popup-anchor-top .mapboxgl-popup-tip:after, .tour-popup.mapboxgl-popup-anchor-top .mapboxgl-popup-tip:before {
   display: none;
@@ -328,7 +328,7 @@
   border-top-color: #000;
 }
 .tour-popup.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip:before {
-  border-top-color: #005DBA;
+  border-top-color: #0057b7;
 }
 .tour-popup.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
   border-left-color: transparent;
@@ -338,26 +338,26 @@
   border-left-color: #000;
 }
 .tour-popup.mapboxgl-popup-anchor-right .mapboxgl-popup-tip:before {
-  border-left-color: #005DBA;
+  border-left-color: #0057b7;
 }
 .tour-popup.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
   border-right-color: transparent;
   transform: translateX(2px);
 }
 .tour-popup.mapboxgl-popup-anchor-left .mapboxgl-popup-tip:before {
-  border-right-color: #005DBA;
+  border-right-color: #0057b7;
 }
 .tour-popup.mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip, .tour-popup.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
-  border-bottom-color: #005DBA;
+  border-bottom-color: #0057b7;
 }
 .tour-popup.mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip, .tour-popup.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
-  border-top-color: #005DBA;
+  border-top-color: #0057b7;
 }
 .tour-popup .mapboxgl-popup-content {
-  background: #005DBA;
+  background: #0057b7;
   border-radius: 20px;
   padding: 10px;
-  box-shadow: 2px 2px 0 #000;
+  box-shadow: 2px 2px 0 #0e4174;
   min-width: 280px;
   text-align: center;
 }
@@ -368,10 +368,10 @@
   color: #fff;
 }
 .tour-popup .mapboxgl-popup-content a:hover {
-  color: #D3EAFF !important;
+  color: #beddff !important;
 }
 .tour-popup .mapboxgl-popup-content a:hover h3 {
-  color: #D3EAFF;
+  color: #beddff;
 }
 .tour-popup .mapboxgl-popup-content a:focus {
   outline: none !important;
@@ -404,7 +404,7 @@
 .modal.tour-modal .modal-header h5.modal-title {
   margin: 0;
   padding: 6px 40px 6px 48px;
-  background: #005DBA;
+  background: #0057b7;
   color: #fff;
   font-family: "DINPro-Cond", sans-serif;
   font-weight: 700;
@@ -421,14 +421,14 @@
   min-width: auto !important;
 }
 .modal.tour-modal .modal-header .close svg {
-  fill: #122876;
+  fill: #0e4174;
   width: 35px;
   height: auto;
   display: block;
   transition: all 0.2s linear;
 }
 .modal.tour-modal .modal-header .close:hover svg, .modal.tour-modal .modal-header .close:focus svg {
-  fill: #005DBA;
+  fill: #0057b7;
 }
 @media (max-width: 575px) {
   .modal.tour-modal .modal-header {
@@ -436,7 +436,7 @@
   }
   .modal.tour-modal .modal-header h5.modal-title {
     background: transparent;
-    color: #122876;
+    color: #0e4174;
     padding: 0;
     font-size: 34px;
   }
@@ -464,7 +464,7 @@
   margin-bottom: 4px;
 }
 .modal.tour-modal .modal-body ul li::marker {
-  color: #005DBA;
+  color: #0057b7;
 }
 .modal.tour-modal .modal-body ul li:last-of-type {
   margin-bottom: 0;
@@ -484,7 +484,7 @@
   border: 0;
 }
 .modal.tour-modal .modal-body .blue-box {
-  background: #e7f3ff;
+  background: #deeeff;
   padding: 40px 40px 45px 40px;
   color: #00417E;
   margin-top: 30px;
@@ -583,17 +583,19 @@
 
 .btn.btn-tour {
   font-size: 21px;
-  color: #fff;
-  background: #005DBA;
-  box-shadow: 5px 5px 0 #000;
+  color: #0057b7;
+  border: 3px solid #0057b7;
+  box-shadow: 5px 5px 0 #0057b7;
   border-radius: 0;
   transition: all 0.2s linear;
 }
 .btn.btn-tour:hover, .btn.btn-tour:focus {
-  outline-color: #122876 !important;
-  box-shadow: 0 0 0 #000;
+  border: 3px solid #0e4174;
+  outline-color: #0e4174 !important;
+  box-shadow: 0 0 0 #0e4174;
   transform: translate3d(3px, 3px, 0);
-  background: #122876;
+  background: #0e4174;
+  color: #fff;
 }
 
 .error-message {

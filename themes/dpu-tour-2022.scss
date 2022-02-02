@@ -1,8 +1,14 @@
-$blue: #005DBA;
-$dkBlue: #122876;
-$ltBlue: #D3EAFF;
-$boxBlue: #e7f3ff;
-$shadow: 2px 2px 0 #000;
+@function scale($color, $n: 0) {
+	$scaled: scale-color($color, $lightness: 1% * $n);
+	@return $scaled;
+}
+
+$blue: #0057b7;
+$dkBlue: #0e4174;
+$ltBlue: scale($blue, 80);
+$boxBlue: scale($blue, 90);
+$white: #fff;
+$shadow: 2px 2px 0 $dkBlue;
 $din: 'DINPro-Cond',
 sans-serif;
 
@@ -22,7 +28,7 @@ sans-serif;
         .masthead.dpu-tour-masthead {
             // height: auto;
             display: block !important;
-            background: #005DBA;
+            background: $blue;
 
             >.container-fluid {
                 max-width: 1920px;
@@ -743,18 +749,20 @@ sans-serif;
 
 .btn.btn-tour {
     font-size: 21px;
-    color: #fff;
-    background: $blue;
-    box-shadow: 5px 5px 0 #000;
+    color: $blue;
+    border: 3px solid $blue;
+    box-shadow: 5px 5px 0 $blue;
     border-radius: 0;
     transition: all 0.2s linear;
-
+    
     &:hover,
     &:focus {
+        border: 3px solid $dkBlue;
         outline-color: $dkBlue !important;
-        box-shadow: 0 0 0 #000;
+        box-shadow: 0 0 0 $dkBlue;
         transform: translate3d(3px, 3px, 0);
         background: $dkBlue;
+        color: $white;
     }
 }
 
