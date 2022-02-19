@@ -2,338 +2,123 @@ html {
   background-color: #0e4174 !important;
 }
 
-.theme-law,
-.theme-midnightblue,
-.theme-denimblue,
-.theme-royalblue,
-.theme-dark-indigo,
-.theme-scps {
+[class*=theme-] {
   border-top-color: #0e4174 !important;
+  /* tagmanager styling */
+}
+[class*=theme-] #s4-bodyContainer {
+  color: #565656;
+  background-color: #fff;
   /* cludo styling */
   /* tagmanager styling */
   /* Add to stylesheet post launch */
   /* structure */
   /*font size classes*/
   /* theme */
-  /* tagmanager styling */
 }
-.theme-law #s4-bodyContainer,
-.theme-midnightblue #s4-bodyContainer,
-.theme-denimblue #s4-bodyContainer,
-.theme-royalblue #s4-bodyContainer,
-.theme-dark-indigo #s4-bodyContainer,
-.theme-scps #s4-bodyContainer {
-  color: #565656;
-  background-color: #fff;
-}
-.theme-law #s4-bodyContainer :focus,
-.theme-midnightblue #s4-bodyContainer :focus,
-.theme-denimblue #s4-bodyContainer :focus,
-.theme-royalblue #s4-bodyContainer :focus,
-.theme-dark-indigo #s4-bodyContainer :focus,
-.theme-scps #s4-bodyContainer :focus {
+[class*=theme-] #s4-bodyContainer :focus {
   outline-color: currentColor;
 }
-.theme-law #s4-bodyContainer #ga-maincontent a:not([class^=btn]):not([class^=cta]),
-.theme-midnightblue #s4-bodyContainer #ga-maincontent a:not([class^=btn]):not([class^=cta]),
-.theme-denimblue #s4-bodyContainer #ga-maincontent a:not([class^=btn]):not([class^=cta]),
-.theme-royalblue #s4-bodyContainer #ga-maincontent a:not([class^=btn]):not([class^=cta]),
-.theme-dark-indigo #s4-bodyContainer #ga-maincontent a:not([class^=btn]):not([class^=cta]),
-.theme-scps #s4-bodyContainer #ga-maincontent a:not([class^=btn]):not([class^=cta]) {
+[class*=theme-] #s4-bodyContainer #ga-maincontent a:not([class^=btn]):not([class^=cta]) {
   color: #0e4174;
 }
-.theme-law #s4-bodyContainer h1,
-.theme-law #s4-bodyContainer h2,
-.theme-law #s4-bodyContainer h3,
-.theme-law #s4-bodyContainer h4,
-.theme-law #s4-bodyContainer h5,
-.theme-law #s4-bodyContainer h6,
-.theme-law #s4-bodyContainer .h1,
-.theme-law #s4-bodyContainer .h2,
-.theme-law #s4-bodyContainer .h3,
-.theme-law #s4-bodyContainer .h4,
-.theme-law #s4-bodyContainer .h5,
-.theme-law #s4-bodyContainer .h6,
-.theme-midnightblue #s4-bodyContainer h1,
-.theme-midnightblue #s4-bodyContainer h2,
-.theme-midnightblue #s4-bodyContainer h3,
-.theme-midnightblue #s4-bodyContainer h4,
-.theme-midnightblue #s4-bodyContainer h5,
-.theme-midnightblue #s4-bodyContainer h6,
-.theme-midnightblue #s4-bodyContainer .h1,
-.theme-midnightblue #s4-bodyContainer .h2,
-.theme-midnightblue #s4-bodyContainer .h3,
-.theme-midnightblue #s4-bodyContainer .h4,
-.theme-midnightblue #s4-bodyContainer .h5,
-.theme-midnightblue #s4-bodyContainer .h6,
-.theme-denimblue #s4-bodyContainer h1,
-.theme-denimblue #s4-bodyContainer h2,
-.theme-denimblue #s4-bodyContainer h3,
-.theme-denimblue #s4-bodyContainer h4,
-.theme-denimblue #s4-bodyContainer h5,
-.theme-denimblue #s4-bodyContainer h6,
-.theme-denimblue #s4-bodyContainer .h1,
-.theme-denimblue #s4-bodyContainer .h2,
-.theme-denimblue #s4-bodyContainer .h3,
-.theme-denimblue #s4-bodyContainer .h4,
-.theme-denimblue #s4-bodyContainer .h5,
-.theme-denimblue #s4-bodyContainer .h6,
-.theme-royalblue #s4-bodyContainer h1,
-.theme-royalblue #s4-bodyContainer h2,
-.theme-royalblue #s4-bodyContainer h3,
-.theme-royalblue #s4-bodyContainer h4,
-.theme-royalblue #s4-bodyContainer h5,
-.theme-royalblue #s4-bodyContainer h6,
-.theme-royalblue #s4-bodyContainer .h1,
-.theme-royalblue #s4-bodyContainer .h2,
-.theme-royalblue #s4-bodyContainer .h3,
-.theme-royalblue #s4-bodyContainer .h4,
-.theme-royalblue #s4-bodyContainer .h5,
-.theme-royalblue #s4-bodyContainer .h6,
-.theme-dark-indigo #s4-bodyContainer h1,
-.theme-dark-indigo #s4-bodyContainer h2,
-.theme-dark-indigo #s4-bodyContainer h3,
-.theme-dark-indigo #s4-bodyContainer h4,
-.theme-dark-indigo #s4-bodyContainer h5,
-.theme-dark-indigo #s4-bodyContainer h6,
-.theme-dark-indigo #s4-bodyContainer .h1,
-.theme-dark-indigo #s4-bodyContainer .h2,
-.theme-dark-indigo #s4-bodyContainer .h3,
-.theme-dark-indigo #s4-bodyContainer .h4,
-.theme-dark-indigo #s4-bodyContainer .h5,
-.theme-dark-indigo #s4-bodyContainer .h6,
-.theme-scps #s4-bodyContainer h1,
-.theme-scps #s4-bodyContainer h2,
-.theme-scps #s4-bodyContainer h3,
-.theme-scps #s4-bodyContainer h4,
-.theme-scps #s4-bodyContainer h5,
-.theme-scps #s4-bodyContainer h6,
-.theme-scps #s4-bodyContainer .h1,
-.theme-scps #s4-bodyContainer .h2,
-.theme-scps #s4-bodyContainer .h3,
-.theme-scps #s4-bodyContainer .h4,
-.theme-scps #s4-bodyContainer .h5,
-.theme-scps #s4-bodyContainer .h6 {
+[class*=theme-] #s4-bodyContainer h1,
+[class*=theme-] #s4-bodyContainer h2,
+[class*=theme-] #s4-bodyContainer h3,
+[class*=theme-] #s4-bodyContainer h4,
+[class*=theme-] #s4-bodyContainer h5,
+[class*=theme-] #s4-bodyContainer h6,
+[class*=theme-] #s4-bodyContainer .h1,
+[class*=theme-] #s4-bodyContainer .h2,
+[class*=theme-] #s4-bodyContainer .h3,
+[class*=theme-] #s4-bodyContainer .h4,
+[class*=theme-] #s4-bodyContainer .h5,
+[class*=theme-] #s4-bodyContainer .h6 {
   color: #000;
 }
-.theme-law #s4-bodyContainer #ga-maincontent h2,
-.theme-midnightblue #s4-bodyContainer #ga-maincontent h2,
-.theme-denimblue #s4-bodyContainer #ga-maincontent h2,
-.theme-royalblue #s4-bodyContainer #ga-maincontent h2,
-.theme-dark-indigo #s4-bodyContainer #ga-maincontent h2,
-.theme-scps #s4-bodyContainer #ga-maincontent h2 {
-  color: #0e4174;
-}
-.theme-law #s4-bodyContainer #ga-maincontent h3,
-.theme-midnightblue #s4-bodyContainer #ga-maincontent h3,
-.theme-denimblue #s4-bodyContainer #ga-maincontent h3,
-.theme-royalblue #s4-bodyContainer #ga-maincontent h3,
-.theme-dark-indigo #s4-bodyContainer #ga-maincontent h3,
-.theme-scps #s4-bodyContainer #ga-maincontent h3 {
+[class*=theme-] #s4-bodyContainer #ga-maincontent h2 {
   color: #0057b7;
 }
-.theme-law #s4-bodyContainer .table-college thead td,
-.theme-midnightblue #s4-bodyContainer .table-college thead td,
-.theme-denimblue #s4-bodyContainer .table-college thead td,
-.theme-royalblue #s4-bodyContainer .table-college thead td,
-.theme-dark-indigo #s4-bodyContainer .table-college thead td,
-.theme-scps #s4-bodyContainer .table-college thead td {
+[class*=theme-] #s4-bodyContainer #ga-maincontent h3 {
+  color: #0057b7;
+}
+[class*=theme-] #s4-bodyContainer .table-college thead td {
   color: #fff;
   background-color: #2b2b2b;
   border: 1px solid #000;
 }
-.theme-law #s4-bodyContainer .table-college td,
-.theme-midnightblue #s4-bodyContainer .table-college td,
-.theme-denimblue #s4-bodyContainer .table-college td,
-.theme-royalblue #s4-bodyContainer .table-college td,
-.theme-dark-indigo #s4-bodyContainer .table-college td,
-.theme-scps #s4-bodyContainer .table-college td {
+[class*=theme-] #s4-bodyContainer .table-college td {
   border: 1px solid #000;
 }
-.theme-law #s4-bodyContainer .table-college tr,
-.theme-midnightblue #s4-bodyContainer .table-college tr,
-.theme-denimblue #s4-bodyContainer .table-college tr,
-.theme-royalblue #s4-bodyContainer .table-college tr,
-.theme-dark-indigo #s4-bodyContainer .table-college tr,
-.theme-scps #s4-bodyContainer .table-college tr {
-  background-color: #eee;
+[class*=theme-] #s4-bodyContainer .table-college tr {
+  background-color: #eeeeee;
 }
-.theme-law #s4-bodyContainer .table-college tr:nth-child(2n),
-.theme-midnightblue #s4-bodyContainer .table-college tr:nth-child(2n),
-.theme-denimblue #s4-bodyContainer .table-college tr:nth-child(2n),
-.theme-royalblue #s4-bodyContainer .table-college tr:nth-child(2n),
-.theme-dark-indigo #s4-bodyContainer .table-college tr:nth-child(2n),
-.theme-scps #s4-bodyContainer .table-college tr:nth-child(2n) {
+[class*=theme-] #s4-bodyContainer .table-college tr:nth-child(2n) {
   background-color: #fff;
 }
-.theme-law #s4-bodyContainer .nav-secondary,
-.theme-midnightblue #s4-bodyContainer .nav-secondary,
-.theme-denimblue #s4-bodyContainer .nav-secondary,
-.theme-royalblue #s4-bodyContainer .nav-secondary,
-.theme-dark-indigo #s4-bodyContainer .nav-secondary,
-.theme-scps #s4-bodyContainer .nav-secondary {
+[class*=theme-] #s4-bodyContainer .nav-secondary {
   border-top: 3px solid #0057b7;
 }
-.theme-law #s4-bodyContainer .nav-secondary li a,
-.theme-midnightblue #s4-bodyContainer .nav-secondary li a,
-.theme-denimblue #s4-bodyContainer .nav-secondary li a,
-.theme-royalblue #s4-bodyContainer .nav-secondary li a,
-.theme-dark-indigo #s4-bodyContainer .nav-secondary li a,
-.theme-scps #s4-bodyContainer .nav-secondary li a {
+[class*=theme-] #s4-bodyContainer .nav-secondary li a {
   background: none !important;
 }
-.theme-law #s4-bodyContainer .nav-secondary ul.level-2,
-.theme-midnightblue #s4-bodyContainer .nav-secondary ul.level-2,
-.theme-denimblue #s4-bodyContainer .nav-secondary ul.level-2,
-.theme-royalblue #s4-bodyContainer .nav-secondary ul.level-2,
-.theme-dark-indigo #s4-bodyContainer .nav-secondary ul.level-2,
-.theme-scps #s4-bodyContainer .nav-secondary ul.level-2 {
+[class*=theme-] #s4-bodyContainer .nav-secondary ul.level-2 {
   background: none !important;
 }
-.theme-law #s4-bodyContainer .secondary-menu .cta-type1,
-.theme-midnightblue #s4-bodyContainer .secondary-menu .cta-type1,
-.theme-denimblue #s4-bodyContainer .secondary-menu .cta-type1,
-.theme-royalblue #s4-bodyContainer .secondary-menu .cta-type1,
-.theme-dark-indigo #s4-bodyContainer .secondary-menu .cta-type1,
-.theme-scps #s4-bodyContainer .secondary-menu .cta-type1 {
+[class*=theme-] #s4-bodyContainer .secondary-menu .cta-type1 {
   color: #fff !important;
-  background: #235b94 !important;
+  background: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .small-screen .nav-tab li a,
-.theme-law #s4-bodyContainer .small-screen .shortcuts-tab li a,
-.theme-midnightblue #s4-bodyContainer .small-screen .nav-tab li a,
-.theme-midnightblue #s4-bodyContainer .small-screen .shortcuts-tab li a,
-.theme-denimblue #s4-bodyContainer .small-screen .nav-tab li a,
-.theme-denimblue #s4-bodyContainer .small-screen .shortcuts-tab li a,
-.theme-royalblue #s4-bodyContainer .small-screen .nav-tab li a,
-.theme-royalblue #s4-bodyContainer .small-screen .shortcuts-tab li a,
-.theme-dark-indigo #s4-bodyContainer .small-screen .nav-tab li a,
-.theme-dark-indigo #s4-bodyContainer .small-screen .shortcuts-tab li a,
-.theme-scps #s4-bodyContainer .small-screen .nav-tab li a,
-.theme-scps #s4-bodyContainer .small-screen .shortcuts-tab li a {
+[class*=theme-] #s4-bodyContainer .small-screen .nav-tab li a,
+[class*=theme-] #s4-bodyContainer .small-screen .shortcuts-tab li a {
   color: #fff !important;
 }
-.theme-law #s4-bodyContainer .cta-core,
-.theme-midnightblue #s4-bodyContainer .cta-core,
-.theme-denimblue #s4-bodyContainer .cta-core,
-.theme-royalblue #s4-bodyContainer .cta-core,
-.theme-dark-indigo #s4-bodyContainer .cta-core,
-.theme-scps #s4-bodyContainer .cta-core {
+[class*=theme-] #s4-bodyContainer .cta-core {
   border-top-color: currentcolor;
   border-right-color: currentcolor;
   border-bottom-color: currentcolor;
   border-left-color: currentcolor;
 }
-.theme-law #s4-bodyContainer .image-header--college__content .h1,
-.theme-midnightblue #s4-bodyContainer .image-header--college__content .h1,
-.theme-denimblue #s4-bodyContainer .image-header--college__content .h1,
-.theme-royalblue #s4-bodyContainer .image-header--college__content .h1,
-.theme-dark-indigo #s4-bodyContainer .image-header--college__content .h1,
-.theme-scps #s4-bodyContainer .image-header--college__content .h1 {
+[class*=theme-] #s4-bodyContainer .image-header--college__content .h1 {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
 }
-.theme-law #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-midnightblue #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-denimblue #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-royalblue #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-dark-indigo #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-scps #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr {
+[class*=theme-] #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr {
   background: none;
 }
-.theme-law #s4-bodyContainer .faqtainer .question,
-.theme-midnightblue #s4-bodyContainer .faqtainer .question,
-.theme-denimblue #s4-bodyContainer .faqtainer .question,
-.theme-royalblue #s4-bodyContainer .faqtainer .question,
-.theme-dark-indigo #s4-bodyContainer .faqtainer .question,
-.theme-scps #s4-bodyContainer .faqtainer .question {
-  border-bottom: 1px solid #ccc;
+[class*=theme-] #s4-bodyContainer .faqtainer .question {
+  border-bottom: 1px solid #cccccc;
 }
-.theme-law #s4-bodyContainer .faqtainer .question .trigger,
-.theme-midnightblue #s4-bodyContainer .faqtainer .question .trigger,
-.theme-denimblue #s4-bodyContainer .faqtainer .question .trigger,
-.theme-royalblue #s4-bodyContainer .faqtainer .question .trigger,
-.theme-dark-indigo #s4-bodyContainer .faqtainer .question .trigger,
-.theme-scps #s4-bodyContainer .faqtainer .question .trigger {
+[class*=theme-] #s4-bodyContainer .faqtainer .question .trigger {
   color: transparent;
 }
-.theme-law #s4-bodyContainer .faqtainer .toggle_container,
-.theme-midnightblue #s4-bodyContainer .faqtainer .toggle_container,
-.theme-denimblue #s4-bodyContainer .faqtainer .toggle_container,
-.theme-royalblue #s4-bodyContainer .faqtainer .toggle_container,
-.theme-dark-indigo #s4-bodyContainer .faqtainer .toggle_container,
-.theme-scps #s4-bodyContainer .faqtainer .toggle_container {
-  border-bottom: 1px solid #ccc;
+[class*=theme-] #s4-bodyContainer .faqtainer .toggle_container {
+  border-bottom: 1px solid #cccccc;
 }
-.theme-law #s4-bodyContainer .accordion *,
-.theme-midnightblue #s4-bodyContainer .accordion *,
-.theme-denimblue #s4-bodyContainer .accordion *,
-.theme-royalblue #s4-bodyContainer .accordion *,
-.theme-dark-indigo #s4-bodyContainer .accordion *,
-.theme-scps #s4-bodyContainer .accordion * {
+[class*=theme-] #s4-bodyContainer .accordion * {
   --border-color: $blue;
   border-color: #0057b7;
 }
-.theme-law #s4-bodyContainer .accordion .card:not(.collapsed) .card-header button,
-.theme-law #s4-bodyContainer .accordion .card-header:hover button,
-.theme-midnightblue #s4-bodyContainer .accordion .card:not(.collapsed) .card-header button,
-.theme-midnightblue #s4-bodyContainer .accordion .card-header:hover button,
-.theme-denimblue #s4-bodyContainer .accordion .card:not(.collapsed) .card-header button,
-.theme-denimblue #s4-bodyContainer .accordion .card-header:hover button,
-.theme-royalblue #s4-bodyContainer .accordion .card:not(.collapsed) .card-header button,
-.theme-royalblue #s4-bodyContainer .accordion .card-header:hover button,
-.theme-dark-indigo #s4-bodyContainer .accordion .card:not(.collapsed) .card-header button,
-.theme-dark-indigo #s4-bodyContainer .accordion .card-header:hover button,
-.theme-scps #s4-bodyContainer .accordion .card:not(.collapsed) .card-header button,
-.theme-scps #s4-bodyContainer .accordion .card-header:hover button {
+[class*=theme-] #s4-bodyContainer .accordion .card:not(.collapsed) .card-header button,
+[class*=theme-] #s4-bodyContainer .accordion .card-header:hover button {
   color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .accordion .card,
-.theme-midnightblue #s4-bodyContainer .accordion .card,
-.theme-denimblue #s4-bodyContainer .accordion .card,
-.theme-royalblue #s4-bodyContainer .accordion .card,
-.theme-dark-indigo #s4-bodyContainer .accordion .card,
-.theme-scps #s4-bodyContainer .accordion .card {
+[class*=theme-] #s4-bodyContainer .accordion .card {
   --border-color: $blue;
   border-color: #0057b7;
 }
-.theme-law #s4-bodyContainer .accordion .card-header,
-.theme-midnightblue #s4-bodyContainer .accordion .card-header,
-.theme-denimblue #s4-bodyContainer .accordion .card-header,
-.theme-royalblue #s4-bodyContainer .accordion .card-header,
-.theme-dark-indigo #s4-bodyContainer .accordion .card-header,
-.theme-scps #s4-bodyContainer .accordion .card-header {
+[class*=theme-] #s4-bodyContainer .accordion .card-header {
   background: #fff;
 }
-.theme-law #s4-bodyContainer .accordion .card-header h5,
-.theme-midnightblue #s4-bodyContainer .accordion .card-header h5,
-.theme-denimblue #s4-bodyContainer .accordion .card-header h5,
-.theme-royalblue #s4-bodyContainer .accordion .card-header h5,
-.theme-dark-indigo #s4-bodyContainer .accordion .card-header h5,
-.theme-scps #s4-bodyContainer .accordion .card-header h5 {
+[class*=theme-] #s4-bodyContainer .accordion .card-header h5 {
   color: #0057b7;
 }
-.theme-law #s4-bodyContainer .accordion .card-header button,
-.theme-midnightblue #s4-bodyContainer .accordion .card-header button,
-.theme-denimblue #s4-bodyContainer .accordion .card-header button,
-.theme-royalblue #s4-bodyContainer .accordion .card-header button,
-.theme-dark-indigo #s4-bodyContainer .accordion .card-header button,
-.theme-scps #s4-bodyContainer .accordion .card-header button {
+[class*=theme-] #s4-bodyContainer .accordion .card-header button {
   color: #565656;
 }
-.theme-law #s4-bodyContainer .testimonial-wrapper .testimonial-content,
-.theme-midnightblue #s4-bodyContainer .testimonial-wrapper .testimonial-content,
-.theme-denimblue #s4-bodyContainer .testimonial-wrapper .testimonial-content,
-.theme-royalblue #s4-bodyContainer .testimonial-wrapper .testimonial-content,
-.theme-dark-indigo #s4-bodyContainer .testimonial-wrapper .testimonial-content,
-.theme-scps #s4-bodyContainer .testimonial-wrapper .testimonial-content {
+[class*=theme-] #s4-bodyContainer .testimonial-wrapper .testimonial-content {
   background-color: #deeeff;
 }
-.theme-law #s4-bodyContainer .testimonial-wrapper .testimonial-content::after,
-.theme-midnightblue #s4-bodyContainer .testimonial-wrapper .testimonial-content::after,
-.theme-denimblue #s4-bodyContainer .testimonial-wrapper .testimonial-content::after,
-.theme-royalblue #s4-bodyContainer .testimonial-wrapper .testimonial-content::after,
-.theme-dark-indigo #s4-bodyContainer .testimonial-wrapper .testimonial-content::after,
-.theme-scps #s4-bodyContainer .testimonial-wrapper .testimonial-content::after {
+[class*=theme-] #s4-bodyContainer .testimonial-wrapper .testimonial-content::after {
   content: "";
   border-top: 25px solid transparent;
   border-right: 40px solid transparent;
@@ -341,1246 +126,450 @@ html {
   border-left: 40px solid #deeeff;
 }
 @media (max-width: 30em) {
-  .theme-law #s4-bodyContainer .testimonial-wrapper .testimonial-image,
-.theme-midnightblue #s4-bodyContainer .testimonial-wrapper .testimonial-image,
-.theme-denimblue #s4-bodyContainer .testimonial-wrapper .testimonial-image,
-.theme-royalblue #s4-bodyContainer .testimonial-wrapper .testimonial-image,
-.theme-dark-indigo #s4-bodyContainer .testimonial-wrapper .testimonial-image,
-.theme-scps #s4-bodyContainer .testimonial-wrapper .testimonial-image {
+  [class*=theme-] #s4-bodyContainer .testimonial-wrapper .testimonial-image {
     background-color: #deeeff;
   }
 }
-.theme-law #s4-bodyContainer .slate-form,
-.theme-midnightblue #s4-bodyContainer .slate-form,
-.theme-denimblue #s4-bodyContainer .slate-form,
-.theme-royalblue #s4-bodyContainer .slate-form,
-.theme-dark-indigo #s4-bodyContainer .slate-form,
-.theme-scps #s4-bodyContainer .slate-form {
+[class*=theme-] #s4-bodyContainer .slate-form {
   background-color: #deeeff;
 }
-.theme-law #s4-bodyContainer .slate-form a,
-.theme-midnightblue #s4-bodyContainer .slate-form a,
-.theme-denimblue #s4-bodyContainer .slate-form a,
-.theme-royalblue #s4-bodyContainer .slate-form a,
-.theme-dark-indigo #s4-bodyContainer .slate-form a,
-.theme-scps #s4-bodyContainer .slate-form a {
+[class*=theme-] #s4-bodyContainer .slate-form a {
   color: #0e4174 !important;
 }
-.theme-law #s4-bodyContainer .slate-form label,
-.theme-midnightblue #s4-bodyContainer .slate-form label,
-.theme-denimblue #s4-bodyContainer .slate-form label,
-.theme-royalblue #s4-bodyContainer .slate-form label,
-.theme-dark-indigo #s4-bodyContainer .slate-form label,
-.theme-scps #s4-bodyContainer .slate-form label {
+[class*=theme-] #s4-bodyContainer .slate-form label {
   color: #565656;
 }
-.theme-law #s4-bodyContainer .slate-form input:not([type=checkbox]),
-.theme-law #s4-bodyContainer .slate-form textarea,
-.theme-law #s4-bodyContainer .slate-form select,
-.theme-midnightblue #s4-bodyContainer .slate-form input:not([type=checkbox]),
-.theme-midnightblue #s4-bodyContainer .slate-form textarea,
-.theme-midnightblue #s4-bodyContainer .slate-form select,
-.theme-denimblue #s4-bodyContainer .slate-form input:not([type=checkbox]),
-.theme-denimblue #s4-bodyContainer .slate-form textarea,
-.theme-denimblue #s4-bodyContainer .slate-form select,
-.theme-royalblue #s4-bodyContainer .slate-form input:not([type=checkbox]),
-.theme-royalblue #s4-bodyContainer .slate-form textarea,
-.theme-royalblue #s4-bodyContainer .slate-form select,
-.theme-dark-indigo #s4-bodyContainer .slate-form input:not([type=checkbox]),
-.theme-dark-indigo #s4-bodyContainer .slate-form textarea,
-.theme-dark-indigo #s4-bodyContainer .slate-form select,
-.theme-scps #s4-bodyContainer .slate-form input:not([type=checkbox]),
-.theme-scps #s4-bodyContainer .slate-form textarea,
-.theme-scps #s4-bodyContainer .slate-form select {
+[class*=theme-] #s4-bodyContainer .slate-form input:not([type=checkbox]),
+[class*=theme-] #s4-bodyContainer .slate-form textarea,
+[class*=theme-] #s4-bodyContainer .slate-form select {
   background-color: #fff;
   color: #2b2b2b;
 }
-.theme-law #s4-bodyContainer .slate-form [type=submit],
-.theme-law #s4-bodyContainer .slate-form .action button,
-.theme-midnightblue #s4-bodyContainer .slate-form [type=submit],
-.theme-midnightblue #s4-bodyContainer .slate-form .action button,
-.theme-denimblue #s4-bodyContainer .slate-form [type=submit],
-.theme-denimblue #s4-bodyContainer .slate-form .action button,
-.theme-royalblue #s4-bodyContainer .slate-form [type=submit],
-.theme-royalblue #s4-bodyContainer .slate-form .action button,
-.theme-dark-indigo #s4-bodyContainer .slate-form [type=submit],
-.theme-dark-indigo #s4-bodyContainer .slate-form .action button,
-.theme-scps #s4-bodyContainer .slate-form [type=submit],
-.theme-scps #s4-bodyContainer .slate-form .action button {
+[class*=theme-] #s4-bodyContainer .slate-form [type=submit],
+[class*=theme-] #s4-bodyContainer .slate-form .action button {
   background-color: #0057b7 !important;
   color: #fff !important;
 }
-.theme-law #s4-bodyContainer .slate-form [type=submit]:hover,
-.theme-law #s4-bodyContainer .slate-form .action button:hover,
-.theme-midnightblue #s4-bodyContainer .slate-form [type=submit]:hover,
-.theme-midnightblue #s4-bodyContainer .slate-form .action button:hover,
-.theme-denimblue #s4-bodyContainer .slate-form [type=submit]:hover,
-.theme-denimblue #s4-bodyContainer .slate-form .action button:hover,
-.theme-royalblue #s4-bodyContainer .slate-form [type=submit]:hover,
-.theme-royalblue #s4-bodyContainer .slate-form .action button:hover,
-.theme-dark-indigo #s4-bodyContainer .slate-form [type=submit]:hover,
-.theme-dark-indigo #s4-bodyContainer .slate-form .action button:hover,
-.theme-scps #s4-bodyContainer .slate-form [type=submit]:hover,
-.theme-scps #s4-bodyContainer .slate-form .action button:hover {
+[class*=theme-] #s4-bodyContainer .slate-form [type=submit]:hover,
+[class*=theme-] #s4-bodyContainer .slate-form .action button:hover {
   background-color: #0e4174 !important;
 }
-.theme-law #s4-bodyContainer h2.acronym-border-circle,
-.theme-midnightblue #s4-bodyContainer h2.acronym-border-circle,
-.theme-denimblue #s4-bodyContainer h2.acronym-border-circle,
-.theme-royalblue #s4-bodyContainer h2.acronym-border-circle,
-.theme-dark-indigo #s4-bodyContainer h2.acronym-border-circle,
-.theme-scps #s4-bodyContainer h2.acronym-border-circle {
+[class*=theme-] #s4-bodyContainer h2.acronym-border-circle {
   border-color: #565656;
 }
-.theme-law #s4-bodyContainer .text-shadow,
-.theme-midnightblue #s4-bodyContainer .text-shadow,
-.theme-denimblue #s4-bodyContainer .text-shadow,
-.theme-royalblue #s4-bodyContainer .text-shadow,
-.theme-dark-indigo #s4-bodyContainer .text-shadow,
-.theme-scps #s4-bodyContainer .text-shadow {
+[class*=theme-] #s4-bodyContainer .text-shadow {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
-.theme-law #s4-bodyContainer #pnlClsSrchSearch .cta-type1,
-.theme-midnightblue #s4-bodyContainer #pnlClsSrchSearch .cta-type1,
-.theme-denimblue #s4-bodyContainer #pnlClsSrchSearch .cta-type1,
-.theme-royalblue #s4-bodyContainer #pnlClsSrchSearch .cta-type1,
-.theme-dark-indigo #s4-bodyContainer #pnlClsSrchSearch .cta-type1,
-.theme-scps #s4-bodyContainer #pnlClsSrchSearch .cta-type1 {
+[class*=theme-] #s4-bodyContainer #pnlClsSrchSearch .cta-type1 {
   background: transparent !important;
   border-radius: 0 !important;
 }
-.theme-law #s4-bodyContainer .size4of5 h1:not(.text-shadow),
-.theme-midnightblue #s4-bodyContainer .size4of5 h1:not(.text-shadow),
-.theme-denimblue #s4-bodyContainer .size4of5 h1:not(.text-shadow),
-.theme-royalblue #s4-bodyContainer .size4of5 h1:not(.text-shadow),
-.theme-dark-indigo #s4-bodyContainer .size4of5 h1:not(.text-shadow),
-.theme-scps #s4-bodyContainer .size4of5 h1:not(.text-shadow) {
+[class*=theme-] #s4-bodyContainer .size4of5 h1:not(.text-shadow) {
   border: 3px solid #fff;
   color: #0e4174;
 }
-.theme-law #s4-bodyContainer #ga-maincontent h2,
-.theme-midnightblue #s4-bodyContainer #ga-maincontent h2,
-.theme-denimblue #s4-bodyContainer #ga-maincontent h2,
-.theme-royalblue #s4-bodyContainer #ga-maincontent h2,
-.theme-dark-indigo #s4-bodyContainer #ga-maincontent h2,
-.theme-scps #s4-bodyContainer #ga-maincontent h2 {
-  color: #0057b7;
-}
-.theme-law #s4-bodyContainer #ga-maincontent h3,
-.theme-midnightblue #s4-bodyContainer #ga-maincontent h3,
-.theme-denimblue #s4-bodyContainer #ga-maincontent h3,
-.theme-royalblue #s4-bodyContainer #ga-maincontent h3,
-.theme-dark-indigo #s4-bodyContainer #ga-maincontent h3,
-.theme-scps #s4-bodyContainer #ga-maincontent h3 {
-  color: #0e4174;
-}
-.theme-law #s4-bodyContainer .copyright,
-.theme-law #s4-bodyContainer .footer,
-.theme-midnightblue #s4-bodyContainer .copyright,
-.theme-midnightblue #s4-bodyContainer .footer,
-.theme-denimblue #s4-bodyContainer .copyright,
-.theme-denimblue #s4-bodyContainer .footer,
-.theme-royalblue #s4-bodyContainer .copyright,
-.theme-royalblue #s4-bodyContainer .footer,
-.theme-dark-indigo #s4-bodyContainer .copyright,
-.theme-dark-indigo #s4-bodyContainer .footer,
-.theme-scps #s4-bodyContainer .copyright,
-.theme-scps #s4-bodyContainer .footer {
+[class*=theme-] #s4-bodyContainer .copyright,
+[class*=theme-] #s4-bodyContainer .footer {
   background: #0e4174 !important;
 }
-.theme-law #s4-bodyContainer .copyright a,
-.theme-law #s4-bodyContainer .copyright h3,
-.theme-law #s4-bodyContainer .footer a,
-.theme-law #s4-bodyContainer .footer h3,
-.theme-law #s4-bodyContainer .footer a,
-.theme-law #s4-bodyContainer .footer h5,
-.theme-midnightblue #s4-bodyContainer .copyright a,
-.theme-midnightblue #s4-bodyContainer .copyright h3,
-.theme-midnightblue #s4-bodyContainer .footer a,
-.theme-midnightblue #s4-bodyContainer .footer h3,
-.theme-midnightblue #s4-bodyContainer .footer a,
-.theme-midnightblue #s4-bodyContainer .footer h5,
-.theme-denimblue #s4-bodyContainer .copyright a,
-.theme-denimblue #s4-bodyContainer .copyright h3,
-.theme-denimblue #s4-bodyContainer .footer a,
-.theme-denimblue #s4-bodyContainer .footer h3,
-.theme-denimblue #s4-bodyContainer .footer a,
-.theme-denimblue #s4-bodyContainer .footer h5,
-.theme-royalblue #s4-bodyContainer .copyright a,
-.theme-royalblue #s4-bodyContainer .copyright h3,
-.theme-royalblue #s4-bodyContainer .footer a,
-.theme-royalblue #s4-bodyContainer .footer h3,
-.theme-royalblue #s4-bodyContainer .footer a,
-.theme-royalblue #s4-bodyContainer .footer h5,
-.theme-dark-indigo #s4-bodyContainer .copyright a,
-.theme-dark-indigo #s4-bodyContainer .copyright h3,
-.theme-dark-indigo #s4-bodyContainer .footer a,
-.theme-dark-indigo #s4-bodyContainer .footer h3,
-.theme-dark-indigo #s4-bodyContainer .footer a,
-.theme-dark-indigo #s4-bodyContainer .footer h5,
-.theme-scps #s4-bodyContainer .copyright a,
-.theme-scps #s4-bodyContainer .copyright h3,
-.theme-scps #s4-bodyContainer .footer a,
-.theme-scps #s4-bodyContainer .footer h3,
-.theme-scps #s4-bodyContainer .footer a,
-.theme-scps #s4-bodyContainer .footer h5 {
+[class*=theme-] #s4-bodyContainer .copyright a,
+[class*=theme-] #s4-bodyContainer .copyright h3,
+[class*=theme-] #s4-bodyContainer .footer a,
+[class*=theme-] #s4-bodyContainer .footer h3,
+[class*=theme-] #s4-bodyContainer .footer a,
+[class*=theme-] #s4-bodyContainer .footer h5 {
   color: #deeeff !important;
 }
-.theme-law #s4-bodyContainer #ga-footer p,
-.theme-midnightblue #s4-bodyContainer #ga-footer p,
-.theme-denimblue #s4-bodyContainer #ga-footer p,
-.theme-royalblue #s4-bodyContainer #ga-footer p,
-.theme-dark-indigo #s4-bodyContainer #ga-footer p,
-.theme-scps #s4-bodyContainer #ga-footer p {
+[class*=theme-] #s4-bodyContainer #ga-footer p {
   color: #deeeff;
 }
-.theme-law #s4-bodyContainer #ga-footer a.social-gray,
-.theme-midnightblue #s4-bodyContainer #ga-footer a.social-gray,
-.theme-denimblue #s4-bodyContainer #ga-footer a.social-gray,
-.theme-royalblue #s4-bodyContainer #ga-footer a.social-gray,
-.theme-dark-indigo #s4-bodyContainer #ga-footer a.social-gray,
-.theme-scps #s4-bodyContainer #ga-footer a.social-gray {
+[class*=theme-] #s4-bodyContainer #ga-footer a.social-gray {
   background-color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer #ga-footer a.social-gray:hover,
-.theme-midnightblue #s4-bodyContainer #ga-footer a.social-gray:hover,
-.theme-denimblue #s4-bodyContainer #ga-footer a.social-gray:hover,
-.theme-royalblue #s4-bodyContainer #ga-footer a.social-gray:hover,
-.theme-dark-indigo #s4-bodyContainer #ga-footer a.social-gray:hover,
-.theme-scps #s4-bodyContainer #ga-footer a.social-gray:hover {
+[class*=theme-] #s4-bodyContainer #ga-footer a.social-gray:hover {
   background-color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .copyright,
-.theme-midnightblue #s4-bodyContainer .copyright,
-.theme-denimblue #s4-bodyContainer .copyright,
-.theme-royalblue #s4-bodyContainer .copyright,
-.theme-dark-indigo #s4-bodyContainer .copyright,
-.theme-scps #s4-bodyContainer .copyright {
+[class*=theme-] #s4-bodyContainer .copyright {
   border-color: #deeeff;
 }
-.theme-law #s4-bodyContainer .table-theme tr:first-child td,
-.theme-law #s4-bodyContainer .table-theme tr:first-child th,
-.theme-midnightblue #s4-bodyContainer .table-theme tr:first-child td,
-.theme-midnightblue #s4-bodyContainer .table-theme tr:first-child th,
-.theme-denimblue #s4-bodyContainer .table-theme tr:first-child td,
-.theme-denimblue #s4-bodyContainer .table-theme tr:first-child th,
-.theme-royalblue #s4-bodyContainer .table-theme tr:first-child td,
-.theme-royalblue #s4-bodyContainer .table-theme tr:first-child th,
-.theme-dark-indigo #s4-bodyContainer .table-theme tr:first-child td,
-.theme-dark-indigo #s4-bodyContainer .table-theme tr:first-child th,
-.theme-scps #s4-bodyContainer .table-theme tr:first-child td,
-.theme-scps #s4-bodyContainer .table-theme tr:first-child th {
-  background-color: #5b7594;
+[class*=theme-] #s4-bodyContainer .table-theme tr:first-child td,
+[class*=theme-] #s4-bodyContainer .table-theme tr:first-child th {
+  background-color: #0e4174;
   color: #fff;
   border: 1px solid #000237;
 }
-.theme-law #s4-bodyContainer .table-theme td,
-.theme-law #s4-bodyContainer .table-theme th,
-.theme-midnightblue #s4-bodyContainer .table-theme td,
-.theme-midnightblue #s4-bodyContainer .table-theme th,
-.theme-denimblue #s4-bodyContainer .table-theme td,
-.theme-denimblue #s4-bodyContainer .table-theme th,
-.theme-royalblue #s4-bodyContainer .table-theme td,
-.theme-royalblue #s4-bodyContainer .table-theme th,
-.theme-dark-indigo #s4-bodyContainer .table-theme td,
-.theme-dark-indigo #s4-bodyContainer .table-theme th,
-.theme-scps #s4-bodyContainer .table-theme td,
-.theme-scps #s4-bodyContainer .table-theme th {
-  border-color: #77d7d7;
+[class*=theme-] #s4-bodyContainer .table-theme td,
+[class*=theme-] #s4-bodyContainer .table-theme th {
+  border-color: #7cbaff;
 }
-.theme-law #s4-bodyContainer .table-theme tr,
-.theme-midnightblue #s4-bodyContainer .table-theme tr,
-.theme-denimblue #s4-bodyContainer .table-theme tr,
-.theme-royalblue #s4-bodyContainer .table-theme tr,
-.theme-dark-indigo #s4-bodyContainer .table-theme tr,
-.theme-scps #s4-bodyContainer .table-theme tr {
-  background-color: #f6ffff;
+[class*=theme-] #s4-bodyContainer .table-theme tr {
+  background-color: #deeeff;
 }
-.theme-law #s4-bodyContainer .table-theme tr:nth-child(2n),
-.theme-midnightblue #s4-bodyContainer .table-theme tr:nth-child(2n),
-.theme-denimblue #s4-bodyContainer .table-theme tr:nth-child(2n),
-.theme-royalblue #s4-bodyContainer .table-theme tr:nth-child(2n),
-.theme-dark-indigo #s4-bodyContainer .table-theme tr:nth-child(2n),
-.theme-scps #s4-bodyContainer .table-theme tr:nth-child(2n) {
+[class*=theme-] #s4-bodyContainer .table-theme tr:nth-child(2n) {
   background-color: #fff;
 }
-.theme-law #s4-bodyContainer div.scrollHeader,
-.theme-midnightblue #s4-bodyContainer div.scrollHeader,
-.theme-denimblue #s4-bodyContainer div.scrollHeader,
-.theme-royalblue #s4-bodyContainer div.scrollHeader,
-.theme-dark-indigo #s4-bodyContainer div.scrollHeader,
-.theme-scps #s4-bodyContainer div.scrollHeader {
-  background: #5b7594;
+[class*=theme-] #s4-bodyContainer div.scrollHeader {
+  background: #0e4174;
 }
-.theme-law #s4-bodyContainer div.scrollHeader div,
-.theme-midnightblue #s4-bodyContainer div.scrollHeader div,
-.theme-denimblue #s4-bodyContainer div.scrollHeader div,
-.theme-royalblue #s4-bodyContainer div.scrollHeader div,
-.theme-dark-indigo #s4-bodyContainer div.scrollHeader div,
-.theme-scps #s4-bodyContainer div.scrollHeader div {
-  border: 1px solid #000;
+[class*=theme-] #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) td,
+[class*=theme-] #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) th {
+  background-color: #deeeff;
 }
-.theme-law #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) td,
-.theme-law #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) th,
-.theme-midnightblue #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) td,
-.theme-midnightblue #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) th,
-.theme-denimblue #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) td,
-.theme-denimblue #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) th,
-.theme-royalblue #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) td,
-.theme-royalblue #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) th,
-.theme-dark-indigo #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) td,
-.theme-dark-indigo #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) th,
-.theme-scps #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) td,
-.theme-scps #s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n+1) th {
-  background-color: #f6ffff;
+[class*=theme-] #s4-bodyContainer #majors tr {
+  border-left: 1px solid #7cbaff;
+  border-right: 1px solid #7cbaff;
 }
-.theme-law #s4-bodyContainer #majors tr,
-.theme-midnightblue #s4-bodyContainer #majors tr,
-.theme-denimblue #s4-bodyContainer #majors tr,
-.theme-royalblue #s4-bodyContainer #majors tr,
-.theme-dark-indigo #s4-bodyContainer #majors tr,
-.theme-scps #s4-bodyContainer #majors tr {
-  border-left: 1px solid #77d7d7;
-  border-right: 1px solid #77d7d7;
-}
-.theme-law #s4-bodyContainer #majors td,
-.theme-midnightblue #s4-bodyContainer #majors td,
-.theme-denimblue #s4-bodyContainer #majors td,
-.theme-royalblue #s4-bodyContainer #majors td,
-.theme-dark-indigo #s4-bodyContainer #majors td,
-.theme-scps #s4-bodyContainer #majors td {
-  border-color: #77d7d7;
+[class*=theme-] #s4-bodyContainer #majors td {
+  border-color: #7cbaff;
 }
 @media (max-width: 1079px) {
-  .theme-law #s4-bodyContainer #majors td,
-.theme-midnightblue #s4-bodyContainer #majors td,
-.theme-denimblue #s4-bodyContainer #majors td,
-.theme-royalblue #s4-bodyContainer #majors td,
-.theme-dark-indigo #s4-bodyContainer #majors td,
-.theme-scps #s4-bodyContainer #majors td {
-    border-color: #77d7d7;
+  [class*=theme-] #s4-bodyContainer #majors td {
+    border-color: #7cbaff;
   }
-  .theme-law #s4-bodyContainer td.academicOffering,
-.theme-midnightblue #s4-bodyContainer td.academicOffering,
-.theme-denimblue #s4-bodyContainer td.academicOffering,
-.theme-royalblue #s4-bodyContainer td.academicOffering,
-.theme-dark-indigo #s4-bodyContainer td.academicOffering,
-.theme-scps #s4-bodyContainer td.academicOffering {
-    background-color: #5b7594 !important;
+  [class*=theme-] #s4-bodyContainer td.academicOffering {
+    background-color: #0e4174 !important;
   }
-  .theme-law #s4-bodyContainer td.academicOffering a,
-.theme-midnightblue #s4-bodyContainer td.academicOffering a,
-.theme-denimblue #s4-bodyContainer td.academicOffering a,
-.theme-royalblue #s4-bodyContainer td.academicOffering a,
-.theme-dark-indigo #s4-bodyContainer td.academicOffering a,
-.theme-scps #s4-bodyContainer td.academicOffering a {
+  [class*=theme-] #s4-bodyContainer td.academicOffering a {
     color: #fff !important;
   }
 }
 @media (max-width: 1279px) {
-  .theme-law #s4-bodyContainer #majors tbody tr td:first-child,
-.theme-midnightblue #s4-bodyContainer #majors tbody tr td:first-child,
-.theme-denimblue #s4-bodyContainer #majors tbody tr td:first-child,
-.theme-royalblue #s4-bodyContainer #majors tbody tr td:first-child,
-.theme-dark-indigo #s4-bodyContainer #majors tbody tr td:first-child,
-.theme-scps #s4-bodyContainer #majors tbody tr td:first-child {
-    background-color: #5b7594 !important;
+  [class*=theme-] #s4-bodyContainer #majors tbody tr td:first-child {
+    background-color: #0e4174 !important;
+  }
+  [class*=theme-] #s4-bodyContainer #majors tbody tr td:first-child a {
+    color: #fff !important;
   }
 }
-.theme-law #s4-bodyContainer .nav-primary,
-.theme-law #s4-bodyContainer .masthead,
-.theme-midnightblue #s4-bodyContainer .nav-primary,
-.theme-midnightblue #s4-bodyContainer .masthead,
-.theme-denimblue #s4-bodyContainer .nav-primary,
-.theme-denimblue #s4-bodyContainer .masthead,
-.theme-royalblue #s4-bodyContainer .nav-primary,
-.theme-royalblue #s4-bodyContainer .masthead,
-.theme-dark-indigo #s4-bodyContainer .nav-primary,
-.theme-dark-indigo #s4-bodyContainer .masthead,
-.theme-scps #s4-bodyContainer .nav-primary,
-.theme-scps #s4-bodyContainer .masthead {
+[class*=theme-] #s4-bodyContainer .nav-primary,
+[class*=theme-] #s4-bodyContainer .masthead {
   background-color: #0057b7;
 }
-.theme-law #s4-bodyContainer .dpu-shortcuts,
-.theme-midnightblue #s4-bodyContainer .dpu-shortcuts,
-.theme-denimblue #s4-bodyContainer .dpu-shortcuts,
-.theme-royalblue #s4-bodyContainer .dpu-shortcuts,
-.theme-dark-indigo #s4-bodyContainer .dpu-shortcuts,
-.theme-scps #s4-bodyContainer .dpu-shortcuts {
+[class*=theme-] #s4-bodyContainer .dpu-shortcuts {
   background: #0e4174;
   color: #fff;
 }
-.theme-law #s4-bodyContainer .dpu-shortcuts-drawer,
-.theme-midnightblue #s4-bodyContainer .dpu-shortcuts-drawer,
-.theme-denimblue #s4-bodyContainer .dpu-shortcuts-drawer,
-.theme-royalblue #s4-bodyContainer .dpu-shortcuts-drawer,
-.theme-dark-indigo #s4-bodyContainer .dpu-shortcuts-drawer,
-.theme-scps #s4-bodyContainer .dpu-shortcuts-drawer {
+[class*=theme-] #s4-bodyContainer .dpu-shortcuts-drawer {
   background: #0e4174;
 }
-.theme-law #s4-bodyContainer .dpu-shortcuts-drawer a,
-.theme-midnightblue #s4-bodyContainer .dpu-shortcuts-drawer a,
-.theme-denimblue #s4-bodyContainer .dpu-shortcuts-drawer a,
-.theme-royalblue #s4-bodyContainer .dpu-shortcuts-drawer a,
-.theme-dark-indigo #s4-bodyContainer .dpu-shortcuts-drawer a,
-.theme-scps #s4-bodyContainer .dpu-shortcuts-drawer a {
+[class*=theme-] #s4-bodyContainer .dpu-shortcuts-drawer a {
   color: #fff !important;
 }
-.theme-law #s4-bodyContainer .dpu-shortcuts-drawer p,
-.theme-midnightblue #s4-bodyContainer .dpu-shortcuts-drawer p,
-.theme-denimblue #s4-bodyContainer .dpu-shortcuts-drawer p,
-.theme-royalblue #s4-bodyContainer .dpu-shortcuts-drawer p,
-.theme-dark-indigo #s4-bodyContainer .dpu-shortcuts-drawer p,
-.theme-scps #s4-bodyContainer .dpu-shortcuts-drawer p {
+[class*=theme-] #s4-bodyContainer .dpu-shortcuts-drawer p {
   color: #fff;
 }
-.theme-law #s4-bodyContainer .nav-primary li.nav-item a,
-.theme-midnightblue #s4-bodyContainer .nav-primary li.nav-item a,
-.theme-denimblue #s4-bodyContainer .nav-primary li.nav-item a,
-.theme-royalblue #s4-bodyContainer .nav-primary li.nav-item a,
-.theme-dark-indigo #s4-bodyContainer .nav-primary li.nav-item a,
-.theme-scps #s4-bodyContainer .nav-primary li.nav-item a {
+[class*=theme-] #s4-bodyContainer .nav-primary li.nav-item a {
   color: #fff;
 }
-.theme-law #s4-bodyContainer .nav-primary li.nav-item a:hover,
-.theme-law #s4-bodyContainer .nav-primary li.nav-item a:focus,
-.theme-midnightblue #s4-bodyContainer .nav-primary li.nav-item a:hover,
-.theme-midnightblue #s4-bodyContainer .nav-primary li.nav-item a:focus,
-.theme-denimblue #s4-bodyContainer .nav-primary li.nav-item a:hover,
-.theme-denimblue #s4-bodyContainer .nav-primary li.nav-item a:focus,
-.theme-royalblue #s4-bodyContainer .nav-primary li.nav-item a:hover,
-.theme-royalblue #s4-bodyContainer .nav-primary li.nav-item a:focus,
-.theme-dark-indigo #s4-bodyContainer .nav-primary li.nav-item a:hover,
-.theme-dark-indigo #s4-bodyContainer .nav-primary li.nav-item a:focus,
-.theme-scps #s4-bodyContainer .nav-primary li.nav-item a:hover,
-.theme-scps #s4-bodyContainer .nav-primary li.nav-item a:focus {
+[class*=theme-] #s4-bodyContainer .nav-primary li.nav-item a:hover,
+[class*=theme-] #s4-bodyContainer .nav-primary li.nav-item a:focus {
   border-bottom: 3px solid #fff;
 }
-.theme-law #s4-bodyContainer .nav-primary li.nav-item div.sub-nav,
-.theme-midnightblue #s4-bodyContainer .nav-primary li.nav-item div.sub-nav,
-.theme-denimblue #s4-bodyContainer .nav-primary li.nav-item div.sub-nav,
-.theme-royalblue #s4-bodyContainer .nav-primary li.nav-item div.sub-nav,
-.theme-dark-indigo #s4-bodyContainer .nav-primary li.nav-item div.sub-nav,
-.theme-scps #s4-bodyContainer .nav-primary li.nav-item div.sub-nav {
+[class*=theme-] #s4-bodyContainer .nav-primary li.nav-item div.sub-nav {
   background-color: #0057b7;
 }
-.theme-law #s4-bodyContainer .dpu-logo .h1,
-.theme-midnightblue #s4-bodyContainer .dpu-logo .h1,
-.theme-denimblue #s4-bodyContainer .dpu-logo .h1,
-.theme-royalblue #s4-bodyContainer .dpu-logo .h1,
-.theme-dark-indigo #s4-bodyContainer .dpu-logo .h1,
-.theme-scps #s4-bodyContainer .dpu-logo .h1 {
+[class*=theme-] #s4-bodyContainer .dpu-logo .h1 {
   color: #fff;
 }
-.theme-law #s4-bodyContainer a.site-title-long,
-.theme-midnightblue #s4-bodyContainer a.site-title-long,
-.theme-denimblue #s4-bodyContainer a.site-title-long,
-.theme-royalblue #s4-bodyContainer a.site-title-long,
-.theme-dark-indigo #s4-bodyContainer a.site-title-long,
-.theme-scps #s4-bodyContainer a.site-title-long {
+[class*=theme-] #s4-bodyContainer a.site-title-long {
   color: #fff !important;
 }
-.theme-law #s4-bodyContainer #ga-global,
-.theme-midnightblue #s4-bodyContainer #ga-global,
-.theme-denimblue #s4-bodyContainer #ga-global,
-.theme-royalblue #s4-bodyContainer #ga-global,
-.theme-dark-indigo #s4-bodyContainer #ga-global,
-.theme-scps #s4-bodyContainer #ga-global {
+[class*=theme-] #s4-bodyContainer #ga-global {
   background-color: #0057b7;
 }
-.theme-law #s4-bodyContainer #ga-secondary h4 a,
-.theme-midnightblue #s4-bodyContainer #ga-secondary h4 a,
-.theme-denimblue #s4-bodyContainer #ga-secondary h4 a,
-.theme-royalblue #s4-bodyContainer #ga-secondary h4 a,
-.theme-dark-indigo #s4-bodyContainer #ga-secondary h4 a,
-.theme-scps #s4-bodyContainer #ga-secondary h4 a {
+[class*=theme-] #s4-bodyContainer #ga-secondary h4 a {
   color: #0e4174 !important;
 }
-.theme-law #s4-bodyContainer .nav-secondary .active > a,
-.theme-law #s4-bodyContainer .nav-secondary li a:hover,
-.theme-law #s4-bodyContainer .nav-secondary li a:focus,
-.theme-law #s4-bodyContainer .nav-secondary .level-2 .child-sub a:hover,
-.theme-law #s4-bodyContainer .nav-secondary .level-2 .child-page a:hover,
-.theme-law #s4-bodyContainer .nav-secondary .level-2 .child-sub a:focus,
-.theme-law #s4-bodyContainer .nav-secondary .level-2 .child-page a:focus,
-.theme-midnightblue #s4-bodyContainer .nav-secondary .active > a,
-.theme-midnightblue #s4-bodyContainer .nav-secondary li a:hover,
-.theme-midnightblue #s4-bodyContainer .nav-secondary li a:focus,
-.theme-midnightblue #s4-bodyContainer .nav-secondary .level-2 .child-sub a:hover,
-.theme-midnightblue #s4-bodyContainer .nav-secondary .level-2 .child-page a:hover,
-.theme-midnightblue #s4-bodyContainer .nav-secondary .level-2 .child-sub a:focus,
-.theme-midnightblue #s4-bodyContainer .nav-secondary .level-2 .child-page a:focus,
-.theme-denimblue #s4-bodyContainer .nav-secondary .active > a,
-.theme-denimblue #s4-bodyContainer .nav-secondary li a:hover,
-.theme-denimblue #s4-bodyContainer .nav-secondary li a:focus,
-.theme-denimblue #s4-bodyContainer .nav-secondary .level-2 .child-sub a:hover,
-.theme-denimblue #s4-bodyContainer .nav-secondary .level-2 .child-page a:hover,
-.theme-denimblue #s4-bodyContainer .nav-secondary .level-2 .child-sub a:focus,
-.theme-denimblue #s4-bodyContainer .nav-secondary .level-2 .child-page a:focus,
-.theme-royalblue #s4-bodyContainer .nav-secondary .active > a,
-.theme-royalblue #s4-bodyContainer .nav-secondary li a:hover,
-.theme-royalblue #s4-bodyContainer .nav-secondary li a:focus,
-.theme-royalblue #s4-bodyContainer .nav-secondary .level-2 .child-sub a:hover,
-.theme-royalblue #s4-bodyContainer .nav-secondary .level-2 .child-page a:hover,
-.theme-royalblue #s4-bodyContainer .nav-secondary .level-2 .child-sub a:focus,
-.theme-royalblue #s4-bodyContainer .nav-secondary .level-2 .child-page a:focus,
-.theme-dark-indigo #s4-bodyContainer .nav-secondary .active > a,
-.theme-dark-indigo #s4-bodyContainer .nav-secondary li a:hover,
-.theme-dark-indigo #s4-bodyContainer .nav-secondary li a:focus,
-.theme-dark-indigo #s4-bodyContainer .nav-secondary .level-2 .child-sub a:hover,
-.theme-dark-indigo #s4-bodyContainer .nav-secondary .level-2 .child-page a:hover,
-.theme-dark-indigo #s4-bodyContainer .nav-secondary .level-2 .child-sub a:focus,
-.theme-dark-indigo #s4-bodyContainer .nav-secondary .level-2 .child-page a:focus,
-.theme-scps #s4-bodyContainer .nav-secondary .active > a,
-.theme-scps #s4-bodyContainer .nav-secondary li a:hover,
-.theme-scps #s4-bodyContainer .nav-secondary li a:focus,
-.theme-scps #s4-bodyContainer .nav-secondary .level-2 .child-sub a:hover,
-.theme-scps #s4-bodyContainer .nav-secondary .level-2 .child-page a:hover,
-.theme-scps #s4-bodyContainer .nav-secondary .level-2 .child-sub a:focus,
-.theme-scps #s4-bodyContainer .nav-secondary .level-2 .child-page a:focus {
+[class*=theme-] #s4-bodyContainer .nav-secondary .active > a,
+[class*=theme-] #s4-bodyContainer .nav-secondary li a:hover,
+[class*=theme-] #s4-bodyContainer .nav-secondary li a:focus,
+[class*=theme-] #s4-bodyContainer .nav-secondary .level-2 .child-sub a:hover,
+[class*=theme-] #s4-bodyContainer .nav-secondary .level-2 .child-page a:hover,
+[class*=theme-] #s4-bodyContainer .nav-secondary .level-2 .child-sub a:focus,
+[class*=theme-] #s4-bodyContainer .nav-secondary .level-2 .child-page a:focus {
   color: #0057b7 !important;
   background: #deeeff !important;
 }
-.theme-law #s4-bodyContainer .nav-secondary li a,
-.theme-law #s4-bodyContainer .nav-secondary ul.level-2:last-child,
-.theme-midnightblue #s4-bodyContainer .nav-secondary li a,
-.theme-midnightblue #s4-bodyContainer .nav-secondary ul.level-2:last-child,
-.theme-denimblue #s4-bodyContainer .nav-secondary li a,
-.theme-denimblue #s4-bodyContainer .nav-secondary ul.level-2:last-child,
-.theme-royalblue #s4-bodyContainer .nav-secondary li a,
-.theme-royalblue #s4-bodyContainer .nav-secondary ul.level-2:last-child,
-.theme-dark-indigo #s4-bodyContainer .nav-secondary li a,
-.theme-dark-indigo #s4-bodyContainer .nav-secondary ul.level-2:last-child,
-.theme-scps #s4-bodyContainer .nav-secondary li a,
-.theme-scps #s4-bodyContainer .nav-secondary ul.level-2:last-child {
-  border-bottom: 1px solid #fff;
+[class*=theme-] #s4-bodyContainer .nav-secondary li a,
+[class*=theme-] #s4-bodyContainer .nav-secondary ul.level-2:last-child {
+  border-bottom: 1px solid #eeeeee;
   color: #555 !important;
 }
-.theme-law #s4-bodyContainer #navbarCollapse .nav-secondary li a,
-.theme-midnightblue #s4-bodyContainer #navbarCollapse .nav-secondary li a,
-.theme-denimblue #s4-bodyContainer #navbarCollapse .nav-secondary li a,
-.theme-royalblue #s4-bodyContainer #navbarCollapse .nav-secondary li a,
-.theme-dark-indigo #s4-bodyContainer #navbarCollapse .nav-secondary li a,
-.theme-scps #s4-bodyContainer #navbarCollapse .nav-secondary li a {
+[class*=theme-] #s4-bodyContainer #navbarCollapse .nav-secondary li a {
   color: #fff !important;
   background: none !important;
 }
 @media (max-width: 1279px) {
-  .theme-law #navbarCollapse h4,
-.theme-midnightblue #navbarCollapse h4,
-.theme-denimblue #navbarCollapse h4,
-.theme-royalblue #navbarCollapse h4,
-.theme-dark-indigo #navbarCollapse h4,
-.theme-scps #navbarCollapse h4 {
+  [class*=theme-] #s4-bodyContainer #navbarCollapse .nav-secondary li a h4 {
     color: #fff !important;
   }
 }
-.theme-law #s4-bodyContainer .off-canvas-navigation a,
-.theme-midnightblue #s4-bodyContainer .off-canvas-navigation a,
-.theme-denimblue #s4-bodyContainer .off-canvas-navigation a,
-.theme-royalblue #s4-bodyContainer .off-canvas-navigation a,
-.theme-dark-indigo #s4-bodyContainer .off-canvas-navigation a,
-.theme-scps #s4-bodyContainer .off-canvas-navigation a {
+[class*=theme-] #s4-bodyContainer .off-canvas-navigation a {
   background-color: #0e4174;
 }
 @media (max-width: 50em) {
-  .theme-law #s4-bodyContainer .site-title-short,
-.theme-midnightblue #s4-bodyContainer .site-title-short,
-.theme-denimblue #s4-bodyContainer .site-title-short,
-.theme-royalblue #s4-bodyContainer .site-title-short,
-.theme-dark-indigo #s4-bodyContainer .site-title-short,
-.theme-scps #s4-bodyContainer .site-title-short {
+  [class*=theme-] #s4-bodyContainer .site-title-short {
     background: none !important;
   }
 }
-.theme-law #s4-bodyContainer .cta-blue,
-.theme-midnightblue #s4-bodyContainer .cta-blue,
-.theme-denimblue #s4-bodyContainer .cta-blue,
-.theme-royalblue #s4-bodyContainer .cta-blue,
-.theme-dark-indigo #s4-bodyContainer .cta-blue,
-.theme-scps #s4-bodyContainer .cta-blue {
+[class*=theme-] #s4-bodyContainer .cta-blue {
   color: #fff;
   border-color: #0057b7 !important;
-  background-color: #0057b7;
+  background-color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .cta-blue:after,
-.theme-midnightblue #s4-bodyContainer .cta-blue:after,
-.theme-denimblue #s4-bodyContainer .cta-blue:after,
-.theme-royalblue #s4-bodyContainer .cta-blue:after,
-.theme-dark-indigo #s4-bodyContainer .cta-blue:after,
-.theme-scps #s4-bodyContainer .cta-blue:after {
+[class*=theme-] #s4-bodyContainer .cta-blue:after {
   border-bottom-color: #0057b7;
 }
-.theme-law #s4-bodyContainer .cta-blue:hover,
-.theme-law #s4-bodyContainer .cta-blue:focus,
-.theme-midnightblue #s4-bodyContainer .cta-blue:hover,
-.theme-midnightblue #s4-bodyContainer .cta-blue:focus,
-.theme-denimblue #s4-bodyContainer .cta-blue:hover,
-.theme-denimblue #s4-bodyContainer .cta-blue:focus,
-.theme-royalblue #s4-bodyContainer .cta-blue:hover,
-.theme-royalblue #s4-bodyContainer .cta-blue:focus,
-.theme-dark-indigo #s4-bodyContainer .cta-blue:hover,
-.theme-dark-indigo #s4-bodyContainer .cta-blue:focus,
-.theme-scps #s4-bodyContainer .cta-blue:hover,
-.theme-scps #s4-bodyContainer .cta-blue:focus {
+[class*=theme-] #s4-bodyContainer .cta-blue:hover,
+[class*=theme-] #s4-bodyContainer .cta-blue:focus {
   color: #fff;
-  background-color: #445971;
-  border-color: #445971 !important;
+  background-color: #0e4174 !important;
+  border-color: #0e4174 !important;
 }
-.theme-law #s4-bodyContainer .cta-blue:hover:after,
-.theme-law #s4-bodyContainer .cta-blue:focus:after,
-.theme-midnightblue #s4-bodyContainer .cta-blue:hover:after,
-.theme-midnightblue #s4-bodyContainer .cta-blue:focus:after,
-.theme-denimblue #s4-bodyContainer .cta-blue:hover:after,
-.theme-denimblue #s4-bodyContainer .cta-blue:focus:after,
-.theme-royalblue #s4-bodyContainer .cta-blue:hover:after,
-.theme-royalblue #s4-bodyContainer .cta-blue:focus:after,
-.theme-dark-indigo #s4-bodyContainer .cta-blue:hover:after,
-.theme-dark-indigo #s4-bodyContainer .cta-blue:focus:after,
-.theme-scps #s4-bodyContainer .cta-blue:hover:after,
-.theme-scps #s4-bodyContainer .cta-blue:focus:after {
+[class*=theme-] #s4-bodyContainer .cta-blue:hover:after,
+[class*=theme-] #s4-bodyContainer .cta-blue:focus:after {
   border-bottom-color: #fff;
 }
-.theme-law #s4-bodyContainer .cta-blue--light,
-.theme-midnightblue #s4-bodyContainer .cta-blue--light,
-.theme-denimblue #s4-bodyContainer .cta-blue--light,
-.theme-royalblue #s4-bodyContainer .cta-blue--light,
-.theme-dark-indigo #s4-bodyContainer .cta-blue--light,
-.theme-scps #s4-bodyContainer .cta-blue--light {
+[class*=theme-] #s4-bodyContainer .cta-blue--light {
   color: #deeeff;
   border-color: currentColor;
 }
-.theme-law #s4-bodyContainer .cta-blue--light:after,
-.theme-midnightblue #s4-bodyContainer .cta-blue--light:after,
-.theme-denimblue #s4-bodyContainer .cta-blue--light:after,
-.theme-royalblue #s4-bodyContainer .cta-blue--light:after,
-.theme-dark-indigo #s4-bodyContainer .cta-blue--light:after,
-.theme-scps #s4-bodyContainer .cta-blue--light:after {
+[class*=theme-] #s4-bodyContainer .cta-blue--light:after {
   border-bottom-color: #deeeff;
 }
-.theme-law #s4-bodyContainer .cta-blue--light:hover,
-.theme-law #s4-bodyContainer .cta-blue--light:focus,
-.theme-midnightblue #s4-bodyContainer .cta-blue--light:hover,
-.theme-midnightblue #s4-bodyContainer .cta-blue--light:focus,
-.theme-denimblue #s4-bodyContainer .cta-blue--light:hover,
-.theme-denimblue #s4-bodyContainer .cta-blue--light:focus,
-.theme-royalblue #s4-bodyContainer .cta-blue--light:hover,
-.theme-royalblue #s4-bodyContainer .cta-blue--light:focus,
-.theme-dark-indigo #s4-bodyContainer .cta-blue--light:hover,
-.theme-dark-indigo #s4-bodyContainer .cta-blue--light:focus,
-.theme-scps #s4-bodyContainer .cta-blue--light:hover,
-.theme-scps #s4-bodyContainer .cta-blue--light:focus {
+[class*=theme-] #s4-bodyContainer .cta-blue--light:hover,
+[class*=theme-] #s4-bodyContainer .cta-blue--light:focus {
   color: #0057b7;
   background-color: #deeeff;
 }
-.theme-law #s4-bodyContainer .cta-blue--light:hover:after,
-.theme-law #s4-bodyContainer .cta-blue--light:focus:after,
-.theme-midnightblue #s4-bodyContainer .cta-blue--light:hover:after,
-.theme-midnightblue #s4-bodyContainer .cta-blue--light:focus:after,
-.theme-denimblue #s4-bodyContainer .cta-blue--light:hover:after,
-.theme-denimblue #s4-bodyContainer .cta-blue--light:focus:after,
-.theme-royalblue #s4-bodyContainer .cta-blue--light:hover:after,
-.theme-royalblue #s4-bodyContainer .cta-blue--light:focus:after,
-.theme-dark-indigo #s4-bodyContainer .cta-blue--light:hover:after,
-.theme-dark-indigo #s4-bodyContainer .cta-blue--light:focus:after,
-.theme-scps #s4-bodyContainer .cta-blue--light:hover:after,
-.theme-scps #s4-bodyContainer .cta-blue--light:focus:after {
+[class*=theme-] #s4-bodyContainer .cta-blue--light:hover:after,
+[class*=theme-] #s4-bodyContainer .cta-blue--light:focus:after {
   border-bottom-color: #0057b7;
 }
-.theme-law #s4-bodyContainer .cta-blue--ghost,
-.theme-law #s4-bodyContainer .cta-blue2,
-.theme-midnightblue #s4-bodyContainer .cta-blue--ghost,
-.theme-midnightblue #s4-bodyContainer .cta-blue2,
-.theme-denimblue #s4-bodyContainer .cta-blue--ghost,
-.theme-denimblue #s4-bodyContainer .cta-blue2,
-.theme-royalblue #s4-bodyContainer .cta-blue--ghost,
-.theme-royalblue #s4-bodyContainer .cta-blue2,
-.theme-dark-indigo #s4-bodyContainer .cta-blue--ghost,
-.theme-dark-indigo #s4-bodyContainer .cta-blue2,
-.theme-scps #s4-bodyContainer .cta-blue--ghost,
-.theme-scps #s4-bodyContainer .cta-blue2 {
+[class*=theme-] #s4-bodyContainer .cta-blue--ghost,
+[class*=theme-] #s4-bodyContainer .cta-blue2 {
   color: #0057b7 !important;
-  border-color: #0057b7;
+  border-color: currentColor;
   background-color: transparent !important;
 }
-.theme-law #s4-bodyContainer .cta-blue--ghost:after,
-.theme-law #s4-bodyContainer .cta-blue2:after,
-.theme-midnightblue #s4-bodyContainer .cta-blue--ghost:after,
-.theme-midnightblue #s4-bodyContainer .cta-blue2:after,
-.theme-denimblue #s4-bodyContainer .cta-blue--ghost:after,
-.theme-denimblue #s4-bodyContainer .cta-blue2:after,
-.theme-royalblue #s4-bodyContainer .cta-blue--ghost:after,
-.theme-royalblue #s4-bodyContainer .cta-blue2:after,
-.theme-dark-indigo #s4-bodyContainer .cta-blue--ghost:after,
-.theme-dark-indigo #s4-bodyContainer .cta-blue2:after,
-.theme-scps #s4-bodyContainer .cta-blue--ghost:after,
-.theme-scps #s4-bodyContainer .cta-blue2:after {
+[class*=theme-] #s4-bodyContainer .cta-blue--ghost:after,
+[class*=theme-] #s4-bodyContainer .cta-blue2:after {
   border-bottom-color: #0057b7;
 }
-.theme-law #s4-bodyContainer .cta-blue--ghost:hover,
-.theme-law #s4-bodyContainer .cta-blue--ghost:focus,
-.theme-law #s4-bodyContainer .cta-blue2:hover,
-.theme-law #s4-bodyContainer .cta-blue2:focus,
-.theme-midnightblue #s4-bodyContainer .cta-blue--ghost:hover,
-.theme-midnightblue #s4-bodyContainer .cta-blue--ghost:focus,
-.theme-midnightblue #s4-bodyContainer .cta-blue2:hover,
-.theme-midnightblue #s4-bodyContainer .cta-blue2:focus,
-.theme-denimblue #s4-bodyContainer .cta-blue--ghost:hover,
-.theme-denimblue #s4-bodyContainer .cta-blue--ghost:focus,
-.theme-denimblue #s4-bodyContainer .cta-blue2:hover,
-.theme-denimblue #s4-bodyContainer .cta-blue2:focus,
-.theme-royalblue #s4-bodyContainer .cta-blue--ghost:hover,
-.theme-royalblue #s4-bodyContainer .cta-blue--ghost:focus,
-.theme-royalblue #s4-bodyContainer .cta-blue2:hover,
-.theme-royalblue #s4-bodyContainer .cta-blue2:focus,
-.theme-dark-indigo #s4-bodyContainer .cta-blue--ghost:hover,
-.theme-dark-indigo #s4-bodyContainer .cta-blue--ghost:focus,
-.theme-dark-indigo #s4-bodyContainer .cta-blue2:hover,
-.theme-dark-indigo #s4-bodyContainer .cta-blue2:focus,
-.theme-scps #s4-bodyContainer .cta-blue--ghost:hover,
-.theme-scps #s4-bodyContainer .cta-blue--ghost:focus,
-.theme-scps #s4-bodyContainer .cta-blue2:hover,
-.theme-scps #s4-bodyContainer .cta-blue2:focus {
+[class*=theme-] #s4-bodyContainer .cta-blue--ghost:hover,
+[class*=theme-] #s4-bodyContainer .cta-blue--ghost:focus,
+[class*=theme-] #s4-bodyContainer .cta-blue2:hover,
+[class*=theme-] #s4-bodyContainer .cta-blue2:focus {
   color: #fff !important;
   background-color: #0057b7 !important;
   border-color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .cta-blue--ghost:hover:after,
-.theme-law #s4-bodyContainer .cta-blue--ghost:focus:after,
-.theme-law #s4-bodyContainer .cta-blue2:hover:after,
-.theme-law #s4-bodyContainer .cta-blue2:focus:after,
-.theme-midnightblue #s4-bodyContainer .cta-blue--ghost:hover:after,
-.theme-midnightblue #s4-bodyContainer .cta-blue--ghost:focus:after,
-.theme-midnightblue #s4-bodyContainer .cta-blue2:hover:after,
-.theme-midnightblue #s4-bodyContainer .cta-blue2:focus:after,
-.theme-denimblue #s4-bodyContainer .cta-blue--ghost:hover:after,
-.theme-denimblue #s4-bodyContainer .cta-blue--ghost:focus:after,
-.theme-denimblue #s4-bodyContainer .cta-blue2:hover:after,
-.theme-denimblue #s4-bodyContainer .cta-blue2:focus:after,
-.theme-royalblue #s4-bodyContainer .cta-blue--ghost:hover:after,
-.theme-royalblue #s4-bodyContainer .cta-blue--ghost:focus:after,
-.theme-royalblue #s4-bodyContainer .cta-blue2:hover:after,
-.theme-royalblue #s4-bodyContainer .cta-blue2:focus:after,
-.theme-dark-indigo #s4-bodyContainer .cta-blue--ghost:hover:after,
-.theme-dark-indigo #s4-bodyContainer .cta-blue--ghost:focus:after,
-.theme-dark-indigo #s4-bodyContainer .cta-blue2:hover:after,
-.theme-dark-indigo #s4-bodyContainer .cta-blue2:focus:after,
-.theme-scps #s4-bodyContainer .cta-blue--ghost:hover:after,
-.theme-scps #s4-bodyContainer .cta-blue--ghost:focus:after,
-.theme-scps #s4-bodyContainer .cta-blue2:hover:after,
-.theme-scps #s4-bodyContainer .cta-blue2:focus:after {
+[class*=theme-] #s4-bodyContainer .cta-blue--ghost:hover:after,
+[class*=theme-] #s4-bodyContainer .cta-blue--ghost:focus:after,
+[class*=theme-] #s4-bodyContainer .cta-blue2:hover:after,
+[class*=theme-] #s4-bodyContainer .cta-blue2:focus:after {
   border-bottom-color: #fff;
 }
-.theme-law #s4-bodyContainer .cta-white--ghost,
-.theme-midnightblue #s4-bodyContainer .cta-white--ghost,
-.theme-denimblue #s4-bodyContainer .cta-white--ghost,
-.theme-royalblue #s4-bodyContainer .cta-white--ghost,
-.theme-dark-indigo #s4-bodyContainer .cta-white--ghost,
-.theme-scps #s4-bodyContainer .cta-white--ghost {
+[class*=theme-] #s4-bodyContainer .cta-white--ghost {
   color: #fff !important;
   border-color: #fff;
 }
-.theme-law #s4-bodyContainer .cta-white--ghost:after,
-.theme-midnightblue #s4-bodyContainer .cta-white--ghost:after,
-.theme-denimblue #s4-bodyContainer .cta-white--ghost:after,
-.theme-royalblue #s4-bodyContainer .cta-white--ghost:after,
-.theme-dark-indigo #s4-bodyContainer .cta-white--ghost:after,
-.theme-scps #s4-bodyContainer .cta-white--ghost:after {
+[class*=theme-] #s4-bodyContainer .cta-white--ghost:after {
   border-bottom-color: #fff;
 }
-.theme-law #s4-bodyContainer .cta-white--ghost:hover,
-.theme-law #s4-bodyContainer .cta-white--ghost:focus,
-.theme-midnightblue #s4-bodyContainer .cta-white--ghost:hover,
-.theme-midnightblue #s4-bodyContainer .cta-white--ghost:focus,
-.theme-denimblue #s4-bodyContainer .cta-white--ghost:hover,
-.theme-denimblue #s4-bodyContainer .cta-white--ghost:focus,
-.theme-royalblue #s4-bodyContainer .cta-white--ghost:hover,
-.theme-royalblue #s4-bodyContainer .cta-white--ghost:focus,
-.theme-dark-indigo #s4-bodyContainer .cta-white--ghost:hover,
-.theme-dark-indigo #s4-bodyContainer .cta-white--ghost:focus,
-.theme-scps #s4-bodyContainer .cta-white--ghost:hover,
-.theme-scps #s4-bodyContainer .cta-white--ghost:focus {
+[class*=theme-] #s4-bodyContainer .cta-white--ghost:hover,
+[class*=theme-] #s4-bodyContainer .cta-white--ghost:focus {
   color: #0057b7 !important;
   background-color: #fff;
   border-color: #fff;
 }
-.theme-law #s4-bodyContainer .cta-white--ghost:hover:after,
-.theme-law #s4-bodyContainer .cta-white--ghost:focus:after,
-.theme-midnightblue #s4-bodyContainer .cta-white--ghost:hover:after,
-.theme-midnightblue #s4-bodyContainer .cta-white--ghost:focus:after,
-.theme-denimblue #s4-bodyContainer .cta-white--ghost:hover:after,
-.theme-denimblue #s4-bodyContainer .cta-white--ghost:focus:after,
-.theme-royalblue #s4-bodyContainer .cta-white--ghost:hover:after,
-.theme-royalblue #s4-bodyContainer .cta-white--ghost:focus:after,
-.theme-dark-indigo #s4-bodyContainer .cta-white--ghost:hover:after,
-.theme-dark-indigo #s4-bodyContainer .cta-white--ghost:focus:after,
-.theme-scps #s4-bodyContainer .cta-white--ghost:hover:after,
-.theme-scps #s4-bodyContainer .cta-white--ghost:focus:after {
+[class*=theme-] #s4-bodyContainer .cta-white--ghost:hover:after,
+[class*=theme-] #s4-bodyContainer .cta-white--ghost:focus:after {
   border-bottom-color: #0057b7;
 }
-.theme-law #s4-bodyContainer .cta-ghost-blue:hover,
-.theme-law #s4-bodyContainer .cta-ghost-blue:focus,
-.theme-midnightblue #s4-bodyContainer .cta-ghost-blue:hover,
-.theme-midnightblue #s4-bodyContainer .cta-ghost-blue:focus,
-.theme-denimblue #s4-bodyContainer .cta-ghost-blue:hover,
-.theme-denimblue #s4-bodyContainer .cta-ghost-blue:focus,
-.theme-royalblue #s4-bodyContainer .cta-ghost-blue:hover,
-.theme-royalblue #s4-bodyContainer .cta-ghost-blue:focus,
-.theme-dark-indigo #s4-bodyContainer .cta-ghost-blue:hover,
-.theme-dark-indigo #s4-bodyContainer .cta-ghost-blue:focus,
-.theme-scps #s4-bodyContainer .cta-ghost-blue:hover,
-.theme-scps #s4-bodyContainer .cta-ghost-blue:focus {
-  background-color: #235b94;
-  border-color: #235b94;
+[class*=theme-] #s4-bodyContainer .cta-ghost-blue:hover,
+[class*=theme-] #s4-bodyContainer .cta-ghost-blue:focus {
+  background-color: #0057b7;
+  border-color: #0057b7;
   color: #fff !important;
 }
-.theme-law #s4-bodyContainer #pnlClsSrchSearch .cta-type1,
-.theme-midnightblue #s4-bodyContainer #pnlClsSrchSearch .cta-type1,
-.theme-denimblue #s4-bodyContainer #pnlClsSrchSearch .cta-type1,
-.theme-royalblue #s4-bodyContainer #pnlClsSrchSearch .cta-type1,
-.theme-dark-indigo #s4-bodyContainer #pnlClsSrchSearch .cta-type1,
-.theme-scps #s4-bodyContainer #pnlClsSrchSearch .cta-type1 {
+[class*=theme-] #s4-bodyContainer #pnlClsSrchSearch .cta-type1 {
   color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer #pnlClsSrchSearch .cta-type1:hover,
-.theme-midnightblue #s4-bodyContainer #pnlClsSrchSearch .cta-type1:hover,
-.theme-denimblue #s4-bodyContainer #pnlClsSrchSearch .cta-type1:hover,
-.theme-royalblue #s4-bodyContainer #pnlClsSrchSearch .cta-type1:hover,
-.theme-dark-indigo #s4-bodyContainer #pnlClsSrchSearch .cta-type1:hover,
-.theme-scps #s4-bodyContainer #pnlClsSrchSearch .cta-type1:hover {
+[class*=theme-] #s4-bodyContainer #pnlClsSrchSearch .cta-type1:hover {
   background: #0057b7 !important;
   border-color: #0057b7 !important;
   color: #fff !important;
 }
-.theme-law #s4-bodyContainer .card-panel--blue,
-.theme-midnightblue #s4-bodyContainer .card-panel--blue,
-.theme-denimblue #s4-bodyContainer .card-panel--blue,
-.theme-royalblue #s4-bodyContainer .card-panel--blue,
-.theme-dark-indigo #s4-bodyContainer .card-panel--blue,
-.theme-scps #s4-bodyContainer .card-panel--blue {
-  --border-color: $dark-blue;
-  border-color: #0e4174;
+[class*=theme-] #s4-bodyContainer .card-panel--blue {
+  --border-color: $blue;
+  border-color: #0057b7;
 }
-.theme-law #s4-bodyContainer .image-header--content h1,
-.theme-midnightblue #s4-bodyContainer .image-header--content h1,
-.theme-denimblue #s4-bodyContainer .image-header--content h1,
-.theme-royalblue #s4-bodyContainer .image-header--content h1,
-.theme-dark-indigo #s4-bodyContainer .image-header--content h1,
-.theme-scps #s4-bodyContainer .image-header--content h1 {
+[class*=theme-] #s4-bodyContainer .image-header--content h1 {
   text-shadow: 1px 1px 2px #0057b7;
 }
-.theme-law #s4-bodyContainer .testimonial-content::after,
-.theme-midnightblue #s4-bodyContainer .testimonial-content::after,
-.theme-denimblue #s4-bodyContainer .testimonial-content::after,
-.theme-royalblue #s4-bodyContainer .testimonial-content::after,
-.theme-dark-indigo #s4-bodyContainer .testimonial-content::after,
-.theme-scps #s4-bodyContainer .testimonial-content::after {
+[class*=theme-] #s4-bodyContainer .testimonial-content::after {
   border-left-color: #deeeff !important;
 }
-.theme-law #s4-bodyContainer .outcomes-panel .bg-teal,
-.theme-midnightblue #s4-bodyContainer .outcomes-panel .bg-teal,
-.theme-denimblue #s4-bodyContainer .outcomes-panel .bg-teal,
-.theme-royalblue #s4-bodyContainer .outcomes-panel .bg-teal,
-.theme-dark-indigo #s4-bodyContainer .outcomes-panel .bg-teal,
-.theme-scps #s4-bodyContainer .outcomes-panel .bg-teal {
+[class*=theme-] #s4-bodyContainer .outcomes-panel .bg-teal {
   background: #3ba39d;
 }
-.theme-law #s4-bodyContainer .outcomes-panel .bg-teal--light,
-.theme-midnightblue #s4-bodyContainer .outcomes-panel .bg-teal--light,
-.theme-denimblue #s4-bodyContainer .outcomes-panel .bg-teal--light,
-.theme-royalblue #s4-bodyContainer .outcomes-panel .bg-teal--light,
-.theme-dark-indigo #s4-bodyContainer .outcomes-panel .bg-teal--light,
-.theme-scps #s4-bodyContainer .outcomes-panel .bg-teal--light {
+[class*=theme-] #s4-bodyContainer .outcomes-panel .bg-teal--light {
   background: #edfbfa;
 }
-.theme-law #s4-bodyContainer .outcomes-panel .text-teal--med,
-.theme-midnightblue #s4-bodyContainer .outcomes-panel .text-teal--med,
-.theme-denimblue #s4-bodyContainer .outcomes-panel .text-teal--med,
-.theme-royalblue #s4-bodyContainer .outcomes-panel .text-teal--med,
-.theme-dark-indigo #s4-bodyContainer .outcomes-panel .text-teal--med,
-.theme-scps #s4-bodyContainer .outcomes-panel .text-teal--med {
-  color: #1cb7b9 !important;
+[class*=theme-] #s4-bodyContainer .outcomes-panel .text-teal--med {
+  color: #0057b7 !important;
 }
 @media (min-width: 50em) {
-  .theme-law #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container,
-.theme-midnightblue #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container,
-.theme-denimblue #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container,
-.theme-royalblue #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container,
-.theme-dark-indigo #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container,
-.theme-scps #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container {
+  [class*=theme-] #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container {
     background: linear-gradient(90deg, transparent 50%, #86b7f8 50%);
   }
 }
 @media (max-width: 50em) {
-  .theme-law #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container,
-.theme-midnightblue #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container,
-.theme-denimblue #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container,
-.theme-royalblue #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container,
-.theme-dark-indigo #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container,
-.theme-scps #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container {
+  [class*=theme-] #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container {
     background: linear-gradient(transparent 50%, #fff 50%);
   }
 }
-.theme-law #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2,
-.theme-midnightblue #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2,
-.theme-denimblue #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2,
-.theme-royalblue #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2,
-.theme-dark-indigo #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2,
-.theme-scps #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2 {
+[class*=theme-] #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2 {
   color: #fff !important;
 }
-.theme-law #s4-bodyContainer .panel-obj > h4,
-.theme-midnightblue #s4-bodyContainer .panel-obj > h4,
-.theme-denimblue #s4-bodyContainer .panel-obj > h4,
-.theme-royalblue #s4-bodyContainer .panel-obj > h4,
-.theme-dark-indigo #s4-bodyContainer .panel-obj > h4,
-.theme-scps #s4-bodyContainer .panel-obj > h4 {
-  border-bottom: 1px solid #ccc;
+[class*=theme-] #s4-bodyContainer .panel-obj > h4 {
+  border-bottom: 1px solid #cccccc;
   color: #e5f0fe !important;
 }
-.theme-law #s4-bodyContainer .Tab_WP .tab-container,
-.theme-midnightblue #s4-bodyContainer .Tab_WP .tab-container,
-.theme-denimblue #s4-bodyContainer .Tab_WP .tab-container,
-.theme-royalblue #s4-bodyContainer .Tab_WP .tab-container,
-.theme-dark-indigo #s4-bodyContainer .Tab_WP .tab-container,
-.theme-scps #s4-bodyContainer .Tab_WP .tab-container {
+[class*=theme-] #s4-bodyContainer .Tab_WP .tab-container {
   border: 1px solid #0057b7;
   background: #fff;
 }
-.theme-law #s4-bodyContainer .Tab_WP .tab-drawer-heading,
-.theme-midnightblue #s4-bodyContainer .Tab_WP .tab-drawer-heading,
-.theme-denimblue #s4-bodyContainer .Tab_WP .tab-drawer-heading,
-.theme-royalblue #s4-bodyContainer .Tab_WP .tab-drawer-heading,
-.theme-dark-indigo #s4-bodyContainer .Tab_WP .tab-drawer-heading,
-.theme-scps #s4-bodyContainer .Tab_WP .tab-drawer-heading {
+[class*=theme-] #s4-bodyContainer .Tab_WP .tab-drawer-heading {
   background-color: #fff;
   color: #565656 !important;
   border-top: 1px solid #0057b7;
 }
-.theme-law #s4-bodyContainer .Tab_WP .tab-drawer-heading:hover,
-.theme-law #s4-bodyContainer .Tab_WP .tab-drawer-heading:focus,
-.theme-midnightblue #s4-bodyContainer .Tab_WP .tab-drawer-heading:hover,
-.theme-midnightblue #s4-bodyContainer .Tab_WP .tab-drawer-heading:focus,
-.theme-denimblue #s4-bodyContainer .Tab_WP .tab-drawer-heading:hover,
-.theme-denimblue #s4-bodyContainer .Tab_WP .tab-drawer-heading:focus,
-.theme-royalblue #s4-bodyContainer .Tab_WP .tab-drawer-heading:hover,
-.theme-royalblue #s4-bodyContainer .Tab_WP .tab-drawer-heading:focus,
-.theme-dark-indigo #s4-bodyContainer .Tab_WP .tab-drawer-heading:hover,
-.theme-dark-indigo #s4-bodyContainer .Tab_WP .tab-drawer-heading:focus,
-.theme-scps #s4-bodyContainer .Tab_WP .tab-drawer-heading:hover,
-.theme-scps #s4-bodyContainer .Tab_WP .tab-drawer-heading:focus {
+[class*=theme-] #s4-bodyContainer .Tab_WP .tab-drawer-heading:hover,
+[class*=theme-] #s4-bodyContainer .Tab_WP .tab-drawer-heading:focus {
   background-color: #ecf3ff;
   color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .Tab_WP .d_active,
-.theme-midnightblue #s4-bodyContainer .Tab_WP .d_active,
-.theme-denimblue #s4-bodyContainer .Tab_WP .d_active,
-.theme-royalblue #s4-bodyContainer .Tab_WP .d_active,
-.theme-dark-indigo #s4-bodyContainer .Tab_WP .d_active,
-.theme-scps #s4-bodyContainer .Tab_WP .d_active {
+[class*=theme-] #s4-bodyContainer .Tab_WP .d_active {
   background: #ecf3ff;
   color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .Tab_WP .tab-content,
-.theme-midnightblue #s4-bodyContainer .Tab_WP .tab-content,
-.theme-denimblue #s4-bodyContainer .Tab_WP .tab-content,
-.theme-royalblue #s4-bodyContainer .Tab_WP .tab-content,
-.theme-dark-indigo #s4-bodyContainer .Tab_WP .tab-content,
-.theme-scps #s4-bodyContainer .Tab_WP .tab-content {
+[class*=theme-] #s4-bodyContainer .Tab_WP .tab-content {
   background-color: #fff;
   border: none;
 }
-.theme-law #s4-bodyContainer .Tab_WP .tab-content strong,
-.theme-midnightblue #s4-bodyContainer .Tab_WP .tab-content strong,
-.theme-denimblue #s4-bodyContainer .Tab_WP .tab-content strong,
-.theme-royalblue #s4-bodyContainer .Tab_WP .tab-content strong,
-.theme-dark-indigo #s4-bodyContainer .Tab_WP .tab-content strong,
-.theme-scps #s4-bodyContainer .Tab_WP .tab-content strong {
+[class*=theme-] #s4-bodyContainer .Tab_WP .tab-content strong {
   color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-teal--new,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-teal--new,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-teal--new,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-teal--new,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-teal--new,
-.theme-scps #s4-bodyContainer .info-grid .bg-teal--new {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-teal--new {
   background: #00a9a5;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-teal--light,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-teal--light,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-teal--light,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-teal--light,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-teal--light,
-.theme-scps #s4-bodyContainer .info-grid .bg-teal--light {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-teal--light {
   background: #edfbfa;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-gray,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-gray,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-gray,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-gray,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-gray,
-.theme-scps #s4-bodyContainer .info-grid .bg-gray {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-gray {
   background: #f9f9f9;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-blue--grad1,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-blue--grad1,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-blue--grad1,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-blue--grad1,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-blue--grad1,
-.theme-scps #s4-bodyContainer .info-grid .bg-blue--grad1 {
-  background-color: #235b94;
+[class*=theme-] #s4-bodyContainer .info-grid .bg-blue--grad1 {
+  background-color: #0057b7;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-blue--grad2,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-blue--grad2,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-blue--grad2,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-blue--grad2,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-blue--grad2,
-.theme-scps #s4-bodyContainer .info-grid .bg-blue--grad2 {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-blue--grad2 {
   background-color: #1a4979;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-blue--grad3,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-blue--grad3,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-blue--grad3,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-blue--grad3,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-blue--grad3,
-.theme-scps #s4-bodyContainer .info-grid .bg-blue--grad3 {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-blue--grad3 {
   background-color: #153b63;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-blue--grad4,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-blue--grad4,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-blue--grad4,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-blue--grad4,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-blue--grad4,
-.theme-scps #s4-bodyContainer .info-grid .bg-blue--grad4 {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-blue--grad4 {
   background-color: #102f4f;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-blue--bright,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-blue--bright,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-blue--bright,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-blue--bright,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-blue--bright,
-.theme-scps #s4-bodyContainer .info-grid .bg-blue--bright {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-blue--bright {
   background-color: #4c6bf0;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-blue--bright1,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-blue--bright1,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-blue--bright1,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-blue--bright1,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-blue--bright1,
-.theme-scps #s4-bodyContainer .info-grid .bg-blue--bright1 {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-blue--bright1 {
   background-color: #5c78f1;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-blue--bright3,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-blue--bright3,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-blue--bright3,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-blue--bright3,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-blue--bright3,
-.theme-scps #s4-bodyContainer .info-grid .bg-blue--bright3 {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-blue--bright3 {
   background-color: #4662db;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-teal--grad1,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-teal--grad1,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-teal--grad1,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-teal--grad1,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-teal--grad1,
-.theme-scps #s4-bodyContainer .info-grid .bg-teal--grad1 {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-teal--grad1 {
   background-color: #2a7c78;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-teal--grad2,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-teal--grad2,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-teal--grad2,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-teal--grad2,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-teal--grad2,
-.theme-scps #s4-bodyContainer .info-grid .bg-teal--grad2 {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-teal--grad2 {
   background-color: #30918c;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-teal--grad3,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-teal--grad3,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-teal--grad3,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-teal--grad3,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-teal--grad3,
-.theme-scps #s4-bodyContainer .info-grid .bg-teal--grad3 {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-teal--grad3 {
   background-color: #3ba39d;
 }
-.theme-law #s4-bodyContainer .info-grid .bg-teal--grad4,
-.theme-midnightblue #s4-bodyContainer .info-grid .bg-teal--grad4,
-.theme-denimblue #s4-bodyContainer .info-grid .bg-teal--grad4,
-.theme-royalblue #s4-bodyContainer .info-grid .bg-teal--grad4,
-.theme-dark-indigo #s4-bodyContainer .info-grid .bg-teal--grad4,
-.theme-scps #s4-bodyContainer .info-grid .bg-teal--grad4 {
+[class*=theme-] #s4-bodyContainer .info-grid .bg-teal--grad4 {
   background-color: #3ab4ae;
 }
-.theme-law #s4-bodyContainer .border-white,
-.theme-midnightblue #s4-bodyContainer .border-white,
-.theme-denimblue #s4-bodyContainer .border-white,
-.theme-royalblue #s4-bodyContainer .border-white,
-.theme-dark-indigo #s4-bodyContainer .border-white,
-.theme-scps #s4-bodyContainer .border-white {
+[class*=theme-] #s4-bodyContainer .border-white {
   border-color: #fff;
 }
-.theme-law #s4-bodyContainer .skinsstructure1,
-.theme-midnightblue #s4-bodyContainer .skinsstructure1,
-.theme-denimblue #s4-bodyContainer .skinsstructure1,
-.theme-royalblue #s4-bodyContainer .skinsstructure1,
-.theme-dark-indigo #s4-bodyContainer .skinsstructure1,
-.theme-scps #s4-bodyContainer .skinsstructure1 {
-  border: 1px solid #0e4174 !important;
+[class*=theme-] #s4-bodyContainer .skinsstructure1 {
+  border: 1px solid #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .skinsstructure1 .cta-type1,
-.theme-midnightblue #s4-bodyContainer .skinsstructure1 .cta-type1,
-.theme-denimblue #s4-bodyContainer .skinsstructure1 .cta-type1,
-.theme-royalblue #s4-bodyContainer .skinsstructure1 .cta-type1,
-.theme-dark-indigo #s4-bodyContainer .skinsstructure1 .cta-type1,
-.theme-scps #s4-bodyContainer .skinsstructure1 .cta-type1 {
+[class*=theme-] #s4-bodyContainer .skinsstructure1 .cta-type1 {
   background: none !important;
   color: #0e4174 !important;
 }
-.theme-law #s4-bodyContainer .skinsstructure1 .cta-type1:hover,
-.theme-midnightblue #s4-bodyContainer .skinsstructure1 .cta-type1:hover,
-.theme-denimblue #s4-bodyContainer .skinsstructure1 .cta-type1:hover,
-.theme-royalblue #s4-bodyContainer .skinsstructure1 .cta-type1:hover,
-.theme-dark-indigo #s4-bodyContainer .skinsstructure1 .cta-type1:hover,
-.theme-scps #s4-bodyContainer .skinsstructure1 .cta-type1:hover {
+[class*=theme-] #s4-bodyContainer .skinsstructure1 .cta-type1:hover {
   background-color: #0e4174 !important;
   color: #fff !important;
 }
-.theme-law #s4-bodyContainer .skinsstructure1 h3.media-heading,
-.theme-midnightblue #s4-bodyContainer .skinsstructure1 h3.media-heading,
-.theme-denimblue #s4-bodyContainer .skinsstructure1 h3.media-heading,
-.theme-royalblue #s4-bodyContainer .skinsstructure1 h3.media-heading,
-.theme-dark-indigo #s4-bodyContainer .skinsstructure1 h3.media-heading,
-.theme-scps #s4-bodyContainer .skinsstructure1 h3.media-heading {
-  color: #157bfb;
+[class*=theme-] #s4-bodyContainer .skinsstructure1 h3.media-heading {
+  color: #0057b7;
 }
-.theme-law #s4-bodyContainer .skinsstructure1 strong,
-.theme-midnightblue #s4-bodyContainer .skinsstructure1 strong,
-.theme-denimblue #s4-bodyContainer .skinsstructure1 strong,
-.theme-royalblue #s4-bodyContainer .skinsstructure1 strong,
-.theme-dark-indigo #s4-bodyContainer .skinsstructure1 strong,
-.theme-scps #s4-bodyContainer .skinsstructure1 strong {
-  color: #45a3a4;
+[class*=theme-] #s4-bodyContainer .skinsstructure1 strong {
+  color: #0e4174;
 }
-.theme-law #s4-bodyContainer .skinsstructure1 a strong,
-.theme-midnightblue #s4-bodyContainer .skinsstructure1 a strong,
-.theme-denimblue #s4-bodyContainer .skinsstructure1 a strong,
-.theme-royalblue #s4-bodyContainer .skinsstructure1 a strong,
-.theme-dark-indigo #s4-bodyContainer .skinsstructure1 a strong,
-.theme-scps #s4-bodyContainer .skinsstructure1 a strong {
+[class*=theme-] #s4-bodyContainer .skinsstructure1 a strong {
   color: #0e4174 !important;
 }
-.theme-law #s4-bodyContainer .hr-blue,
-.theme-midnightblue #s4-bodyContainer .hr-blue,
-.theme-denimblue #s4-bodyContainer .hr-blue,
-.theme-royalblue #s4-bodyContainer .hr-blue,
-.theme-dark-indigo #s4-bodyContainer .hr-blue,
-.theme-scps #s4-bodyContainer .hr-blue {
+[class*=theme-] #s4-bodyContainer .hr-blue {
   border-color: #0e4174;
 }
-.theme-law #s4-bodyContainer .bg-blue,
-.theme-midnightblue #s4-bodyContainer .bg-blue,
-.theme-denimblue #s4-bodyContainer .bg-blue,
-.theme-royalblue #s4-bodyContainer .bg-blue,
-.theme-dark-indigo #s4-bodyContainer .bg-blue,
-.theme-scps #s4-bodyContainer .bg-blue {
-  background-color: #0057b7;
+[class*=theme-] #s4-bodyContainer .bg-blue {
+  background-color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .bg-blue--light,
-.theme-midnightblue #s4-bodyContainer .bg-blue--light,
-.theme-denimblue #s4-bodyContainer .bg-blue--light,
-.theme-royalblue #s4-bodyContainer .bg-blue--light,
-.theme-dark-indigo #s4-bodyContainer .bg-blue--light,
-.theme-scps #s4-bodyContainer .bg-blue--light {
+[class*=theme-] #s4-bodyContainer .bg-blue--light {
+  background-color: #deeeff !important;
+}
+[class*=theme-] #s4-bodyContainer .bg-blue--light2 {
   background-color: #deeeff;
 }
-.theme-law #s4-bodyContainer .bg-blue--light2,
-.theme-midnightblue #s4-bodyContainer .bg-blue--light2,
-.theme-denimblue #s4-bodyContainer .bg-blue--light2,
-.theme-royalblue #s4-bodyContainer .bg-blue--light2,
-.theme-dark-indigo #s4-bodyContainer .bg-blue--light2,
-.theme-scps #s4-bodyContainer .bg-blue--light2 {
-  background-color: #87a8d2;
-}
-.theme-law #s4-bodyContainer .bg-blue--bright,
-.theme-midnightblue #s4-bodyContainer .bg-blue--bright,
-.theme-denimblue #s4-bodyContainer .bg-blue--bright,
-.theme-royalblue #s4-bodyContainer .bg-blue--bright,
-.theme-dark-indigo #s4-bodyContainer .bg-blue--bright,
-.theme-scps #s4-bodyContainer .bg-blue--bright {
+[class*=theme-] #s4-bodyContainer .bg-blue--bright {
   background-color: #7cbaff;
 }
-.theme-law #s4-bodyContainer .bg-blue--med,
-.theme-midnightblue #s4-bodyContainer .bg-blue--med,
-.theme-denimblue #s4-bodyContainer .bg-blue--med,
-.theme-royalblue #s4-bodyContainer .bg-blue--med,
-.theme-dark-indigo #s4-bodyContainer .bg-blue--med,
-.theme-scps #s4-bodyContainer .bg-blue--med {
+[class*=theme-] #s4-bodyContainer .bg-blue--med {
+  background-color: #0e4174 !important;
+}
+[class*=theme-] #s4-bodyContainer .bg-blue--dark {
+  background-color: #0e4174 !important;
+}
+[class*=theme-] #s4-bodyContainer .bg-blue--dark2 {
   background-color: #0e4174;
 }
-.theme-law #s4-bodyContainer .bg-blue--dark,
-.theme-midnightblue #s4-bodyContainer .bg-blue--dark,
-.theme-denimblue #s4-bodyContainer .bg-blue--dark,
-.theme-royalblue #s4-bodyContainer .bg-blue--dark,
-.theme-dark-indigo #s4-bodyContainer .bg-blue--dark,
-.theme-scps #s4-bodyContainer .bg-blue--dark {
-  background-color: #0057b7;
-}
-.theme-law #s4-bodyContainer .bg-blue--dark2,
-.theme-midnightblue #s4-bodyContainer .bg-blue--dark2,
-.theme-denimblue #s4-bodyContainer .bg-blue--dark2,
-.theme-royalblue #s4-bodyContainer .bg-blue--dark2,
-.theme-dark-indigo #s4-bodyContainer .bg-blue--dark2,
-.theme-scps #s4-bodyContainer .bg-blue--dark2 {
-  background-color: #0e4174;
-}
-.theme-law #s4-bodyContainer .bg-white,
-.theme-midnightblue #s4-bodyContainer .bg-white,
-.theme-denimblue #s4-bodyContainer .bg-white,
-.theme-royalblue #s4-bodyContainer .bg-white,
-.theme-dark-indigo #s4-bodyContainer .bg-white,
-.theme-scps #s4-bodyContainer .bg-white {
+[class*=theme-] #s4-bodyContainer .bg-white {
   background-color: #fff;
 }
-.theme-law #s4-bodyContainer .bg-green,
-.theme-midnightblue #s4-bodyContainer .bg-green,
-.theme-denimblue #s4-bodyContainer .bg-green,
-.theme-royalblue #s4-bodyContainer .bg-green,
-.theme-dark-indigo #s4-bodyContainer .bg-green,
-.theme-scps #s4-bodyContainer .bg-green {
+[class*=theme-] #s4-bodyContainer .bg-green {
   background-color: #fff;
 }
-.theme-law #s4-bodyContainer .bg-blue--hard-light,
-.theme-midnightblue #s4-bodyContainer .bg-blue--hard-light,
-.theme-denimblue #s4-bodyContainer .bg-blue--hard-light,
-.theme-royalblue #s4-bodyContainer .bg-blue--hard-light,
-.theme-dark-indigo #s4-bodyContainer .bg-blue--hard-light,
-.theme-scps #s4-bodyContainer .bg-blue--hard-light {
-  background-color: #87a8d2;
+[class*=theme-] #s4-bodyContainer .bg-blue--hard-light {
+  background-color: #deeeff;
   mix-blend-mode: hard-light;
 }
-.theme-law #s4-bodyContainer .bg-blue--dark--hard-light,
-.theme-midnightblue #s4-bodyContainer .bg-blue--dark--hard-light,
-.theme-denimblue #s4-bodyContainer .bg-blue--dark--hard-light,
-.theme-royalblue #s4-bodyContainer .bg-blue--dark--hard-light,
-.theme-dark-indigo #s4-bodyContainer .bg-blue--dark--hard-light,
-.theme-scps #s4-bodyContainer .bg-blue--dark--hard-light {
+[class*=theme-] #s4-bodyContainer .bg-blue--dark--hard-light {
   background-color: #0e4174;
   mix-blend-mode: hard-light;
 }
-.theme-law #s4-bodyContainer .bg-blend--blue-hard-light,
-.theme-midnightblue #s4-bodyContainer .bg-blend--blue-hard-light,
-.theme-denimblue #s4-bodyContainer .bg-blend--blue-hard-light,
-.theme-royalblue #s4-bodyContainer .bg-blend--blue-hard-light,
-.theme-dark-indigo #s4-bodyContainer .bg-blend--blue-hard-light,
-.theme-scps #s4-bodyContainer .bg-blend--blue-hard-light {
-  background: rgba(45, 65, 96, 0.8);
+[class*=theme-] #s4-bodyContainer .bg-blend--blue-hard-light {
+  background: rgba(14, 65, 116, 0.8);
   mix-blend-mode: hard-light;
 }
-.theme-law #s4-bodyContainer .bg-gradient--1,
-.theme-midnightblue #s4-bodyContainer .bg-gradient--1,
-.theme-denimblue #s4-bodyContainer .bg-gradient--1,
-.theme-royalblue #s4-bodyContainer .bg-gradient--1,
-.theme-dark-indigo #s4-bodyContainer .bg-gradient--1,
-.theme-scps #s4-bodyContainer .bg-gradient--1 {
+[class*=theme-] #s4-bodyContainer .bg-gradient--1 {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.25, rgba(72, 164, 189, 0.5)), color-stop(1, rgba(58, 102, 145, 0.5)));
   background-image: -o-linear-gradient(bottom, rgba(72, 164, 189, 0.5) 25%, rgba(58, 102, 145, 0.5) 100%);
   background-image: -moz-linear-gradient(bottom, rgba(72, 164, 189, 0.5) 25%, rgba(58, 102, 145, 0.5) 100%);
@@ -1588,442 +577,178 @@ html {
   background-image: -ms-linear-gradient(bottom, rgba(72, 164, 189, 0.5) 25%, rgba(58, 102, 145, 0.5) 100%);
   background-image: linear-gradient(to bottom, rgba(72, 164, 189, 0.5) 25%, rgba(58, 102, 145, 0.5) 100%);
 }
-.theme-law #s4-bodyContainer .border-b-blue--light,
-.theme-midnightblue #s4-bodyContainer .border-b-blue--light,
-.theme-denimblue #s4-bodyContainer .border-b-blue--light,
-.theme-royalblue #s4-bodyContainer .border-b-blue--light,
-.theme-dark-indigo #s4-bodyContainer .border-b-blue--light,
-.theme-scps #s4-bodyContainer .border-b-blue--light {
-  border-bottom-color: #deeeff;
+[class*=theme-] #s4-bodyContainer .border-b-blue--light {
+  border-bottom-color: #deeeff !important;
 }
-.theme-law #s4-bodyContainer .border-blue,
-.theme-midnightblue #s4-bodyContainer .border-blue,
-.theme-denimblue #s4-bodyContainer .border-blue,
-.theme-royalblue #s4-bodyContainer .border-blue,
-.theme-dark-indigo #s4-bodyContainer .border-blue,
-.theme-scps #s4-bodyContainer .border-blue {
-  border-color: #7cbaff;
+[class*=theme-] #s4-bodyContainer .border-blue {
+  border-color: #7cbaff !important;
 }
-.theme-law #s4-bodyContainer .border-teal--med,
-.theme-midnightblue #s4-bodyContainer .border-teal--med,
-.theme-denimblue #s4-bodyContainer .border-teal--med,
-.theme-royalblue #s4-bodyContainer .border-teal--med,
-.theme-dark-indigo #s4-bodyContainer .border-teal--med,
-.theme-scps #s4-bodyContainer .border-teal--med {
-  border-color: #0057b7;
+[class*=theme-] #s4-bodyContainer .border-teal--med {
+  border-color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .border-teal,
-.theme-midnightblue #s4-bodyContainer .border-teal,
-.theme-denimblue #s4-bodyContainer .border-teal,
-.theme-royalblue #s4-bodyContainer .border-teal,
-.theme-dark-indigo #s4-bodyContainer .border-teal,
-.theme-scps #s4-bodyContainer .border-teal {
-  border-color: #fff;
+[class*=theme-] #s4-bodyContainer .border-teal {
+  border-color: #deeeff !important;
 }
-.theme-law #s4-bodyContainer .text-teal,
-.theme-midnightblue #s4-bodyContainer .text-teal,
-.theme-denimblue #s4-bodyContainer .text-teal,
-.theme-royalblue #s4-bodyContainer .text-teal,
-.theme-dark-indigo #s4-bodyContainer .text-teal,
-.theme-scps #s4-bodyContainer .text-teal {
+[class*=theme-] #s4-bodyContainer .text-teal {
   color: #deeeff !important;
 }
-.theme-law #s4-bodyContainer .text-blue,
-.theme-midnightblue #s4-bodyContainer .text-blue,
-.theme-denimblue #s4-bodyContainer .text-blue,
-.theme-royalblue #s4-bodyContainer .text-blue,
-.theme-dark-indigo #s4-bodyContainer .text-blue,
-.theme-scps #s4-bodyContainer .text-blue {
+[class*=theme-] #s4-bodyContainer .text-blue {
   color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .text-blue--bright,
-.theme-midnightblue #s4-bodyContainer .text-blue--bright,
-.theme-denimblue #s4-bodyContainer .text-blue--bright,
-.theme-royalblue #s4-bodyContainer .text-blue--bright,
-.theme-dark-indigo #s4-bodyContainer .text-blue--bright,
-.theme-scps #s4-bodyContainer .text-blue--bright {
+[class*=theme-] #s4-bodyContainer .text-blue--bright {
   color: #0057b7 !important;
 }
-.theme-law #s4-bodyContainer .text-blue--light,
-.theme-midnightblue #s4-bodyContainer .text-blue--light,
-.theme-denimblue #s4-bodyContainer .text-blue--light,
-.theme-royalblue #s4-bodyContainer .text-blue--light,
-.theme-dark-indigo #s4-bodyContainer .text-blue--light,
-.theme-scps #s4-bodyContainer .text-blue--light {
-  color: #deeeff;
+[class*=theme-] #s4-bodyContainer .text-blue--light,
+[class*=theme-] #s4-bodyContainer .text-blue--light2 {
+  color: #deeeff !important;
 }
-.theme-law #s4-bodyContainer .text-blue--med2,
-.theme-midnightblue #s4-bodyContainer .text-blue--med2,
-.theme-denimblue #s4-bodyContainer .text-blue--med2,
-.theme-royalblue #s4-bodyContainer .text-blue--med2,
-.theme-dark-indigo #s4-bodyContainer .text-blue--med2,
-.theme-scps #s4-bodyContainer .text-blue--med2 {
+[class*=theme-] #s4-bodyContainer .text-blue--med2 {
   color: #0057b7;
 }
-.theme-law #s4-bodyContainer .text-blue--dark,
-.theme-midnightblue #s4-bodyContainer .text-blue--dark,
-.theme-denimblue #s4-bodyContainer .text-blue--dark,
-.theme-royalblue #s4-bodyContainer .text-blue--dark,
-.theme-dark-indigo #s4-bodyContainer .text-blue--dark,
-.theme-scps #s4-bodyContainer .text-blue--dark {
-  color: #0057b7;
+[class*=theme-] #s4-bodyContainer .text-blue--dark {
+  color: #0e4174 !important;
 }
-.theme-law #s4-bodyContainer .text-white,
-.theme-midnightblue #s4-bodyContainer .text-white,
-.theme-denimblue #s4-bodyContainer .text-white,
-.theme-royalblue #s4-bodyContainer .text-white,
-.theme-dark-indigo #s4-bodyContainer .text-white,
-.theme-scps #s4-bodyContainer .text-white {
+[class*=theme-] #s4-bodyContainer .text-white {
   color: #fff;
 }
-.theme-law #s4-bodyContainer .text-green,
-.theme-midnightblue #s4-bodyContainer .text-green,
-.theme-denimblue #s4-bodyContainer .text-green,
-.theme-royalblue #s4-bodyContainer .text-green,
-.theme-dark-indigo #s4-bodyContainer .text-green,
-.theme-scps #s4-bodyContainer .text-green {
+[class*=theme-] #s4-bodyContainer .text-green {
   color: #0057b7;
 }
-.theme-law #s4-bodyContainer .image-stats-wrapper .image-stats-overlay,
-.theme-midnightblue #s4-bodyContainer .image-stats-wrapper .image-stats-overlay,
-.theme-denimblue #s4-bodyContainer .image-stats-wrapper .image-stats-overlay,
-.theme-royalblue #s4-bodyContainer .image-stats-wrapper .image-stats-overlay,
-.theme-dark-indigo #s4-bodyContainer .image-stats-wrapper .image-stats-overlay,
-.theme-scps #s4-bodyContainer .image-stats-wrapper .image-stats-overlay {
+[class*=theme-] #s4-bodyContainer .image-stats-wrapper .image-stats-overlay {
   background-color: #0e4174;
   background: rgba(0, 0, 0, 0.5);
 }
-.theme-law #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-midnightblue #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-denimblue #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-royalblue #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-dark-indigo #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-scps #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr {
+[class*=theme-] #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr {
   border: 0 #ddd solid;
 }
 @media (max-width: 1080px) {
-  .theme-law #s4-bodyContainer .table-striped-dark tbody tr td,
-.theme-midnightblue #s4-bodyContainer .table-striped-dark tbody tr td,
-.theme-denimblue #s4-bodyContainer .table-striped-dark tbody tr td,
-.theme-royalblue #s4-bodyContainer .table-striped-dark tbody tr td,
-.theme-dark-indigo #s4-bodyContainer .table-striped-dark tbody tr td,
-.theme-scps #s4-bodyContainer .table-striped-dark tbody tr td {
+  [class*=theme-] #s4-bodyContainer .table-striped-dark tbody tr td {
     background: #fff;
   }
 }
 @media (max-width: 50em) {
-  .theme-law #s4-bodyContainer .site-title-short,
-.theme-midnightblue #s4-bodyContainer .site-title-short,
-.theme-denimblue #s4-bodyContainer .site-title-short,
-.theme-royalblue #s4-bodyContainer .site-title-short,
-.theme-dark-indigo #s4-bodyContainer .site-title-short,
-.theme-scps #s4-bodyContainer .site-title-short {
+  [class*=theme-] #s4-bodyContainer .site-title-short {
     background: #0057b7 !important;
   }
 }
-.theme-law #s4-bodyContainer .col h1:not(.text-shadow),
-.theme-midnightblue #s4-bodyContainer .col h1:not(.text-shadow),
-.theme-denimblue #s4-bodyContainer .col h1:not(.text-shadow),
-.theme-royalblue #s4-bodyContainer .col h1:not(.text-shadow),
-.theme-dark-indigo #s4-bodyContainer .col h1:not(.text-shadow),
-.theme-scps #s4-bodyContainer .col h1:not(.text-shadow) {
+[class*=theme-] #s4-bodyContainer .col h1:not(.text-shadow) {
   border-bottom: 3px solid #157bfb;
   color: #157bfb;
 }
-.theme-law .accessible-megamenu-top-nav-item a,
-.theme-midnightblue .accessible-megamenu-top-nav-item a,
-.theme-denimblue .accessible-megamenu-top-nav-item a,
-.theme-royalblue .accessible-megamenu-top-nav-item a,
-.theme-dark-indigo .accessible-megamenu-top-nav-item a,
-.theme-scps .accessible-megamenu-top-nav-item a {
+[class*=theme-] #s4-bodyContainer .accessible-megamenu-top-nav-item a {
   color: #fff !important;
 }
-.theme-law .accessible-megamenu-panel,
-.theme-midnightblue .accessible-megamenu-panel,
-.theme-denimblue .accessible-megamenu-panel,
-.theme-royalblue .accessible-megamenu-panel,
-.theme-dark-indigo .accessible-megamenu-panel,
-.theme-scps .accessible-megamenu-panel {
+[class*=theme-] #s4-bodyContainer .accessible-megamenu-panel {
   background-color: #0057b7 !important;
 }
-.theme-law #depaulShortcuts,
-.theme-midnightblue #depaulShortcuts,
-.theme-denimblue #depaulShortcuts,
-.theme-royalblue #depaulShortcuts,
-.theme-dark-indigo #depaulShortcuts,
-.theme-scps #depaulShortcuts {
+[class*=theme-] #s4-bodyContainer #depaulShortcuts {
   background: #0e4174 !important;
 }
-.theme-law #cludo-search-content-form .search_autocomplete,
-.theme-law #cludo-search-form .search_autocomplete,
-.theme-midnightblue #cludo-search-content-form .search_autocomplete,
-.theme-midnightblue #cludo-search-form .search_autocomplete,
-.theme-denimblue #cludo-search-content-form .search_autocomplete,
-.theme-denimblue #cludo-search-form .search_autocomplete,
-.theme-royalblue #cludo-search-content-form .search_autocomplete,
-.theme-royalblue #cludo-search-form .search_autocomplete,
-.theme-dark-indigo #cludo-search-content-form .search_autocomplete,
-.theme-dark-indigo #cludo-search-form .search_autocomplete,
-.theme-scps #cludo-search-content-form .search_autocomplete,
-.theme-scps #cludo-search-form .search_autocomplete {
+[class*=theme-] #s4-bodyContainer #cludo-search-content-form .search_autocomplete,
+[class*=theme-] #s4-bodyContainer #cludo-search-form .search_autocomplete {
   background-color: #fff;
   border: 1px solid #efefef;
 }
-.theme-law #cludo-search-content-form .search_autocomplete li,
-.theme-law #cludo-search-form .search_autocomplete li,
-.theme-midnightblue #cludo-search-content-form .search_autocomplete li,
-.theme-midnightblue #cludo-search-form .search_autocomplete li,
-.theme-denimblue #cludo-search-content-form .search_autocomplete li,
-.theme-denimblue #cludo-search-form .search_autocomplete li,
-.theme-royalblue #cludo-search-content-form .search_autocomplete li,
-.theme-royalblue #cludo-search-form .search_autocomplete li,
-.theme-dark-indigo #cludo-search-content-form .search_autocomplete li,
-.theme-dark-indigo #cludo-search-form .search_autocomplete li,
-.theme-scps #cludo-search-content-form .search_autocomplete li,
-.theme-scps #cludo-search-form .search_autocomplete li {
+[class*=theme-] #s4-bodyContainer #cludo-search-content-form .search_autocomplete li,
+[class*=theme-] #s4-bodyContainer #cludo-search-form .search_autocomplete li {
   border-bottom: 1px solid #efefef;
   color: #2b2b2b;
 }
-.theme-law #cludo-search-content-form .search_autocomplete li:hover,
-.theme-law #cludo-search-form .search_autocomplete li:hover,
-.theme-midnightblue #cludo-search-content-form .search_autocomplete li:hover,
-.theme-midnightblue #cludo-search-form .search_autocomplete li:hover,
-.theme-denimblue #cludo-search-content-form .search_autocomplete li:hover,
-.theme-denimblue #cludo-search-form .search_autocomplete li:hover,
-.theme-royalblue #cludo-search-content-form .search_autocomplete li:hover,
-.theme-royalblue #cludo-search-form .search_autocomplete li:hover,
-.theme-dark-indigo #cludo-search-content-form .search_autocomplete li:hover,
-.theme-dark-indigo #cludo-search-form .search_autocomplete li:hover,
-.theme-scps #cludo-search-content-form .search_autocomplete li:hover,
-.theme-scps #cludo-search-form .search_autocomplete li:hover {
+[class*=theme-] #s4-bodyContainer #cludo-search-content-form .search_autocomplete li:hover,
+[class*=theme-] #s4-bodyContainer #cludo-search-form .search_autocomplete li:hover {
   background-color: #efefef;
 }
-.theme-law #cludo-search-content-form .search_autocomplete li.active,
-.theme-law #cludo-search-form .search_autocomplete li.active,
-.theme-midnightblue #cludo-search-content-form .search_autocomplete li.active,
-.theme-midnightblue #cludo-search-form .search_autocomplete li.active,
-.theme-denimblue #cludo-search-content-form .search_autocomplete li.active,
-.theme-denimblue #cludo-search-form .search_autocomplete li.active,
-.theme-royalblue #cludo-search-content-form .search_autocomplete li.active,
-.theme-royalblue #cludo-search-form .search_autocomplete li.active,
-.theme-dark-indigo #cludo-search-content-form .search_autocomplete li.active,
-.theme-dark-indigo #cludo-search-form .search_autocomplete li.active,
-.theme-scps #cludo-search-content-form .search_autocomplete li.active,
-.theme-scps #cludo-search-form .search_autocomplete li.active {
+[class*=theme-] #s4-bodyContainer #cludo-search-content-form .search_autocomplete li.active,
+[class*=theme-] #s4-bodyContainer #cludo-search-form .search_autocomplete li.active {
   background-color: #d6d6d6;
 }
-.theme-law #cludo-search-content-form .search_autocomplete .autocomplete-separator,
-.theme-law #cludo-search-form .search_autocomplete .autocomplete-separator,
-.theme-midnightblue #cludo-search-content-form .search_autocomplete .autocomplete-separator,
-.theme-midnightblue #cludo-search-form .search_autocomplete .autocomplete-separator,
-.theme-denimblue #cludo-search-content-form .search_autocomplete .autocomplete-separator,
-.theme-denimblue #cludo-search-form .search_autocomplete .autocomplete-separator,
-.theme-royalblue #cludo-search-content-form .search_autocomplete .autocomplete-separator,
-.theme-royalblue #cludo-search-form .search_autocomplete .autocomplete-separator,
-.theme-dark-indigo #cludo-search-content-form .search_autocomplete .autocomplete-separator,
-.theme-dark-indigo #cludo-search-form .search_autocomplete .autocomplete-separator,
-.theme-scps #cludo-search-content-form .search_autocomplete .autocomplete-separator,
-.theme-scps #cludo-search-form .search_autocomplete .autocomplete-separator {
+[class*=theme-] #s4-bodyContainer #cludo-search-content-form .search_autocomplete .autocomplete-separator,
+[class*=theme-] #s4-bodyContainer #cludo-search-form .search_autocomplete .autocomplete-separator {
   border-bottom: 1px solid #d6d6d6;
 }
-.theme-law #cludo-search-results .search-results .search-results-item,
-.theme-midnightblue #cludo-search-results .search-results .search-results-item,
-.theme-denimblue #cludo-search-results .search-results .search-results-item,
-.theme-royalblue #cludo-search-results .search-results .search-results-item,
-.theme-dark-indigo #cludo-search-results .search-results .search-results-item,
-.theme-scps #cludo-search-results .search-results .search-results-item {
+[class*=theme-] #s4-bodyContainer #cludo-search-results .search-results .search-results-item {
   border-bottom: 1px solid #efefef;
 }
-.theme-law #cludo-search-results .search-results .search-results-item p,
-.theme-midnightblue #cludo-search-results .search-results .search-results-item p,
-.theme-denimblue #cludo-search-results .search-results .search-results-item p,
-.theme-royalblue #cludo-search-results .search-results .search-results-item p,
-.theme-dark-indigo #cludo-search-results .search-results .search-results-item p,
-.theme-scps #cludo-search-results .search-results .search-results-item p {
+[class*=theme-] #s4-bodyContainer #cludo-search-results .search-results .search-results-item p {
   color: #2b2b2b;
 }
-.theme-law .bg-gradient--2,
-.theme-midnightblue .bg-gradient--2,
-.theme-denimblue .bg-gradient--2,
-.theme-royalblue .bg-gradient--2,
-.theme-dark-indigo .bg-gradient--2,
-.theme-scps .bg-gradient--2 {
-  background: -moz-linear-gradient(top, rgba(30, 87, 153, 0) 0%, #87a8d2 100%);
+[class*=theme-] #s4-bodyContainer .bg-gradient--2 {
+  background: -moz-linear-gradient(top, rgba(0, 87, 183, 0) 0%, #0057b7 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(30, 87, 153, 0) 0%, #87a8d2 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 87, 183, 0) 0%, #0057b7 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 0%, #87a8d2 100%);
+  background: linear-gradient(to bottom, rgba(0, 87, 183, 0) 0%, #0057b7 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#001e5799", endColorstr="#87a8d2",GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#000057b7", endColorstr="#0057b7",GradientType=0 );
   /* IE6-9 */
-  mix-blend-mode: hard-light;
 }
-.theme-law .image-stats-wrapper .image-stats-overlay,
-.theme-midnightblue .image-stats-wrapper .image-stats-overlay,
-.theme-denimblue .image-stats-wrapper .image-stats-overlay,
-.theme-royalblue .image-stats-wrapper .image-stats-overlay,
-.theme-dark-indigo .image-stats-wrapper .image-stats-overlay,
-.theme-scps .image-stats-wrapper .image-stats-overlay {
+[class*=theme-] #s4-bodyContainer .image-stats-wrapper .image-stats-overlay {
   background-color: #0a1929;
   background: rgba(0, 0, 0, 0.5);
 }
-.theme-law .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-midnightblue .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-denimblue .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-royalblue .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-dark-indigo .image-stats-wrapper .image-stats-overlay .unit hr,
-.theme-scps .image-stats-wrapper .image-stats-overlay .unit hr {
+[class*=theme-] #s4-bodyContainer .image-stats-wrapper .image-stats-overlay .unit hr {
   border: 0 #ddd solid;
   background: none;
 }
-.theme-law .cta-core,
-.theme-midnightblue .cta-core,
-.theme-denimblue .cta-core,
-.theme-royalblue .cta-core,
-.theme-dark-indigo .cta-core,
-.theme-scps .cta-core {
+[class*=theme-] #s4-bodyContainer .cta-core {
   border-top-color: currentcolor;
   border-right-color: currentcolor;
   border-bottom-color: currentcolor;
   border-left-color: currentcolor;
 }
-.theme-law .cta-ghost-blue:hover,
-.theme-law .cta-ghost-blue:focus,
-.theme-midnightblue .cta-ghost-blue:hover,
-.theme-midnightblue .cta-ghost-blue:focus,
-.theme-denimblue .cta-ghost-blue:hover,
-.theme-denimblue .cta-ghost-blue:focus,
-.theme-royalblue .cta-ghost-blue:hover,
-.theme-royalblue .cta-ghost-blue:focus,
-.theme-dark-indigo .cta-ghost-blue:hover,
-.theme-dark-indigo .cta-ghost-blue:focus,
-.theme-scps .cta-ghost-blue:hover,
-.theme-scps .cta-ghost-blue:focus {
-  background-color: #235b94;
-  border-color: #235b94;
+[class*=theme-] #s4-bodyContainer .cta-ghost-blue:hover,
+[class*=theme-] #s4-bodyContainer .cta-ghost-blue:focus {
+  background-color: #0057b7;
+  border-color: #0057b7;
   color: #fff !important;
 }
-.theme-law .outcomes-panel .bg-teal,
-.theme-midnightblue .outcomes-panel .bg-teal,
-.theme-denimblue .outcomes-panel .bg-teal,
-.theme-royalblue .outcomes-panel .bg-teal,
-.theme-dark-indigo .outcomes-panel .bg-teal,
-.theme-scps .outcomes-panel .bg-teal {
+[class*=theme-] #s4-bodyContainer .outcomes-panel .bg-teal {
   background: #3ba39d;
 }
-.theme-law .outcomes-panel .bg-teal--light,
-.theme-midnightblue .outcomes-panel .bg-teal--light,
-.theme-denimblue .outcomes-panel .bg-teal--light,
-.theme-royalblue .outcomes-panel .bg-teal--light,
-.theme-dark-indigo .outcomes-panel .bg-teal--light,
-.theme-scps .outcomes-panel .bg-teal--light {
+[class*=theme-] #s4-bodyContainer .outcomes-panel .bg-teal--light {
   background: #edfbfa;
 }
 @media (min-width: 50em) {
-  .theme-law .outcomes-panel .outcomes-panel-circle-container,
-.theme-midnightblue .outcomes-panel .outcomes-panel-circle-container,
-.theme-denimblue .outcomes-panel .outcomes-panel-circle-container,
-.theme-royalblue .outcomes-panel .outcomes-panel-circle-container,
-.theme-dark-indigo .outcomes-panel .outcomes-panel-circle-container,
-.theme-scps .outcomes-panel .outcomes-panel-circle-container {
+  [class*=theme-] #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container {
     background: linear-gradient(90deg, transparent 50%, #edfbfa 50%);
   }
 }
 @media (max-width: 50em) {
-  .theme-law .outcomes-panel .outcomes-panel-circle-container,
-.theme-midnightblue .outcomes-panel .outcomes-panel-circle-container,
-.theme-denimblue .outcomes-panel .outcomes-panel-circle-container,
-.theme-royalblue .outcomes-panel .outcomes-panel-circle-container,
-.theme-dark-indigo .outcomes-panel .outcomes-panel-circle-container,
-.theme-scps .outcomes-panel .outcomes-panel-circle-container {
+  [class*=theme-] #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container {
     background: linear-gradient(transparent 50%, #edfbfa 50%);
   }
 }
-.theme-law .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2,
-.theme-midnightblue .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2,
-.theme-denimblue .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2,
-.theme-royalblue .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2,
-.theme-dark-indigo .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2,
-.theme-scps .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2 {
+[class*=theme-] #s4-bodyContainer .outcomes-panel .outcomes-panel-circle-container .outcomes-panel-circle h2 {
   color: white !important;
 }
-.theme-law .bg-blend--blue-hard-light,
-.theme-midnightblue .bg-blend--blue-hard-light,
-.theme-denimblue .bg-blend--blue-hard-light,
-.theme-royalblue .bg-blend--blue-hard-light,
-.theme-dark-indigo .bg-blend--blue-hard-light,
-.theme-scps .bg-blend--blue-hard-light {
-  background: rgba(50, 95, 115, 0.8);
-  mix-blend-mode: hard-light;
-}
-.theme-law .outcomes-panel .text-teal--med,
-.theme-midnightblue .outcomes-panel .text-teal--med,
-.theme-denimblue .outcomes-panel .text-teal--med,
-.theme-royalblue .outcomes-panel .text-teal--med,
-.theme-dark-indigo .outcomes-panel .text-teal--med,
-.theme-scps .outcomes-panel .text-teal--med {
-  color: #1cb7b9 !important;
+[class*=theme-] #s4-bodyContainer .outcomes-panel .text-teal--med {
+  color: #0057b7 !important;
 }
 @media (max-width: 1080px) {
-  .theme-law .table-striped-dark tbody tr td,
-.theme-midnightblue .table-striped-dark tbody tr td,
-.theme-denimblue .table-striped-dark tbody tr td,
-.theme-royalblue .table-striped-dark tbody tr td,
-.theme-dark-indigo .table-striped-dark tbody tr td,
-.theme-scps .table-striped-dark tbody tr td {
+  [class*=theme-] #s4-bodyContainer .table-striped-dark tbody tr td {
     background: #fff;
   }
 }
-.theme-law #pnlClsSrchSearch .cta-type1,
-.theme-midnightblue #pnlClsSrchSearch .cta-type1,
-.theme-denimblue #pnlClsSrchSearch .cta-type1,
-.theme-royalblue #pnlClsSrchSearch .cta-type1,
-.theme-dark-indigo #pnlClsSrchSearch .cta-type1,
-.theme-scps #pnlClsSrchSearch .cta-type1 {
+[class*=theme-] #s4-bodyContainer #pnlClsSrchSearch .cta-type1 {
   background: transparent !important;
   color: #0e4174 !important;
 }
-.theme-law #pnlClsSrchSearch .cta-type1:hover,
-.theme-midnightblue #pnlClsSrchSearch .cta-type1:hover,
-.theme-denimblue #pnlClsSrchSearch .cta-type1:hover,
-.theme-royalblue #pnlClsSrchSearch .cta-type1:hover,
-.theme-dark-indigo #pnlClsSrchSearch .cta-type1:hover,
-.theme-scps #pnlClsSrchSearch .cta-type1:hover {
+[class*=theme-] #s4-bodyContainer #pnlClsSrchSearch .cta-type1:hover {
   background: #0e4174 !important;
   border-color: #0e4174 !important;
   color: #fff !important;
 }
-.theme-law .panel-obj > h4,
-.theme-midnightblue .panel-obj > h4,
-.theme-denimblue .panel-obj > h4,
-.theme-royalblue .panel-obj > h4,
-.theme-dark-indigo .panel-obj > h4,
-.theme-scps .panel-obj > h4 {
-  border-bottom: 1px solid #ccc;
+[class*=theme-] #s4-bodyContainer .panel-obj > h4 {
+  border-bottom: 1px solid #cccccc;
   color: #0057b7 !important;
 }
 @media (max-width: 768px) {
-  .theme-law .site-title-short,
-.theme-midnightblue .site-title-short,
-.theme-denimblue .site-title-short,
-.theme-royalblue .site-title-short,
-.theme-dark-indigo .site-title-short,
-.theme-scps .site-title-short {
+  [class*=theme-] #s4-bodyContainer .site-title-short {
     background: #0057b7 !important;
   }
 }
-.theme-law #s4-bodyContainer .small-screen .nav-tab li a,
-.theme-law #s4-bodyContainer .small-screen .shortcuts-tab li a,
-.theme-midnightblue #s4-bodyContainer .small-screen .nav-tab li a,
-.theme-midnightblue #s4-bodyContainer .small-screen .shortcuts-tab li a,
-.theme-denimblue #s4-bodyContainer .small-screen .nav-tab li a,
-.theme-denimblue #s4-bodyContainer .small-screen .shortcuts-tab li a,
-.theme-royalblue #s4-bodyContainer .small-screen .nav-tab li a,
-.theme-royalblue #s4-bodyContainer .small-screen .shortcuts-tab li a,
-.theme-dark-indigo #s4-bodyContainer .small-screen .nav-tab li a,
-.theme-dark-indigo #s4-bodyContainer .small-screen .shortcuts-tab li a,
-.theme-scps #s4-bodyContainer .small-screen .nav-tab li a,
-.theme-scps #s4-bodyContainer .small-screen .shortcuts-tab li a {
+[class*=theme-] #s4-bodyContainer .small-screen .nav-tab li a,
+[class*=theme-] #s4-bodyContainer .small-screen .shortcuts-tab li a {
   color: #fff;
 }
 
