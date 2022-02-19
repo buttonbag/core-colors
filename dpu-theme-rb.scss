@@ -11,6 +11,7 @@ $blue-white: scale($blue, 90);
 $white: #fff;
 $black: #000;
 $gray: #565656;
+$dark-gray: scale($gray, -50);
 
 html {
 	background-color: $dark-blue !important;
@@ -34,7 +35,7 @@ html {
 	}
 
 	#s4-bodyContainer #ga-maincontent a:not([class^='btn']):not([class^='cta']) {
-		color: #275486;
+		color: $dark-blue;
 	}
 
 	#s4-bodyContainer h1,
@@ -49,7 +50,7 @@ html {
 	#s4-bodyContainer .h4,
 	#s4-bodyContainer .h5,
 	#s4-bodyContainer .h6 {
-		color: #111;
+		color: $black;
 	}
 
 	#s4-bodyContainer #ga-maincontent h2 {
@@ -62,12 +63,12 @@ html {
 
 	#s4-bodyContainer .table-college thead td {
 		color: $white;
-		background-color: #333;
-		border: 1px solid #000;
+		background-color: $dark-gray;
+		border: 1px solid $black;
 	}
 
 	#s4-bodyContainer .table-college td {
-		border: 1px solid #000;
+		border: 1px solid $black;
 	}
 
 	#s4-bodyContainer .table-college tr {
@@ -155,7 +156,7 @@ html {
 	}
 
 	#s4-bodyContainer .testimonial-wrapper .testimonial-content {
-		background-color: #eff3fc;
+		background-color: $blue-white;
 	}
 
 	#s4-bodyContainer .testimonial-wrapper .testimonial-content::after {
@@ -163,21 +164,21 @@ html {
 		border-top: 25px solid transparent;
 		border-right: 40px solid transparent;
 		border-bottom: 25px solid transparent;
-		border-left: 40px solid #eff3fc;
+		border-left: 40px solid $blue-white;
 	}
 
 	@media (max-width: 30em) {
 		#s4-bodyContainer .testimonial-wrapper .testimonial-image {
-			background-color: #eff3fc;
+			background-color: $blue-white;
 		}
 	}
 
 	#s4-bodyContainer .slate-form {
-		background-color: #eff3fc;
+		background-color: $blue-white;
 	}
 
 	#s4-bodyContainer .slate-form a {
-		color: #275486 !important;
+		color: $dark-blue !important;
 	}
 
 	#s4-bodyContainer .slate-form label {
@@ -188,7 +189,7 @@ html {
 	#s4-bodyContainer .slate-form textarea,
 	#s4-bodyContainer .slate-form select {
 		background-color: $white;
-		color: #333;
+		color: $dark-gray;
 	}
 
 	#s4-bodyContainer .slate-form [type='submit'],
@@ -199,7 +200,7 @@ html {
 
 	#s4-bodyContainer .slate-form [type='submit']:hover,
 	#s4-bodyContainer .slate-form .action button:hover {
-		background-color: #191a68 !important;
+		background-color: $dark-blue !important;
 	}
 
 	#s4-bodyContainer h2.acronym-border-circle {
@@ -217,7 +218,8 @@ html {
 
 	#s4-bodyContainer .size4of5 h1:not(.text-shadow) {
 		border: 3px solid $white;
-		color: #275486;
+		// color: #275486;
+		color: $dark-blue;
 	}
 
 	#s4-bodyContainer #ga-maincontent h2 {
@@ -225,7 +227,8 @@ html {
 	}
 
 	#s4-bodyContainer #ga-maincontent h3 {
-		color: #275486;
+		// color: #275486;
+		color: $dark-blue;
 	}
 
 	#s4-bodyContainer .copyright,
@@ -283,7 +286,7 @@ html {
 	}
 
 	#s4-bodyContainer div.scrollHeader div {
-		border: 1px solid #000;
+		border: 1px solid $black;
 	}
 
 	#s4-bodyContainer .table-striped-dark tbody tr:nth-child(2n + 1) td,
@@ -517,22 +520,9 @@ html {
 		color: $white !important;
 	}
 
-	#s4-bodyContainer .BioRollUp_Staff figure {
-		margin-bottom: 0;
-	}
-
-	#s4-bodyContainer .BioRollUp_Staff .size1of1 {
-		padding-right: 0 !important;
-		padding-left: 0 !important;
-	}
-
-	#s4-bodyContainer .BioRollUp_Staff .small li {
-		font-size: 0.8rem !important;
-	}
-
 	#s4-bodyContainer .card-panel--blue {
-		--border-color: #275486;
-		border-color: #275486;
+		--border-color: $dark-blue;
+		border-color: $dark-blue;
 	}
 
 	#s4-bodyContainer .image-header--content h1 {
@@ -672,16 +662,16 @@ html {
 	}
 
 	#s4-bodyContainer .skinsstructure1 {
-		border: 1px solid #275486 !important;
+		border: 1px solid $dark-blue !important;
 	}
 
 	#s4-bodyContainer .skinsstructure1 .cta-type1 {
 		background: none !important;
-		color: #275486 !important;
+		color: $dark-blue !important;
 	}
 
 	#s4-bodyContainer .skinsstructure1 .cta-type1:hover {
-		background-color: #275486 !important;
+		background-color: $dark-blue !important;
 		color: $white !important;
 	}
 
@@ -694,11 +684,11 @@ html {
 	}
 
 	#s4-bodyContainer .skinsstructure1 a strong {
-		color: #275486 !important;
+		color: $dark-blue !important;
 	}
 
 	#s4-bodyContainer .hr-blue {
-		border-color: #275486;
+		border-color: $dark-blue;
 	}
 
 	#s4-bodyContainer .bg-blue {
@@ -883,7 +873,7 @@ html {
 	#cludo-search-content-form .search_autocomplete li,
 	#cludo-search-form .search_autocomplete li {
 		border-bottom: 1px solid #efefef;
-		color: #333;
+		color: $dark-gray;
 	}
 
 	#cludo-search-content-form .search_autocomplete li:hover,
@@ -906,7 +896,7 @@ html {
 	}
 
 	#cludo-search-results .search-results .search-results-item p {
-		color: #333;
+		color: $dark-gray;
 	}
 
 	/* tagmanager styling */
@@ -1002,12 +992,12 @@ html {
 
 	#pnlClsSrchSearch .cta-type1 {
 		background: transparent !important;
-		color: #275486 !important;
+		color: $dark-blue !important;
 	}
 
 	#pnlClsSrchSearch .cta-type1:hover {
-		background: #275486 !important;
-		border-color: #275486 !important;
+		background: $dark-blue !important;
+		border-color: $dark-blue !important;
 		color: $white !important;
 	}
 
