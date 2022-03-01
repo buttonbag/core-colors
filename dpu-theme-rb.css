@@ -539,14 +539,18 @@ html {
 [class*=theme-] #s4-bodyContainer .bg-blue {
   background-color: #0057b7 !important;
 }
+[class*=theme-] #s4-bodyContainer .bg-blue--pale,
+[class*=theme-] #s4-bodyContainer .bg-blue--overlay {
+  background-color: rgba(0, 87, 183, 0.7) !important;
+}
 [class*=theme-] #s4-bodyContainer .bg-blue--light {
   background-color: #deeeff !important;
 }
 [class*=theme-] #s4-bodyContainer .bg-blue--light2 {
-  background-color: #deeeff;
+  background-color: #deeeff !important;
 }
 [class*=theme-] #s4-bodyContainer .bg-blue--bright {
-  background-color: #7cbaff;
+  background-color: #7cbaff !important;
 }
 [class*=theme-] #s4-bodyContainer .bg-blue--med {
   background-color: #0e4174 !important;
@@ -563,8 +567,11 @@ html {
 [class*=theme-] #s4-bodyContainer .bg-green {
   background-color: #fff;
 }
+[class*=theme-] #s4-bodyContainer .bg-blend--overlay {
+  filter: none;
+}
 [class*=theme-] #s4-bodyContainer .bg-blue--hard-light {
-  background-color: #deeeff;
+  background-color: #0057b7;
   mix-blend-mode: hard-light;
 }
 [class*=theme-] #s4-bodyContainer .bg-blue--dark--hard-light {
@@ -587,7 +594,7 @@ html {
   border-bottom-color: #deeeff !important;
 }
 [class*=theme-] #s4-bodyContainer .border-blue {
-  border-color: #7cbaff !important;
+  border-color: #0057b7 !important;
 }
 [class*=theme-] #s4-bodyContainer .border-teal--med {
   border-color: #0057b7 !important;

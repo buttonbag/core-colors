@@ -695,16 +695,21 @@ html {
 			background-color: $blue !important;
 		}
 
+		.bg-blue--pale,
+		.bg-blue--overlay {
+			background-color: rgba($blue, 0.7) !important;
+		}
+
 		.bg-blue--light {
 			background-color: $blue-white !important;
 		}
 
 		.bg-blue--light2 {
-			background-color: $blue-white;
+			background-color: $blue-white !important;
 		}
 
 		.bg-blue--bright {
-			background-color: $bright-blue;
+			background-color: $bright-blue !important;
 		}
 
 		.bg-blue--med {
@@ -727,8 +732,11 @@ html {
 			background-color: $white;
 		}
 
+		.bg-blend--overlay {
+			filter: none;
+		}
 		.bg-blue--hard-light {
-			background-color: $blue-white;
+			background-color: $blue;
 			mix-blend-mode: hard-light;
 		}
 
@@ -782,7 +790,7 @@ html {
 		}
 
 		.border-blue {
-			border-color: $bright-blue !important;
+			border-color: $blue !important;
 		}
 
 		.border-teal--med {
