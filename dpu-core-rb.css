@@ -2073,7 +2073,7 @@ body.theme-new-core {
   text-transform: uppercase;
   word-spacing: 3px;
   border-bottom: 2px solid #deeeff;
-  color: #0057b7;
+  color: #0057b7 !important;
 }
 .theme-new-core #ga-secondary h4 a {
   border-bottom: none;

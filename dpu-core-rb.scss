@@ -2201,7 +2201,7 @@ body.theme-new-core {
 		text-transform: uppercase;
 		word-spacing: 3px;
 		border-bottom: 2px solid $blue-white;
-		color: $blue;
+		color: $blue !important;
 	}
 
 	#ga-secondary h4 a {
