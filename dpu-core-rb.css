@@ -2772,6 +2772,12 @@ body.theme-new-core {
   content: " >";
 }
 @media (max-width: 50em) and (min-width: 30em) {
+  .theme-new-core .distinctions-cards h3,
+.theme-new-core .distinctions-cards h3 a,
+.theme-new-core .distinctions-cards a.arrow {
+    color: #fff !important;
+    border-color: currentColor !important;
+  }
   .theme-new-core .card-panel-2 h3.text-blue--med {
     color: #beddff !important;
   }

@@ -3152,6 +3152,15 @@ body.theme-new-core {
 	}
 
 	@media (max-width: 50em) and (min-width: 30em) {
+		.distinctions-cards {
+			h3,
+			h3 a,
+			a.arrow {
+				color: $white !important;
+				border-color: currentColor !important;
+			}
+		}
+
 		.card-panel-2 h3.text-blue--med {
 			color: $blue-superlight !important;
 		}
