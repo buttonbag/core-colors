@@ -365,8 +365,11 @@ html {
 				no-repeat !important;
 		}
 
-		a.site-title-long {
-			color: $white !important;
+		.masthead {
+			a.site-title-long,
+			a.site-title-short {
+				color: $white !important;
+			}
 		}
 
 		#ga-global {

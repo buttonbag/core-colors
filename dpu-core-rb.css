@@ -2073,7 +2073,7 @@ body.theme-new-core {
   text-transform: uppercase;
   word-spacing: 3px;
   border-bottom: 2px solid #deeeff;
-  color: #0057b7 !important;
+  color: #af272f !important;
 }
 .theme-new-core #ga-secondary h4 a {
   border-bottom: none;
@@ -2772,9 +2772,12 @@ body.theme-new-core {
   content: " >";
 }
 @media (max-width: 50em) and (min-width: 30em) {
-  .theme-new-core .card-panel-2 a {
+  .theme-new-core .card-panel-2 h3.text-blue--med {
     color: #beddff !important;
-    border-color: #beddff !important;
+  }
+  .theme-new-core .card-panel-2 a {
+    color: #0057b7 !important;
+    border-color: currentColor !important;
   }
 }
 .theme-new-core .social-box .share {

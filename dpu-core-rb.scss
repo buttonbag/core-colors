@@ -2201,7 +2201,7 @@ body.theme-new-core {
 		text-transform: uppercase;
 		word-spacing: 3px;
 		border-bottom: 2px solid $blue-white;
-		color: $blue !important;
+		color: $red !important;
 	}
 
 	#ga-secondary h4 a {
@@ -3152,9 +3152,13 @@ body.theme-new-core {
 	}
 
 	@media (max-width: 50em) and (min-width: 30em) {
-		.card-panel-2 a {
+		.card-panel-2 h3.text-blue--med {
 			color: $blue-superlight !important;
-			border-color: $blue-superlight !important;
+		}
+
+		.card-panel-2 a {
+			color: $blue !important;
+			border-color: currentColor !important;
 		}
 	}
 
