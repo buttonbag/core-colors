@@ -34,27 +34,28 @@ html {
 			color: $dark-blue;
 		}
 
-		h1,
-		h2,
-		h3,
-		h4,
-		h5,
-		h6,
-		.h1,
-		.h2,
-		.h3,
-		.h4,
-		.h5,
-		.h6 {
-			color: $black;
+		#ga-maincontent {
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6,
+			.h1,
+			.h2,
+			.h3,
+			.h4,
+			.h5,
+			.h6 {
+				color: $black;
+				border-color: currentColor;
+			}
 		}
-
-		#ga-maincontent h2 {
-			color: $blue;
-		}
-
-		#ga-maincontent h3 {
-			color: $blue;
+		#ga-maincontent {
+			h2,
+			h3 {
+				color: $blue;
+			}
 		}
 
 		.table-college thead td {

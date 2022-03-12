@@ -22,23 +22,22 @@ html {
 [class*=theme-] #s4-bodyContainer #ga-maincontent a:not([class^=btn]):not([class^=cta]) {
   color: #0e4174;
 }
-[class*=theme-] #s4-bodyContainer h1,
-[class*=theme-] #s4-bodyContainer h2,
-[class*=theme-] #s4-bodyContainer h3,
-[class*=theme-] #s4-bodyContainer h4,
-[class*=theme-] #s4-bodyContainer h5,
-[class*=theme-] #s4-bodyContainer h6,
-[class*=theme-] #s4-bodyContainer .h1,
-[class*=theme-] #s4-bodyContainer .h2,
-[class*=theme-] #s4-bodyContainer .h3,
-[class*=theme-] #s4-bodyContainer .h4,
-[class*=theme-] #s4-bodyContainer .h5,
-[class*=theme-] #s4-bodyContainer .h6 {
+[class*=theme-] #s4-bodyContainer #ga-maincontent h1,
+[class*=theme-] #s4-bodyContainer #ga-maincontent h2,
+[class*=theme-] #s4-bodyContainer #ga-maincontent h3,
+[class*=theme-] #s4-bodyContainer #ga-maincontent h4,
+[class*=theme-] #s4-bodyContainer #ga-maincontent h5,
+[class*=theme-] #s4-bodyContainer #ga-maincontent h6,
+[class*=theme-] #s4-bodyContainer #ga-maincontent .h1,
+[class*=theme-] #s4-bodyContainer #ga-maincontent .h2,
+[class*=theme-] #s4-bodyContainer #ga-maincontent .h3,
+[class*=theme-] #s4-bodyContainer #ga-maincontent .h4,
+[class*=theme-] #s4-bodyContainer #ga-maincontent .h5,
+[class*=theme-] #s4-bodyContainer #ga-maincontent .h6 {
   color: #000;
+  border-color: currentColor;
 }
-[class*=theme-] #s4-bodyContainer #ga-maincontent h2 {
-  color: #0057b7;
-}
+[class*=theme-] #s4-bodyContainer #ga-maincontent h2,
 [class*=theme-] #s4-bodyContainer #ga-maincontent h3 {
   color: #0057b7;
 }
