@@ -15,6 +15,7 @@ html {
   /* structure */
   /*font size classes*/
   /* theme */
+  /* sidebar cta apply */
 }
 [class*=theme-] #s4-bodyContainer :focus {
   outline-color: currentColor;
@@ -763,6 +764,9 @@ html {
 [class*=theme-] #s4-bodyContainer .small-screen .nav-tab li a,
 [class*=theme-] #s4-bodyContainer .small-screen .shortcuts-tab li a {
   color: #fff;
+}
+[class*=theme-] #s4-bodyContainer #nav-cta a {
+  color: #af272f;
 }
 
 /*# sourceMappingURL=dpu-theme-rb.css.map */

@@ -14,6 +14,7 @@ $gray: #565656;
 $dark-gray: scale($gray, -50);
 $light-gray: scale($gray, 70);
 $gray-white: scale($gray, 90);
+$red: #af272f;
 
 html {
 	background-color: $dark-blue !important;
@@ -1040,6 +1041,11 @@ html {
 		.small-screen .nav-tab li a,
 		.small-screen .shortcuts-tab li a {
 			color: $white;
+		}
+
+		/* sidebar cta apply */
+		#nav-cta a {
+			color: $red;
 		}
 	}
 	/* tagmanager styling */
