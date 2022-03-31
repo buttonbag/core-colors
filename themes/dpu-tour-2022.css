@@ -472,7 +472,7 @@
 .modal.tour-modal .modal-body .video-section {
   margin: 0 -90px 20px;
   padding: 30px 90px 0;
-  background: linear-gradient(110.07deg, #FFFFFF 6.47%, rgba(255, 255, 255, 0) 22.1%), linear-gradient(250.89deg, #FFFFFF 5.23%, rgba(255, 255, 255, 0) 20.99%), linear-gradient(179.1deg, #FFFFFF 14.72%, rgba(255, 255, 255, 0.744792) 36.28%, rgba(255, 255, 255, 0) 99.23%), linear-gradient(90deg, #005EB8 0%, #FC463B 100%);
+  background: linear-gradient(110.07deg, #ffffff 6.47%, rgba(255, 255, 255, 0) 22.1%), linear-gradient(250.89deg, #ffffff 5.23%, rgba(255, 255, 255, 0) 20.99%), linear-gradient(179.1deg, #ffffff 14.72%, rgba(255, 255, 255, 0.744792) 36.28%, rgba(255, 255, 255, 0) 99.23%), linear-gradient(90deg, #0057b7 0%, #af272f 100%);
 }
 .modal.tour-modal .modal-body .video-section iframe {
   position: absolute;
@@ -486,14 +486,14 @@
 .modal.tour-modal .modal-body .blue-box {
   background: #deeeff;
   padding: 40px 40px 45px 40px;
-  color: #00417E;
+  color: #00417e;
   margin-top: 30px;
 }
 .modal.tour-modal .modal-body .blue-box .heading {
   font-family: "DINPro-Cond", sans-serif;
   font-weight: 400;
   font-size: 42px;
-  color: #005EB8;
+  color: #005eb8;
   line-height: 1;
   margin: 0 0 20px 0;
   padding: 0;
