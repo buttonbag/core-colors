@@ -19,8 +19,6 @@ $gray-dark: #1c252f;
 $gray-med: #383e46;
 $gray-light: #5d656f;
 $white: #fff;
-
-
 /* Fonts */
 
 $proxima: "proxima-nova-condensed",
@@ -155,8 +153,17 @@ h3, .h3 {
     border-color: #0073E6;
 }
 
-.theme-dpu-blue1 #ga-maincontent h2, .theme-dpu-blue1 #ga-maincontent h3 {
-    color: #0073E6
+.theme-dpu-blue1 #ga-maincontent h2, 
+.theme-dpu-blue1 #ga-maincontent h3,
+.theme-dark-indigo #ga-maincontent h2, 
+.theme-dark-indigo #ga-maincontent h3,
+.theme-smalt-blue #ga-maincontent h2,
+.theme-smalt-blue  #ga-maincontent h3,
+.theme-mineral-green #ga-maincontent h2,
+.theme-mineral-green  #ga-maincontent h3,
+.theme-deep-teal #ga-maincontent h2,
+.theme-deep-teal  #ga-maincontent h3{
+    color: #0073E6;
 }
 
 img:not(#ms-designer-ribbon > img) {
@@ -349,9 +356,9 @@ nav {
 
 @media (max-width: 1279px) {
   #localmenu .nav-link {
-    padding: 0 !important;
-    color: $white !important;
-    background: transparent !important;
+    padding: 0!important;    
+    color: #fff!important;
+    background: transparent!important;
     font-weight: normal;
     border: none;
   }
@@ -362,8 +369,8 @@ nav {
 }
 
 .hamburger-toggle {
-    color: $white !important;
-    border-color: $white;
+    color: #fff !important;
+    border-color: #fff;
     border-width: 0 !important;
     background: transparent !important;
     display: inline-block;
@@ -389,7 +396,7 @@ nav {
 }
 
 #navbarCollapse {
-    color: $white;
+    color: #fff;
     margin: 0 -30px;
     padding: 15px;
     font-family: $proxima;
@@ -430,17 +437,17 @@ nav {
 
 
 .site-title-long {
-    color: $white !important;
+    color: #fff!important;
     font-family: $proxima;
     font-size: 26px;
     &:hover {
         outline-color: currentColor;
-        color: $white !important;
+        color: #fff!important;
     }
 }
 
 .site-title-short {
-    color: $white !important;
+    color: #fff!important;
     margin-top: .5em;
     display: block;
 }
@@ -462,7 +469,7 @@ nav {
 }
 
 .accessible-megamenu>.accessible-megamenu-top-nav-item {
-    color: $white !important;
+    color: #fff !important;
     text-shadow: none !important;
     @media (max-width: 1279px) {
         width: auto;
@@ -518,7 +525,7 @@ nav {
 .accessible-megamenu>.accessible-megamenu-top-nav-item a[aria-expanded] {
     border: none;
     box-shadow: none !important;
-    color: $white !important;
+    color: #fff !important;
     text-shadow: none !important;
 }
 
@@ -716,6 +723,11 @@ nav {
     font-size: 1rem;
     a {
         color: $white;
+        &:hover,
+        &:focus{
+            color: $white;
+            text-decoration: underline;
+        }
     }
 }
 
@@ -760,7 +772,7 @@ a.dpu-shortcuts {
     display: block;
     margin: -15px -15px -15px;
     padding: 10px 15px 0;
-    background-color: #004475;
+    background-color: #004475
 }
 
 #dpushortcuts {
@@ -1062,7 +1074,7 @@ footer .copyright {
 }
 
 .carousel-item {
-    background: #000;
+    background: rgba(0, 0, 0, 1);
     height: 500px;
 }
 
@@ -1785,7 +1797,7 @@ div:not(.accordion) > .card .btn-dpu:last-child {
         
         .btn-secondary {
             color: #fff!important;
-            background-color: #6c757d !important;
+            background-color: #6c757d!important;
             border-color: #6c757d!important
         }
         
@@ -1864,7 +1876,7 @@ div:not(.accordion) > .card .btn-dpu:last-child {
         }
         
         .btn-warning.focus,.btn-warning:focus,.btn-warning:not(:disabled):not(.disabled).active:focus,.btn-warning:not(:disabled):not(.disabled):active:focus,.show>.btn-warning.dropdown-toggle:focus {
-            box-shadow: 0 0 0 .2rem rgba(255,193,7,.5) !important
+            box-shadow: 0 0 0 .2rem rgba(255,193,7,.5)!important
         }
         
         .btn-warning {
@@ -1948,7 +1960,7 @@ div:not(.accordion) > .card .btn-dpu:last-child {
         }
         
         .btn-dark.focus,.btn-dark:focus,.btn-dark:not(:disabled):not(.disabled).active:focus,.btn-dark:not(:disabled):not(.disabled):active:focus,.show>.btn-dark.dropdown-toggle:focus {
-            box-shadow: 0 0 0 .2rem rgba(52,58,64,.5) !important
+            box-shadow: 0 0 0 .2rem rgba(52,58,64,.5)!important
         }
         
         .btn-dark {
