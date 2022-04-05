@@ -2013,7 +2013,7 @@ body.theme-new-core {
 }
 .theme-new-core .nav-primary li a:hover,
 .theme-new-core .nav-primary li a:focus {
-  background: #0e4174;
+  background: #0057b7;
 }
 .theme-new-core .nav-primary .level-2 {
   background: #0e4174;
@@ -3936,9 +3936,6 @@ body.theme-new-core {
     border: 0;
     padding: 0 1em !important;
   }
-}
-.theme-new-core #s4-bodyContainer .accessible-megamenu-top-nav-item > a:hover {
-  background-color: #0e4174;
 }
 
 @font-face {

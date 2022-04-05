@@ -2124,7 +2124,7 @@ body.theme-new-core {
 
 	.nav-primary li a:hover,
 	.nav-primary li a:focus {
-		background: $blue-dark;
+		background: $blue;
 	}
 
 	.nav-primary .level-2 {
@@ -4660,9 +4660,9 @@ body.theme-new-core {
 		}
 	}
 
-	#s4-bodyContainer .accessible-megamenu-top-nav-item > a:hover {
-		background-color: $blue;
-	}
+	// #s4-bodyContainer .accessible-megamenu-top-nav-item > a:hover {
+	// 	background-color: $blue;
+	// }
 }
 
 @font-face {
