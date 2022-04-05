@@ -32,7 +32,7 @@ html {
 		}
 
 		#ga-maincontent a:not([class^='btn']):not([class^='cta']) {
-			color: $dark-blue;
+			color: $blue;
 		}
 
 		#ga-maincontent {
@@ -48,7 +48,7 @@ html {
 			.h4,
 			.h5,
 			.h6 {
-				color: $black;
+				color: $blue;
 				border-color: currentColor;
 			}
 		}
@@ -129,6 +129,10 @@ html {
 		.accordion * {
 			--border-color: $blue;
 			border-color: $blue;
+		}
+
+		div:not(.accordion) > .card {
+			border-color: $blue !important;
 		}
 
 		.accordion .card:not(.collapsed) .card-header button,
@@ -794,10 +798,9 @@ html {
 			border-bottom-color: $blue-white !important;
 		}
 
-		.border-blue {
-			border-color: $blue !important;
-		}
-
+		.border-blue,
+		.border-blue--bright,
+		.border-blue--med,
 		.border-teal--med {
 			border-color: $blue !important;
 		}

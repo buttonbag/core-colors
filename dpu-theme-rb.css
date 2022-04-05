@@ -22,7 +22,7 @@ html {
   outline-color: currentColor;
 }
 [class*=theme-] #s4-bodyContainer #ga-maincontent a:not([class^=btn]):not([class^=cta]) {
-  color: #0e4174;
+  color: #0057b7;
 }
 [class*=theme-] #s4-bodyContainer #ga-maincontent h1,
 [class*=theme-] #s4-bodyContainer #ga-maincontent h2,
@@ -36,7 +36,7 @@ html {
 [class*=theme-] #s4-bodyContainer #ga-maincontent .h4,
 [class*=theme-] #s4-bodyContainer #ga-maincontent .h5,
 [class*=theme-] #s4-bodyContainer #ga-maincontent .h6 {
-  color: #000;
+  color: #0057b7;
   border-color: currentColor;
 }
 [class*=theme-] #s4-bodyContainer #ga-maincontent h2,
@@ -98,6 +98,9 @@ html {
 [class*=theme-] #s4-bodyContainer .accordion * {
   --border-color: $blue;
   border-color: #0057b7;
+}
+[class*=theme-] #s4-bodyContainer div:not(.accordion) > .card {
+  border-color: #0057b7 !important;
 }
 [class*=theme-] #s4-bodyContainer .accordion .card:not(.collapsed) .card-header button,
 [class*=theme-] #s4-bodyContainer .accordion .card-header:hover button {
@@ -595,9 +598,9 @@ html {
 [class*=theme-] #s4-bodyContainer .border-b-blue--light {
   border-bottom-color: #deeeff !important;
 }
-[class*=theme-] #s4-bodyContainer .border-blue {
-  border-color: #0057b7 !important;
-}
+[class*=theme-] #s4-bodyContainer .border-blue,
+[class*=theme-] #s4-bodyContainer .border-blue--bright,
+[class*=theme-] #s4-bodyContainer .border-blue--med,
 [class*=theme-] #s4-bodyContainer .border-teal--med {
   border-color: #0057b7 !important;
 }
