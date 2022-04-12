@@ -20,7 +20,8 @@ html {
 	background-color: $dark-blue !important;
 }
 
-[class*='theme-'] {
+[class*='theme-'],
+.dpu-theatre {
 	border-top-color: $dark-blue !important;
 
 	#s4-bodyContainer {
@@ -425,49 +426,62 @@ html {
 			}
 		}
 
+		.btn-blue {
+			color: $blue !important;
+			border-color: currentColor !important;
+
+			&:hover {
+				color: $white !important;
+				background-color: $blue;
+				border-color: $blue !important;
+			}
+		}
+
 		.cta-blue {
 			color: $white;
 			border-color: $blue !important;
 			background-color: $blue !important;
-		}
 
-		.cta-blue:after {
-			border-bottom-color: $blue;
-		}
+			&:after {
+				border-bottom-color: $blue;
+			}
 
-		.cta-blue:hover,
-		.cta-blue:focus {
-			color: $white;
-			background-color: $dark-blue !important;
-			border-color: $dark-blue !important;
-		}
+			&:hover,
+			&:focus {
+				color: $white;
+				background-color: $dark-blue !important;
+				border-color: $dark-blue !important;
+			}
 
-		.cta-blue:hover:after,
-		.cta-blue:focus:after {
-			border-bottom-color: $white;
-		}
+			&:hover:after,
+			&:focus:after {
+				border-bottom-color: $white;
+			}
 
-		.cta-blue--light {
-			color: $blue-white;
-			border-color: currentColor;
-		}
+			&--light {
+				color: $blue-white;
+				border-color: currentColor;
+			}
 
-		.cta-blue--light:after {
-			border-bottom-color: $blue-white;
-		}
+			&--light:after {
+				border-bottom-color: $blue-white;
+			}
 
-		.cta-blue--light:hover,
-		.cta-blue--light:focus {
-			color: $blue;
-			background-color: $blue-white;
-		}
+			&--light:hover,
+			&--light:focus {
+				color: $blue;
+				background-color: $blue-white;
+			}
 
-		.cta-blue--light:hover:after,
-		.cta-blue--light:focus:after {
-			border-bottom-color: $blue;
+			&--light:hover:after,
+			&--light:focus:after {
+				border-bottom-color: $blue;
+			}
 		}
 
 		.cta-blue--ghost,
+		.cta-ghost-blue,
+		.btn-primary--ghost,
 		.cta-blue2 {
 			color: $blue !important;
 			border-color: currentColor;
@@ -475,12 +489,18 @@ html {
 		}
 
 		.cta-blue--ghost:after,
+		.cta-ghost-blue:after,
+		.btn-primary--ghost:after,
 		.cta-blue2:after {
 			border-bottom-color: $blue;
 		}
 
 		.cta-blue--ghost:hover,
+		.cta-ghost-blue:hover,
+		.btn-primary--ghost:hover,
 		.cta-blue--ghost:focus,
+		.cta-ghost-blue:focus,
+		.btn-primary--ghost:focus,
 		.cta-blue2:hover,
 		.cta-blue2:focus {
 			color: $white !important;
@@ -489,7 +509,11 @@ html {
 		}
 
 		.cta-blue--ghost:hover:after,
+		.cta-ghost-blue:hover:after,
+		.btn-primary--ghost:hover:after,
 		.cta-blue--ghost:focus:after,
+		.cta-ghost-blue:focus:after,
+		.btn-primary--ghost:focus:after,
 		.cta-blue2:hover:after,
 		.cta-blue2:focus:after {
 			border-bottom-color: $white;
