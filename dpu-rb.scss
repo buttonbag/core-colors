@@ -74,7 +74,7 @@ $source-sans: 'Source Sans Pro',
 /* General */
 
 html {
-	background: #00356a;
+	background: $blue-dark;
 }
 
 .theme-dpu-blue1 {
@@ -176,7 +176,7 @@ h6 {
 //}
 
 .theme-dpu-blue1 #ga-maincontent h1 {
-	color: #004182;
+	color: $blue;
 	border-color: #0073e6;
 }
 
@@ -346,7 +346,7 @@ nav {
 	margin-top: 1.1em;
 	margin-bottom: 0.2em;
 	padding-left: 20px !important;
-	color: #004182;
+	color: $blue;
 }
 
 .nav-secondary {
@@ -988,7 +988,7 @@ footer {
 	padding-top: 2rem;
 	padding-bottom: 15px;
 	margin-top: 3rem;
-	background: #00356a;
+	background: $blue-dark;
 	color: #fff;
 	h4,
 	h5,
@@ -1302,7 +1302,7 @@ footer .copyright {
 }
 
 div:not(.accordion) > .card {
-	border: 3px solid #004182;
+	border: 3px solid $blue;
 	margin-bottom: 15px;
 }
 
@@ -1472,10 +1472,10 @@ div:not(.accordion) > .card .btn-dpu:last-child {
 }*/
 
 .btn-blue {
-	color: #004182 !important;
-	border-color: #004182;
+	color: $blue !important;
+	border-color: $blue;
 	&:hover {
-		background-color: #004182;
+		background-color: $blue;
 		color: $white !important;
 	}
 	&:focus {
@@ -2746,8 +2746,8 @@ a.social-gray:hover {
 }
 
 #s4-bodyContainer #ga-maincontent .SocialMediaAccount_WP {
-	border-top: 3px solid #004182;
-	border-bottom: 3px solid #004182;
+	border-top: 3px solid $blue;
+	border-bottom: 3px solid $blue;
 	padding: 30px;
 	text-align: center;
 }
