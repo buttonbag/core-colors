@@ -28,6 +28,24 @@ $red: #af272f;
 				center/contain no-repeat !important;
 		}
 
+		.masthead .hamburger-toggle.btn {
+			border: 0 !important;
+			color: $white !important;
+			box-shadow: none !important;
+			background: none !important;
+		}
+		#navbarCollapse {
+			background: none !important;
+			.slide-content {
+				& > a {
+					background-color: $dark-blue;
+				}
+				#sitemenu {
+					background: #00192b;
+				}
+			}
+		}
+
 		h1,
 		h2,
 		h3,
@@ -42,19 +60,10 @@ $red: #af272f;
 		.h6 {
 			font-family: 'proxima-nova-condensed' !important;
 			line-height: 1;
-			font-weight: normal;
+			font-weight: normal !important;
 			color: $blue;
 			margin: 2rem 0 1rem 0;
 		}
-
-		nav#ga-global {
-			background: $blue !important;
-		}
-
-		.accessible-megamenu-panel {
-			background: $blue !important;
-		}
-
 		.image-header--college__content,
 		#heroFullImageText.height450 {
 			h1,
@@ -75,6 +84,14 @@ $red: #af272f;
 				text-shadow: 1px 1px 1px rgb(0 0 0 / 90%) !important;
 				text-transform: uppercase !important;
 			}
+		}
+
+		nav#ga-global {
+			background: $blue !important;
+		}
+
+		.accessible-megamenu-panel {
+			background: $blue !important;
 		}
 
 		.b3 {
