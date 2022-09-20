@@ -7,6 +7,7 @@ html {
   border-top-color: #0e4174 !important;
   /* tagmanager styling */
   /* bootstrap override */
+  /* newsline */
 }
 [class*=theme-] #s4-bodyContainer,
 .dpu-theatre #s4-bodyContainer {
@@ -1072,6 +1073,16 @@ html {
 [class*=theme-] .btn-outline-dark:hover,
 .dpu-theatre .btn-outline-dark:hover {
   background: #beddff;
+}
+@media (max-width: 50em) {
+  [class*=theme-] #sitemenu,
+.dpu-theatre #sitemenu {
+    background: #1A7ADA;
+  }
+  [class*=theme-] #navbarCollapse .slide-content > a,
+.dpu-theatre #navbarCollapse .slide-content > a {
+    background: #0e4174;
+  }
 }
 
 /*# sourceMappingURL=dpu-theme-rb.css.map */

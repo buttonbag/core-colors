@@ -1083,4 +1083,15 @@ html {
 	.btn-outline-dark:hover {
 		background: #beddff;
 	}
+
+	/* newsline */
+	@media (max-width: 50em) {
+		#sitemenu {
+			background: #1A7ADA;
+		}
+
+		#navbarCollapse .slide-content>a {
+			background: #0e4174;
+		}
+	}
 }
