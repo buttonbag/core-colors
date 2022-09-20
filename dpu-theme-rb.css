@@ -1074,10 +1074,10 @@ html {
 .dpu-theatre .btn-outline-dark:hover {
   background: #beddff;
 }
-@media (max-width: 50em) {
+@media (max-width: 1279px) {
   [class*=theme-] #sitemenu,
 .dpu-theatre #sitemenu {
-    background: #1A7ADA;
+    background: #125496;
   }
   [class*=theme-] #navbarCollapse .slide-content > a,
 .dpu-theatre #navbarCollapse .slide-content > a {
