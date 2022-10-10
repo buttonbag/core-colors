@@ -1,3 +1,23 @@
+// $dinCond-font: '../fonts/din-pro-condensed/DINPro-Cond';
+
+$dinCond-font: '/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-Cond';
+
+@font-face {
+	font-family: 'DINPro-Cond';
+	font-weight: 700;
+	font-style: normal;
+	src: url('#{$dinCond-font}Bold.woff') format('woff'),
+	url('#{$dinCond-font}Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'DINPro-Cond';
+	font-weight: 400;
+	font-style: normal;
+	src: url('#{$dinCond-font}.woff') format('woff'),
+	url('#{$dinCond-font}.otf') format('opentype');
+}
+
 @function scale($color, $n: 0) {
 	$scaled: scale-color($color, $lightness: 1% * $n);
 	@return $scaled;
@@ -774,26 +794,6 @@ $din: 'DINPro-Cond', sans-serif;
 			background: #fff;
 			text-align: center;
 			padding: 2rem 0;
-		}
-
-		// $dinCond-font: '../fonts/din-pro-condensed/DINPro-Cond';
-
-		$dinCond-font: '/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-Cond';
-
-		@font-face {
-			font-family: 'DINPro-Cond';
-			font-weight: 700;
-			font-style: normal;
-			src: url('#{$dinCond-font}Bold.woff') format('woff'),
-			url('#{$dinCond-font}Bold.otf') format('opentype');
-		}
-
-		@font-face {
-			font-family: 'DINPro-Cond';
-			font-weight: 400;
-			font-style: normal;
-			src: url('#{$dinCond-font}.woff') format('woff'),
-			url('#{$dinCond-font}.otf') format('opentype');
 		}
 	}
 }

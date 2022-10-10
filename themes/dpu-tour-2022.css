@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "DINPro-Cond";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondBold.woff") format("woff"), url("/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "DINPro-Cond";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-Cond.woff") format("woff"), url("/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-Cond.otf") format("opentype");
+}
 #dpu-notice-banner {
   display: none !important;
   visibility: hidden !important;
@@ -593,22 +605,6 @@
   background: #fff;
   text-align: center;
   padding: 2rem 0;
-}
-@font-face {
-  .theme-new-core #s4-bodyContainer {
-    font-family: "DINPro-Cond";
-    font-weight: 700;
-    font-style: normal;
-    src: url("/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondBold.woff") format("woff"), url("/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-CondBold.otf") format("opentype");
-  }
-}
-@font-face {
-  .theme-new-core #s4-bodyContainer {
-    font-family: "DINPro-Cond";
-    font-weight: 400;
-    font-style: normal;
-    src: url("/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-Cond.woff") format("woff"), url("/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/DINPro-Cond.otf") format("opentype");
-  }
 }
 
 /*# sourceMappingURL=dpu-tour-2022.css.map */
