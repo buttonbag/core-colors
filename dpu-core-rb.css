@@ -1448,13 +1448,13 @@ body.theme-new-core {
   margin-right: 4px !important;
 }
 .theme-new-core .skin-social a.fb {
-  background: url(../../images/core-images/fb-blue.png);
+  background: url(../../images/core-images/fb-white-footer.png);
 }
 .theme-new-core .skin-social a.twitter {
-  background: url(../../images/core-images/tw-blue.png);
+  background: url(../../images/core-images/tw-white-footer.png);
 }
 .theme-new-core .skin-social a.instagram {
-  background: url(../../images/core-images/ig-blue.png);
+  background: url(../../images/core-images/ig-white-footer.png);
 }
 @media (max-width: 50em) {
   .theme-new-core .skin-social {
